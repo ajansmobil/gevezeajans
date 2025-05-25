@@ -1,5 +1,5 @@
 
-  .nn7kt {
+  .lwi40 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .nn7kttitle {
+  .lwi40title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .nn7kttitlebody {
+  .lwi40titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .nn7kttitlebodytitle {
+  .lwi40titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .nn7kttitlebodylang {
+  .lwi40titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .nn7kttitlebodylang ul {
+  .lwi40titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .nn7ktbody {
+  .lwi40body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .nn7ktmenu {
+  .lwi40menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .nn7ktmenulist {
+  .lwi40menulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .nn7ktmenubody {
+  .lwi40menubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .nn7ktmenulist ul {
+  .lwi40menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .nn7ktmenulist ul a {
+  .lwi40menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .nn7ktmenulist ul a:hover {
+  .lwi40menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .nn7ktmenulistactive {
+  .lwi40menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .nn7ktmenulistbody {
+  .lwi40menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .nn7ktbodylogo {
+    .lwi40bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .nn7ktmenu {
+    .lwi40menu {
       overflow-x: auto;
     }
 
-    .nn7ktmenulist ul {
+    .lwi40menulist ul {
       flex-direction: row;
     }
 
-    .nn7ktbodylogo {
+    .lwi40bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .nn7ktmenulist ul a {
+    .lwi40menulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .pt0er {
+  .tvhx3 {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .pt0er-menu {
+  .tvhx3-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .pt0er-menu > a {
+  .tvhx3-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .pt0er-menu > a:hover,
-  .pt0er-menu > .active {
+  .tvhx3-menu > a:hover,
+  .tvhx3-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .pt0er-body {
+  .tvhx3-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .pt0er-title {
+  .tvhx3-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .pt0er-title::before {
+  .tvhx3-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .pt0er-title span {
+  .tvhx3-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .pt0er {
+    .tvhx3 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .pt0er-menu {
+    .tvhx3-menu {
       display: none;
     }
-    .pt0er-body {
+    .tvhx3-body {
       width: 100%;
     }
   }

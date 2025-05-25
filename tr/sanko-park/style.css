@@ -1,5 +1,5 @@
 
-  .ewuir {
+  .kev46 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ewuirtitle {
+  .kev46title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ewuirtitlebody {
+  .kev46titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ewuirtitlebodytitle {
+  .kev46titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ewuirtitlebodylang {
+  .kev46titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ewuirtitlebodylang ul {
+  .kev46titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ewuirbody {
+  .kev46body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ewuirmenu {
+  .kev46menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ewuirmenulist {
+  .kev46menulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ewuirmenubody {
+  .kev46menubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .ewuirmenulist ul {
+  .kev46menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .ewuirmenulist ul a {
+  .kev46menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .ewuirmenulist ul a:hover {
+  .kev46menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ewuirmenulistactive {
+  .kev46menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .ewuirmenulistbody {
+  .kev46menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .ewuirbodylogo {
+    .kev46bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ewuirmenu {
+    .kev46menu {
       overflow-x: auto;
     }
 
-    .ewuirmenulist ul {
+    .kev46menulist ul {
       flex-direction: row;
     }
 
-    .ewuirbodylogo {
+    .kev46bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,13 +137,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ewuirmenulist ul a {
+    .kev46menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .rgmiy {
+  .z53qj {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -151,13 +151,13 @@
     justify-content: center;
     position: relative;
   }
-  .rgmiycontainertitle {
+  .z53qjcontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .rgmiycontainerlist {
+  .z53qjcontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -165,23 +165,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .rgmiycontainerlist > div {
+  .z53qjcontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .rgmiycontainerlist:hover {
+  .z53qjcontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .rgmiycontainer {
+  .z53qjcontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .rgmiycontainerbody {
+  .z53qjcontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -190,24 +190,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .rgmiybody {
+  .z53qjbody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .rgmiycontainerlist > span {
+  .z53qjcontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .rgmiybody {
+    .z53qjbody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .rgmiycontainerbody {
+    .z53qjcontainerbody {
       padding: 15px;
     }
   }
