@@ -1,5 +1,5 @@
 
-  .nmkdv {
+  .hu67t {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .nmkdvtitle {
+  .hu67ttitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .nmkdvtitlebody {
+  .hu67ttitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .nmkdvtitlebodytitle {
+  .hu67ttitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .nmkdvtitlebodylang {
+  .hu67ttitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .nmkdvtitlebodylang ul {
+  .hu67ttitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .nmkdvbody {
+  .hu67tbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .nmkdvmenu {
+  .hu67tmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .nmkdvmenulist {
+  .hu67tmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .nmkdvmenubody {
+  .hu67tmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .nmkdvmenulist ul {
+  .hu67tmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .nmkdvmenulist ul a {
+  .hu67tmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .nmkdvmenulist ul a:hover {
+  .hu67tmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .nmkdvmenulistactive {
+  .hu67tmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .nmkdvmenulistbody {
+  .hu67tmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .nmkdvbodylogo {
+    .hu67tbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .nmkdvmenu {
+    .hu67tmenu {
       overflow-x: auto;
     }
 
-    .nmkdvmenulist ul {
+    .hu67tmenulist ul {
       flex-direction: row;
     }
 
-    .nmkdvbodylogo {
+    .hu67tbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,13 +137,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .nmkdvmenulist ul a {
+    .hu67tmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .fb4ip {
+  .nnihe {
     width: 100%;
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -151,13 +151,13 @@
     justify-content: center;
     position: relative;
   }
-  .fb4ipcontainertitle {
+  .nnihecontainertitle {
     font-size: 28px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
   }
-  .fb4ipcontainerlist {
+  .nnihecontainerlist {
     padding: 10px;
     display: flex;
     border-radius: 8px;
@@ -165,23 +165,23 @@
     gap: 20px;
     transition: background-color 0.3s ease;
   }
-  .fb4ipcontainerlist > div {
+  .nnihecontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 20px;
     color: #444;
   }
-  .fb4ipcontainerlist:hover {
+  .nnihecontainerlist:hover {
     background-color: #f9f9f9;
     border-bottom-color: #1e3046;
   }
-  .fb4ipcontainer {
+  .nnihecontainer {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
-  .fb4ipcontainerbody {
+  .nnihecontainerbody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -190,24 +190,24 @@
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  .fb4ipbody {
+  .nnihebody {
     width: calc(var(--max) - 40px);
     background-color: #ebebeb;
     border: 1px solid #dedede;
     border-radius: 10px;
     padding: 20px;
   }
-  .fb4ipcontainerlist > span {
+  .nnihecontainerlist > span {
     font-size: 24px;
     color: #1e3046;
   }
   @media screen and (max-width: 1024px) {
-    .fb4ipbody {
+    .nnihebody {
       width: 100%;
       padding: 20px;
       flex-direction: column;
     }
-    .fb4ipcontainerbody {
+    .nnihecontainerbody {
       padding: 15px;
     }
   }
@@ -237,13 +237,13 @@
       transform: scale(1);
     }
   }
-  .j7tex-body {
+  .nlwpp-body {
     display: flex;
     align-items: center;
     justify-content: center;
     width: var(--max);
   }
-  .j7tex-body-chile {
+  .nlwpp-body-chile {
     padding: 20px;
     display: flex;
     align-items: top;
@@ -251,10 +251,10 @@
     flex-direction: column;
     position: absolute;
   }
-  .j7tex-body-chile > div {
+  .nlwpp-body-chile > div {
     width: 100% !important;
   }
-  .j7tex2 {
+  .nlwpp2 {
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -265,21 +265,21 @@
     overflow: hidden;
     cursor: pointer;
   }
-  .j7tex {
+  .nlwpp {
     display: flex;
     flex-direction: column;
   }
-  .j7tex > svg {
+  .nlwpp > svg {
     width: 100vw;
   }
-  .j7texbotton {
+  .nlwppbotton {
     transform: scaleY(-1);
     margin-bottom: -1px;
   }
-  .j7tex-svg {
+  .nlwpp-svg {
     fill: #fff;
   }
-  .j7tex-bg {
+  .nlwpp-bg {
     background-image: url("/img/i87tyt/map.png?v={{random}}") !important;
     background-size: cover;
     background-position: center center;

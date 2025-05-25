@@ -1,5 +1,5 @@
 
-  .a25ri {
+  .pwq3r {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .a25rititle {
+  .pwq3rtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .a25rititlebody {
+  .pwq3rtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .a25rititlebodytitle {
+  .pwq3rtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .a25rititlebodylang {
+  .pwq3rtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .a25rititlebodylang ul {
+  .pwq3rtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .a25ribody {
+  .pwq3rbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .a25rimenu {
+  .pwq3rmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .a25rimenulist {
+  .pwq3rmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .a25rimenubody {
+  .pwq3rmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .a25rimenulist ul {
+  .pwq3rmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .a25rimenulist ul a {
+  .pwq3rmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .a25rimenulist ul a:hover {
+  .pwq3rmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .a25rimenulistactive {
+  .pwq3rmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .a25rimenulistbody {
+  .pwq3rmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .a25ribodylogo {
+    .pwq3rbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .a25rimenu {
+    .pwq3rmenu {
       overflow-x: auto;
     }
 
-    .a25rimenulist ul {
+    .pwq3rmenulist ul {
       flex-direction: row;
     }
 
-    .a25ribodylogo {
+    .pwq3rbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,8 +137,92 @@
   }
 
   @media screen and (max-width: 768px) {
-    .a25rimenulist ul a {
+    .pwq3rmenulist ul a {
       font-size: 14px;
+    }
+  }
+
+
+  #content {
+    justify-content: start;
+  }
+  .xwvyx {
+    display: flex;
+    width: var(--max);
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .xwvyx-menu {
+    width: 220px;
+    background-color: --menubgcolor--;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .xwvyx-menu > a {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .xwvyx-menu > a:hover,
+  .xwvyx-menu > .active {
+    background-color: #1e3046;
+    color: #fff;
+  }
+  .xwvyx-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .xwvyx-title {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .xwvyx-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/page/iconova-cadde/bg/j59t6.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  .xwvyx-title span {
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+  }
+  @media screen and (max-width: 1024px) {
+    .xwvyx {
+      flex-direction: column;
+      width: calc(100% - 10px);
+      padding: 5px;
+    }
+    .xwvyx-menu {
+      display: none;
+    }
+    .xwvyx-body {
+      width: 100%;
     }
   }
 

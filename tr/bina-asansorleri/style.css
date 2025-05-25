@@ -1,5 +1,5 @@
 
-  .oj4at {
+  .y7rzf {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .oj4attitle {
+  .y7rzftitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .oj4attitlebody {
+  .y7rzftitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .oj4attitlebodytitle {
+  .y7rzftitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .oj4attitlebodylang {
+  .y7rzftitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .oj4attitlebodylang ul {
+  .y7rzftitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .oj4atbody {
+  .y7rzfbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .oj4atmenu {
+  .y7rzfmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .oj4atmenulist {
+  .y7rzfmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .oj4atmenubody {
+  .y7rzfmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .oj4atmenulist ul {
+  .y7rzfmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .oj4atmenulist ul a {
+  .y7rzfmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .oj4atmenulist ul a:hover {
+  .y7rzfmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .oj4atmenulistactive {
+  .y7rzfmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .oj4atmenulistbody {
+  .y7rzfmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .oj4atbodylogo {
+    .y7rzfbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .oj4atmenu {
+    .y7rzfmenu {
       overflow-x: auto;
     }
 
-    .oj4atmenulist ul {
+    .y7rzfmenulist ul {
       flex-direction: row;
     }
 
-    .oj4atbodylogo {
+    .y7rzfbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,8 +137,92 @@
   }
 
   @media screen and (max-width: 768px) {
-    .oj4atmenulist ul a {
+    .y7rzfmenulist ul a {
       font-size: 14px;
+    }
+  }
+
+
+  #content {
+    justify-content: start;
+  }
+  .g0jpm {
+    display: flex;
+    width: var(--max);
+    margin-top: 20px;
+    gap: 20px;
+  }
+  .g0jpm-menu {
+    width: 220px;
+    background-color: --menubgcolor--;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .g0jpm-menu > a {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .g0jpm-menu > a:hover,
+  .g0jpm-menu > .active {
+    background-color: #1e3046;
+    color: #fff;
+  }
+  .g0jpm-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .g0jpm-title {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .g0jpm-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/page/bina-asansorleri/bg/v8rqn.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  .g0jpm-title span {
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+  }
+  @media screen and (max-width: 1024px) {
+    .g0jpm {
+      flex-direction: column;
+      width: calc(100% - 10px);
+      padding: 5px;
+    }
+    .g0jpm-menu {
+      display: none;
+    }
+    .g0jpm-body {
+      width: 100%;
     }
   }
 
