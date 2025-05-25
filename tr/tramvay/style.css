@@ -1,5 +1,5 @@
 
-  .bgvn9 {
+  .if1jo {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .bgvn9title {
+  .if1jotitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .bgvn9titlebody {
+  .if1jotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .bgvn9titlebodytitle {
+  .if1jotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .bgvn9titlebodylang {
+  .if1jotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .bgvn9titlebodylang ul {
+  .if1jotitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .bgvn9body {
+  .if1jobody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .bgvn9menu {
+  .if1jomenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .bgvn9menulist {
+  .if1jomenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .bgvn9menubody {
+  .if1jomenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .bgvn9menulist ul {
+  .if1jomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .bgvn9menulist ul a {
+  .if1jomenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .bgvn9menulist ul a:hover {
+  .if1jomenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .bgvn9menulistactive {
+  .if1jomenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .bgvn9menulistbody {
+  .if1jomenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .bgvn9bodylogo {
+    .if1jobodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .bgvn9menu {
+    .if1jomenu {
       overflow-x: auto;
     }
 
-    .bgvn9menulist ul {
+    .if1jomenulist ul {
       flex-direction: row;
     }
 
-    .bgvn9bodylogo {
+    .if1jobodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,9 +137,31 @@
   }
 
   @media screen and (max-width: 768px) {
-    .bgvn9menulist ul a {
+    .if1jomenulist ul a {
       font-size: 14px;
     }
+  }
+
+
+  .whatsapp {
+    border-radius: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 5px;
+    background-color: #4dc247;
+    display: flex;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+    color: #000 !important;
+    z-index: 10000;
+    padding-right: 20px;
+  }
+  .whatsappicon {
+    width: 40px;
+    height: 40px;
   }
 
 

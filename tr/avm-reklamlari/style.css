@@ -1,5 +1,5 @@
 
-  .x32qn {
+  .lgr4v {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .x32qntitle {
+  .lgr4vtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .x32qntitlebody {
+  .lgr4vtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .x32qntitlebodytitle {
+  .lgr4vtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .x32qntitlebodylang {
+  .lgr4vtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .x32qntitlebodylang ul {
+  .lgr4vtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .x32qnbody {
+  .lgr4vbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .x32qnmenu {
+  .lgr4vmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .x32qnmenulist {
+  .lgr4vmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .x32qnmenubody {
+  .lgr4vmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .x32qnmenulist ul {
+  .lgr4vmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .x32qnmenulist ul a {
+  .lgr4vmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .x32qnmenulist ul a:hover {
+  .lgr4vmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .x32qnmenulistactive {
+  .lgr4vmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .x32qnmenulistbody {
+  .lgr4vmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .x32qnbodylogo {
+    .lgr4vbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .x32qnmenu {
+    .lgr4vmenu {
       overflow-x: auto;
     }
 
-    .x32qnmenulist ul {
+    .lgr4vmenulist ul {
       flex-direction: row;
     }
 
-    .x32qnbodylogo {
+    .lgr4vbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .x32qnmenulist ul a {
+    .lgr4vmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .cwxga {
+  .swg0s {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .cwxga-menu {
+  .swg0s-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .cwxga-menu > a {
+  .swg0s-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .cwxga-menu > a:hover,
-  .cwxga-menu > .active {
+  .swg0s-menu > a:hover,
+  .swg0s-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .cwxga-body {
+  .swg0s-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .cwxga-title {
+  .swg0s-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .cwxga-title::before {
+  .swg0s-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,23 +207,45 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .cwxga-title span {
+  .swg0s-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .cwxga {
+    .swg0s {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .cwxga-menu {
+    .swg0s-menu {
       display: none;
     }
-    .cwxga-body {
+    .swg0s-body {
       width: 100%;
     }
+  }
+
+
+  .whatsapp {
+    border-radius: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 5px;
+    background-color: #4dc247;
+    display: flex;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+    color: #000 !important;
+    z-index: 10000;
+    padding-right: 20px;
+  }
+  .whatsappicon {
+    width: 40px;
+    height: 40px;
   }
 
 

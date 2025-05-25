@@ -1,5 +1,5 @@
 
-  .krvy3 {
+  .f7hl5 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .krvy3title {
+  .f7hl5title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .krvy3titlebody {
+  .f7hl5titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .krvy3titlebodytitle {
+  .f7hl5titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .krvy3titlebodylang {
+  .f7hl5titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .krvy3titlebodylang ul {
+  .f7hl5titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .krvy3body {
+  .f7hl5body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .krvy3menu {
+  .f7hl5menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .krvy3menulist {
+  .f7hl5menulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .krvy3menubody {
+  .f7hl5menubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .krvy3menulist ul {
+  .f7hl5menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .krvy3menulist ul a {
+  .f7hl5menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .krvy3menulist ul a:hover {
+  .f7hl5menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .krvy3menulistactive {
+  .f7hl5menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .krvy3menulistbody {
+  .f7hl5menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .krvy3bodylogo {
+    .f7hl5bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .krvy3menu {
+    .f7hl5menu {
       overflow-x: auto;
     }
 
-    .krvy3menulist ul {
+    .f7hl5menulist ul {
       flex-direction: row;
     }
 
-    .krvy3bodylogo {
+    .f7hl5bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .krvy3menulist ul a {
+    .f7hl5menulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .bvxoq {
+  .ur04w {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .bvxoq-menu {
+  .ur04w-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .bvxoq-menu > a {
+  .ur04w-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .bvxoq-menu > a:hover,
-  .bvxoq-menu > .active {
+  .ur04w-menu > a:hover,
+  .ur04w-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .bvxoq-body {
+  .ur04w-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .bvxoq-title {
+  .ur04w-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .bvxoq-title::before {
+  .ur04w-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,23 +207,45 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .bvxoq-title span {
+  .ur04w-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .bvxoq {
+    .ur04w {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .bvxoq-menu {
+    .ur04w-menu {
       display: none;
     }
-    .bvxoq-body {
+    .ur04w-body {
       width: 100%;
     }
+  }
+
+
+  .whatsapp {
+    border-radius: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 5px;
+    background-color: #4dc247;
+    display: flex;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+    color: #000 !important;
+    z-index: 10000;
+    padding-right: 20px;
+  }
+  .whatsappicon {
+    width: 40px;
+    height: 40px;
   }
 
 

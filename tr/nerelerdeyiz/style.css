@@ -1,5 +1,5 @@
 
-  .z3q9m {
+  .c8pc2 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .z3q9mtitle {
+  .c8pc2title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .z3q9mtitlebody {
+  .c8pc2titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .z3q9mtitlebodytitle {
+  .c8pc2titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .z3q9mtitlebodylang {
+  .c8pc2titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .z3q9mtitlebodylang ul {
+  .c8pc2titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .z3q9mbody {
+  .c8pc2body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .z3q9mmenu {
+  .c8pc2menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .z3q9mmenulist {
+  .c8pc2menulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .z3q9mmenubody {
+  .c8pc2menubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .z3q9mmenulist ul {
+  .c8pc2menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .z3q9mmenulist ul a {
+  .c8pc2menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .z3q9mmenulist ul a:hover {
+  .c8pc2menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .z3q9mmenulistactive {
+  .c8pc2menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .z3q9mmenulistbody {
+  .c8pc2menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .z3q9mbodylogo {
+    .c8pc2bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .z3q9mmenu {
+    .c8pc2menu {
       overflow-x: auto;
     }
 
-    .z3q9mmenulist ul {
+    .c8pc2menulist ul {
       flex-direction: row;
     }
 
-    .z3q9mbodylogo {
+    .c8pc2bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,27 +137,27 @@
   }
 
   @media screen and (max-width: 768px) {
-    .z3q9mmenulist ul a {
+    .c8pc2menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .y0pdv {
+  .dsb9n {
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .y0pdvbody {
+  .dsb9nbody {
     width: var(--max);
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .y0pdvbodyitem {
+  .dsb9nbodyitem {
     cursor: pointer;
     background-color: #ffffff;
     border-radius: 12px;
@@ -173,23 +173,23 @@
     transition: all 0.3s ease;
   }
 
-  .y0pdvbodyitem:hover {
+  .dsb9nbodyitem:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   }
 
-  .y0pdvbodyitem:hover .y0pdvbodyitemimg {
+  .dsb9nbodyitem:hover .dsb9nbodyitemimg {
     transform: scale(1.1);
   }
 
-  .y0pdvbodyitemimg {
+  .dsb9nbodyitemimg {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
   }
 
-  .y0pdvbodyitemtitle {
+  .dsb9nbodyitemtitle {
     padding: 8px;
     background-color: #e5e5e5;
     text-align: center;
@@ -199,7 +199,7 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .y0pdvbody {
+    .dsb9nbody {
       width: calc(100% - 30px);
       margin: 0 15px;
       grid-template-columns: repeat(3, 1fr);
@@ -208,12 +208,34 @@
   }
 
   @media screen and (max-width: 768px) {
-    .y0pdvbody {
+    .dsb9nbody {
       width: calc(100% - 20px);
       margin: 0 10px;
       grid-template-columns: repeat(2, 1fr);
       gap: 10px;
     }
+  }
+
+
+  .whatsapp {
+    border-radius: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 5px;
+    background-color: #4dc247;
+    display: flex;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+    color: #000 !important;
+    z-index: 10000;
+    padding-right: 20px;
+  }
+  .whatsappicon {
+    width: 40px;
+    height: 40px;
   }
 
 

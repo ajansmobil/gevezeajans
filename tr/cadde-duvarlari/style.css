@@ -1,5 +1,5 @@
 
-  .g20qw {
+  .bx9di {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .g20qwtitle {
+  .bx9dititle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .g20qwtitlebody {
+  .bx9dititlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .g20qwtitlebodytitle {
+  .bx9dititlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .g20qwtitlebodylang {
+  .bx9dititlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .g20qwtitlebodylang ul {
+  .bx9dititlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .g20qwbody {
+  .bx9dibody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .g20qwmenu {
+  .bx9dimenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .g20qwmenulist {
+  .bx9dimenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .g20qwmenubody {
+  .bx9dimenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .g20qwmenulist ul {
+  .bx9dimenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .g20qwmenulist ul a {
+  .bx9dimenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .g20qwmenulist ul a:hover {
+  .bx9dimenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .g20qwmenulistactive {
+  .bx9dimenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .g20qwmenulistbody {
+  .bx9dimenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .g20qwbodylogo {
+    .bx9dibodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .g20qwmenu {
+    .bx9dimenu {
       overflow-x: auto;
     }
 
-    .g20qwmenulist ul {
+    .bx9dimenulist ul {
       flex-direction: row;
     }
 
-    .g20qwbodylogo {
+    .bx9dibodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .g20qwmenulist ul a {
+    .bx9dimenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .pjmoq {
+  .fczmu {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .pjmoq-menu {
+  .fczmu-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .pjmoq-menu > a {
+  .fczmu-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .pjmoq-menu > a:hover,
-  .pjmoq-menu > .active {
+  .fczmu-menu > a:hover,
+  .fczmu-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .pjmoq-body {
+  .fczmu-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .pjmoq-title {
+  .fczmu-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .pjmoq-title::before {
+  .fczmu-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,23 +207,45 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .pjmoq-title span {
+  .fczmu-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .pjmoq {
+    .fczmu {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .pjmoq-menu {
+    .fczmu-menu {
       display: none;
     }
-    .pjmoq-body {
+    .fczmu-body {
       width: 100%;
     }
+  }
+
+
+  .whatsapp {
+    border-radius: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 5px;
+    background-color: #4dc247;
+    display: flex;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+    color: #000 !important;
+    z-index: 10000;
+    padding-right: 20px;
+  }
+  .whatsappicon {
+    width: 40px;
+    height: 40px;
   }
 
 
