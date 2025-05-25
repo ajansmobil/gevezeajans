@@ -1,5 +1,5 @@
 
-  .jazyc {
+  .hn934 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .jazyctitle {
+  .hn934title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .jazyctitlebody {
+  .hn934titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .jazyctitlebodytitle {
+  .hn934titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .jazyctitlebodylang {
+  .hn934titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .jazyctitlebodylang ul {
+  .hn934titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .jazycbody {
+  .hn934body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .jazycmenu {
+  .hn934menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .jazycmenulist {
+  .hn934menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .jazycmenubody {
+  .hn934menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .jazycmenulist ul {
+  .hn934menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .jazycmenulist ul a {
+  .hn934menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .jazycmenulist ul a:hover {
+  .hn934menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .jazycmenulistactive {
+  .hn934menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .jazycmenulistbody {
+  .hn934menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .jazycbodylogo {
+    .hn934bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .jazycmenu {
+    .hn934menu {
       overflow-x: auto;
     }
 
-    .jazycmenulist ul {
+    .hn934menulist ul {
       flex-direction: row;
     }
 
-    .jazycbodylogo {
+    .hn934bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .jazycmenulist ul a {
+    .hn934menulist ul a {
       font-size: 14px;
     }
   }

@@ -1,5 +1,5 @@
 
-  .vswk9 {
+  .wir87 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .vswk9title {
+  .wir87title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .vswk9titlebody {
+  .wir87titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .vswk9titlebodytitle {
+  .wir87titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .vswk9titlebodylang {
+  .wir87titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .vswk9titlebodylang ul {
+  .wir87titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .vswk9body {
+  .wir87body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .vswk9menu {
+  .wir87menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .vswk9menulist {
+  .wir87menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .vswk9menubody {
+  .wir87menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .vswk9menulist ul {
+  .wir87menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .vswk9menulist ul a {
+  .wir87menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .vswk9menulist ul a:hover {
+  .wir87menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .vswk9menulistactive {
+  .wir87menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .vswk9menulistbody {
+  .wir87menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .vswk9bodylogo {
+    .wir87bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .vswk9menu {
+    .wir87menu {
       overflow-x: auto;
     }
 
-    .vswk9menulist ul {
+    .wir87menulist ul {
       flex-direction: row;
     }
 
-    .vswk9bodylogo {
+    .wir87bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .vswk9menulist ul a {
+    .wir87menulist ul a {
       font-size: 14px;
     }
   }

@@ -1,5 +1,5 @@
 
-  .mi7gm {
+  .a25ri {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .mi7gmtitle {
+  .a25rititle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .mi7gmtitlebody {
+  .a25rititlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .mi7gmtitlebodytitle {
+  .a25rititlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .mi7gmtitlebodylang {
+  .a25rititlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .mi7gmtitlebodylang ul {
+  .a25rititlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .mi7gmbody {
+  .a25ribody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .mi7gmmenu {
+  .a25rimenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .mi7gmmenulist {
+  .a25rimenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .mi7gmmenubody {
+  .a25rimenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .mi7gmmenulist ul {
+  .a25rimenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .mi7gmmenulist ul a {
+  .a25rimenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .mi7gmmenulist ul a:hover {
+  .a25rimenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .mi7gmmenulistactive {
+  .a25rimenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .mi7gmmenulistbody {
+  .a25rimenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .mi7gmbodylogo {
+    .a25ribodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .mi7gmmenu {
+    .a25rimenu {
       overflow-x: auto;
     }
 
-    .mi7gmmenulist ul {
+    .a25rimenulist ul {
       flex-direction: row;
     }
 
-    .mi7gmbodylogo {
+    .a25ribodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .mi7gmmenulist ul a {
+    .a25rimenulist ul a {
       font-size: 14px;
     }
   }
