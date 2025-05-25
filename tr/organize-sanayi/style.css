@@ -1,5 +1,5 @@
 
-  .ov46a {
+  .dazim {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ov46atitle {
+  .dazimtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ov46atitlebody {
+  .dazimtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ov46atitlebodytitle {
+  .dazimtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ov46atitlebodylang {
+  .dazimtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ov46atitlebodylang ul {
+  .dazimtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ov46abody {
+  .dazimbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,30 +48,30 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ov46amenu {
+  .dazimmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ov46amenulist {
+  .dazimmenulist {
     width: calc(100% - 20px);
-    background-color: #1e3046;
+    background-color: #000;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ov46amenubody {
+  .dazimmenubody {
     width: 100%;
-    background-color: #1e3046;
+    background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .ov46amenulist ul {
+  .dazimmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .ov46amenulist ul a {
+  .dazimmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .ov46amenulist ul a:hover {
+  .dazimmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ov46amenulistactive {
+  .dazimmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .ov46amenulistbody {
+  .dazimmenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .ov46abodylogo {
+    .dazimbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ov46amenu {
+    .dazimmenu {
       overflow-x: auto;
     }
 
-    .ov46amenulist ul {
+    .dazimmenulist ul {
       flex-direction: row;
     }
 
-    .ov46abodylogo {
+    .dazimbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ov46amenulist ul a {
+    .dazimmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .nzeuk {
+  .m8dcu {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .nzeuk-menu {
+  .m8dcu-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .nzeuk-menu > a {
+  .m8dcu-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .nzeuk-menu > a:hover,
-  .nzeuk-menu > .active {
+  .m8dcu-menu > a:hover,
+  .m8dcu-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .nzeuk-body {
+  .m8dcu-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .nzeuk-title {
+  .m8dcu-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .nzeuk-title::before {
+  .m8dcu-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .nzeuk-title span {
+  .m8dcu-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .nzeuk {
+    .m8dcu {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .nzeuk-menu {
+    .m8dcu-menu {
       display: none;
     }
-    .nzeuk-body {
+    .m8dcu-body {
       width: 100%;
     }
   }
@@ -229,7 +229,7 @@
 
   .footer {
     position: relative;
-    background: #1e3046;
+    background: #000000;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -293,7 +293,7 @@
     left: 0;
     width: 100%;
     height: 100px;
-    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%231e3046;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23000000;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
     background-size: 1000px 102px;
   }
 

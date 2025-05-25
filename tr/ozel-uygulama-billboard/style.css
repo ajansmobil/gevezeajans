@@ -1,5 +1,5 @@
 
-  .ujq68 {
+  .glhm1 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ujq68title {
+  .glhm1title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ujq68titlebody {
+  .glhm1titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ujq68titlebodytitle {
+  .glhm1titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ujq68titlebodylang {
+  .glhm1titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ujq68titlebodylang ul {
+  .glhm1titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ujq68body {
+  .glhm1body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,30 +48,30 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ujq68menu {
+  .glhm1menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ujq68menulist {
+  .glhm1menulist {
     width: calc(100% - 20px);
-    background-color: #1e3046;
+    background-color: #000;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ujq68menubody {
+  .glhm1menubody {
     width: 100%;
-    background-color: #1e3046;
+    background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .ujq68menulist ul {
+  .glhm1menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .ujq68menulist ul a {
+  .glhm1menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .ujq68menulist ul a:hover {
+  .glhm1menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ujq68menulistactive {
+  .glhm1menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .ujq68menulistbody {
+  .glhm1menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .ujq68bodylogo {
+    .glhm1bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ujq68menu {
+    .glhm1menu {
       overflow-x: auto;
     }
 
-    .ujq68menulist ul {
+    .glhm1menulist ul {
       flex-direction: row;
     }
 
-    .ujq68bodylogo {
+    .glhm1bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ujq68menulist ul a {
+    .glhm1menulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .vnme9 {
+  .gvs5k {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .vnme9-menu {
+  .gvs5k-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .vnme9-menu > a {
+  .gvs5k-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .vnme9-menu > a:hover,
-  .vnme9-menu > .active {
+  .gvs5k-menu > a:hover,
+  .gvs5k-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .vnme9-body {
+  .gvs5k-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .vnme9-title {
+  .gvs5k-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .vnme9-title::before {
+  .gvs5k-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .vnme9-title span {
+  .gvs5k-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .vnme9 {
+    .gvs5k {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .vnme9-menu {
+    .gvs5k-menu {
       display: none;
     }
-    .vnme9-body {
+    .gvs5k-body {
       width: 100%;
     }
   }
@@ -229,7 +229,7 @@
 
   .footer {
     position: relative;
-    background: #1e3046;
+    background: #000000;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -293,7 +293,7 @@
     left: 0;
     width: 100%;
     height: 100px;
-    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%231e3046;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23000000;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
     background-size: 1000px 102px;
   }
 
