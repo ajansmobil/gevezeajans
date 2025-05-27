@@ -1,5 +1,5 @@
 
-  .m5z99 {
+  .j51m0 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .m5z99title {
+  .j51m0title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .m5z99titlebody {
+  .j51m0titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .m5z99titlebodytitle {
+  .j51m0titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .m5z99titlebodylang {
+  .j51m0titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .m5z99titlebodylang ul {
+  .j51m0titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .m5z99body {
+  .j51m0body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .m5z99menu {
+  .j51m0menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .m5z99menulist {
+  .j51m0menulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .m5z99menubody {
+  .j51m0menubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .m5z99menulist ul {
+  .j51m0menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .m5z99menulist ul a {
+  .j51m0menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .m5z99menulist ul a:hover {
+  .j51m0menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .m5z99menulistactive {
+  .j51m0menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .m5z99menulistbody {
+  .j51m0menulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .m5z99bodylogo {
+    .j51m0bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .m5z99menu {
+    .j51m0menu {
       overflow-x: auto;
     }
 
-    .m5z99menulist ul {
+    .j51m0menulist ul {
       flex-direction: row;
     }
 
-    .m5z99bodylogo {
+    .j51m0bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .m5z99menulist ul a {
+    .j51m0menulist ul a {
       font-size: 14px;
     }
   }
@@ -236,28 +236,28 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;

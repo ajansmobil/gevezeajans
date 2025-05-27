@@ -1,5 +1,5 @@
 
-  .f7hl5 {
+  .p58sa {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .f7hl5title {
+  .p58satitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .f7hl5titlebody {
+  .p58satitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .f7hl5titlebodytitle {
+  .p58satitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .f7hl5titlebodylang {
+  .p58satitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .f7hl5titlebodylang ul {
+  .p58satitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .f7hl5body {
+  .p58sabody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .f7hl5menu {
+  .p58samenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .f7hl5menulist {
+  .p58samenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .f7hl5menubody {
+  .p58samenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .f7hl5menulist ul {
+  .p58samenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .f7hl5menulist ul a {
+  .p58samenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,27 @@
     white-space: nowrap;
   }
 
-  .f7hl5menulist ul a:hover {
+  .p58samenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .f7hl5menulistactive {
+  .p58samenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .f7hl5menulistbody {
+  .p58samenulistbody {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1024px) {
-    .f7hl5bodylogo {
+    .p58sabodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +121,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .f7hl5menu {
+    .p58samenu {
       overflow-x: auto;
     }
 
-    .f7hl5menulist ul {
+    .p58samenulist ul {
       flex-direction: row;
     }
 
-    .f7hl5bodylogo {
+    .p58sabodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +137,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .f7hl5menulist ul a {
+    .p58samenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,13 +146,13 @@
   #content {
     justify-content: start;
   }
-  .ur04w {
+  .amjfm {
     display: flex;
     width: var(--max);
     margin-top: 20px;
     gap: 20px;
   }
-  .ur04w-menu {
+  .amjfm-menu {
     width: 220px;
     background-color: --menubgcolor--;
     border-radius: 5px;
@@ -162,7 +162,7 @@
     gap: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .ur04w-menu > a {
+  .amjfm-menu > a {
     background-color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -170,18 +170,18 @@
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
-  .ur04w-menu > a:hover,
-  .ur04w-menu > .active {
+  .amjfm-menu > a:hover,
+  .amjfm-menu > .active {
     background-color: #1e3046;
     color: #fff;
   }
-  .ur04w-body {
+  .amjfm-body {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
-  .ur04w-title {
+  .amjfm-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -193,7 +193,7 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .ur04w-title::before {
+  .amjfm-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,21 +207,21 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .ur04w-title span {
+  .amjfm-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
   @media screen and (max-width: 1024px) {
-    .ur04w {
+    .amjfm {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
     }
-    .ur04w-menu {
+    .amjfm-menu {
       display: none;
     }
-    .ur04w-body {
+    .amjfm-body {
       width: 100%;
     }
   }
@@ -320,28 +320,28 @@
   }
 
   .wave#wave1 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 1;
     bottom: 0;
     animation: animateWaves 4s linear infinite;
   }
 
   .wave#wave2 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.5;
     bottom: 10px;
     animation: animate 4s linear infinite !important;
   }
 
   .wave#wave3 {
-    z-index: 1000;
+    z-index: 100;
     opacity: 0.2;
     bottom: 15px;
     animation: animateWaves 3s linear infinite;
   }
 
   .wave#wave4 {
-    z-index: 999;
+    z-index: 99;
     opacity: 0.7;
     bottom: 20px;
     animation: animate 3s linear infinite;
