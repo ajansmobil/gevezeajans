@@ -1,5 +1,5 @@
 
-  .d8o99 {
+  .cs6lt {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .d8o99title {
+  .cs6lttitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .d8o99titlebody {
+  .cs6lttitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .d8o99titlebodytitle {
+  .cs6lttitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .d8o99titlebodylang {
+  .cs6lttitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .d8o99titlebodylang ul {
+  .cs6lttitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .d8o99body {
+  .cs6ltbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .d8o99menu {
+  .cs6ltmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .d8o99menulist {
+  .cs6ltmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .d8o99menubody {
+  .cs6ltmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .d8o99menulist ul {
+  .cs6ltmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .d8o99menulist ul a {
+  .cs6ltmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,26 @@
     white-space: nowrap;
   }
 
-  .d8o99menulist ul a:hover {
+  .cs6ltmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .d8o99menulistactive {
+  .cs6lt-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .d8o99menulistbody {
+  .cs6ltmenulistbody {
     width: 100%;
   }
 
-
   @media screen and (min-width: 1024px) {
-    .d8o99bodylogo {
+    .cs6ltbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +120,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .d8o99menu {
+    .cs6ltmenu {
       overflow-x: auto;
     }
 
-    .d8o99menulist ul {
+    .cs6ltmenulist ul {
       flex-direction: row;
     }
 
-    .d8o99bodylogo {
+    .cs6ltbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,8 +136,191 @@
   }
 
   @media screen and (max-width: 768px) {
-    .d8o99menulist ul a {
+    .cs6ltmenulist ul a {
       font-size: 14px;
+    }
+  }
+
+
+  #content {
+    justify-content: start;
+  }
+
+  .ixw2t {
+    width: var(--max);
+    margin-top: 20px;
+    gap: 10px;
+    float: left;
+    position: relative;
+  }
+
+  .ixw2t-menu-btn {
+    display: none;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ixw2t-menu-btn i {
+    font-size: 20px;
+  }
+
+  .ixw2t-menu {
+    width: 200px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    float: left;
+  }
+
+  .ixw2t-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    float: right;
+  }
+
+  .ixw2t-menu > a {
+    background-color: #fff;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+  }
+
+  .ixw2t-menu > .active,
+  .ixw2t-menu > a:hover {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+  }
+
+  .ixw2t-desc-menu {
+    width: 200px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+
+  .ixw2t-desc-menu > div {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 5px;
+  }
+
+  .ixw2t-desc-body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ixw2t-title {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .ixw2t-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/page/tramvay/bg/{{bgimg}}");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  .ixw2t-title span {
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+  }
+
+  .ixw2t-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+
+  .ixw2t-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(var(--max) - 460px);
+  }
+
+  .ixw2t-img img {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .ixw2t-desc {
+      width: calc(var(--max) - 240px);
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .ixw2t-menu-btn {
+      display: flex;
+      width: calc(100% - 55px);
+      margin-left: 5px;
+    }
+
+    .ixw2t {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 5px;
+      gap: 5px;
+      margin-top: 0px;
+    }
+
+    .ixw2t-img {
+      width: 100%;
+    }
+
+    .ixw2t-body {
+      width: 100%;
+      order: 3;
+      padding: 10px;
+    }
+
+    .ixw2t-menu {
+      width: 100%;
+      float: none;
+      flex-direction: column;
+      order: 1;
+      display: none;
+    }
+
+    .ixw2t-menu.active {
+      display: flex;
+    }
+
+    .ixw2t-desc {
+      width: 100% !important;
+      order: 2;
     }
   }
 
@@ -159,6 +341,7 @@
     z-index: 10000;
     padding-right: 20px;
   }
+
   .whatsappicon {
     width: 40px;
     height: 40px;

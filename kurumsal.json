@@ -1,0 +1,290 @@
+{
+  "name": "Kurumsal",
+  "path": "kurumsal",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Kurumsal"
+      },
+      "status": "play",
+      "id": "kurumsal",
+      "path": "kurumsal",
+      "category": "",
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Hakkımızda</h2>\n    <p style=\" font-size: 16px;\">\n        Geveze Ajans olarak, Gaziantep'in en prestijli reklam ajansı olarak hizmet veriyoruz. Açıkhava reklamcılığı, AVM reklamları, toplu taşıma reklamları ve daha fazlası için uzman kadromuzla yanınızdayız. Caddeye renk katıyoruz, boyamıyoruz dijital baskı ile yaratıcı kampanyalar ile gözleri dolduruyoruz.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Yürüyenin, duranın, yaratıcılık sevenlerin, odağı alışveriş olanların, gencinin yaşlısının dikkatini üzerinize çekiyoruz. Geveze ajans ile caddeleri baştan keşfedin. Reklam şirketinizin büyüme ve markalaşma değerine ciddi katkılar yapar. Duyulmuş, hafızalarda yer edinmiş bir marka olmak istiyorsanız ve müşteri portföyünüzde ciddi gelişim kaydetmek istiyorsanız, reklam vermek sizin için kaçınılmaz olacaktır.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Reklam büyüme oranınıza, pazardaki payınıza, kitlenize, bilinirliğinize mükemmel derecede katkı yapar ve sizleri her seferinde daha da ileriye götürür. Gaziantep'in en prestijli noktalarında sizlerin prestijine olumlu etki bırakıyoruz.\n    </p>"
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "Geveze Ajans, Gaziantep reklam ajansı, açıkhava reklamcılığı, kurumsal kimlik"
+      },
+      "description": {
+        "tr": "Gaziantep'in en prestijli reklam ajansı Geveze Ajans. Açıkhava reklamcılığı, AVM reklamları ve toplu taşıma reklamları alanında uzman kadrosuyla hizmetinizde."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 0,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "ag1zu.webp"
+    },
+    {
+      "name": {
+        "tr": "Hakkımızda"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "kurumsal",
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Hakkımızda</h2>\n    <p style=\" font-size: 16px;\">\n        Geveze Ajans olarak, Gaziantep'in en prestijli reklam ajansı olarak hizmet veriyoruz. Açıkhava reklamcılığı, AVM reklamları, toplu taşıma reklamları ve daha fazlası için uzman kadromuzla yanınızdayız. Caddeye renk katıyoruz, boyamıyoruz dijital baskı ile yaratıcı kampanyalar ile gözleri dolduruyoruz.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Yürüyenin, duranın, yaratıcılık sevenlerin, odağı alışveriş olanların, gencinin yaşlısının dikkatini üzerinize çekiyoruz. Geveze ajans ile caddeleri baştan keşfedin. Reklam şirketinizin büyüme ve markalaşma değerine ciddi katkılar yapar. Duyulmuş, hafızalarda yer edinmiş bir marka olmak istiyorsanız ve müşteri portföyünüzde ciddi gelişim kaydetmek istiyorsanız, reklam vermek sizin için kaçınılmaz olacaktır.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Reklam büyüme oranınıza, pazardaki payınıza, kitlenize, bilinirliğinize mükemmel derecede katkı yapar ve sizleri her seferinde daha da ileriye götürür. Gaziantep'in en prestijli noktalarında sizlerin prestijine olumlu etki bırakıyoruz.\n    </p>"
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "Geveze Ajans hakkında, Gaziantep reklam ajansı, açıkhava reklamcılığı"
+      },
+      "description": {
+        "tr": "Geveze Ajans, Gaziantep'in en prestijli reklam ajansı olarak açıkhava reklamcılığı, AVM reklamları ve toplu taşıma reklamları alanında uzman kadrosuyla hizmetinizde."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 1,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "acx12.webp"
+    },
+    {
+      "name": {
+        "tr": "Misyon"
+      },
+      "status": "play",
+      "id": "misyon",
+      "path": "misyon",
+      "category": "kurumsal",
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Misyonumuz</h2>\n    <p style=\" font-size: 16px;\">\n        Misyonumuz, müşterilerimize en iyi reklam hizmetini sunmak ve markalarını değerli kılmaktır. Caddenin kralı olmak için bende varım diyorsan. Cadde Direkleri, Cadde Billboardlar, Cadde Led Ekran/ Digiboard, Megalight ve CLP ler ile sizi Gaziantep'teki caddelerin lideri konumuna getiriyoruz.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Yürüyenin, duranın, yaratıcılık sevenlerin, odağı alışveriş olanların, gencinin yaşlısının dikkatini üzerinize çekiyoruz. Geveze ajans ile caddeleri baştan keşfedin. Reklam şirketinizin büyüme ve markalaşma değerine ciddi katkılar yapar.\n    </p>"
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "Geveze Ajans misyon, Gaziantep reklam ajansı misyonu"
+      },
+      "description": {
+        "tr": "Geveze Ajans'ın misyonu, müşterilerine en iyi reklam hizmetini sunmak ve markalarını değerli kılmaktır."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 2,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "ay9dn.webp"
+    },
+    {
+      "name": {
+        "tr": "Vizyon"
+      },
+      "status": "play",
+      "id": "vizyon",
+      "path": "vizyon",
+      "category": "kurumsal",
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Vizyonumuz</h2>\n    <p style=\" font-size: 16px;\">\n        Vizyonumuz, Gaziantep'in en prestijli reklam ajansı olarak, müşterilerimize en iyi hizmeti sunmak ve markalarını değerli kılmaktır. Duyulmuş, hafızalarda yer edinmiş bir marka olmak istiyorsanız ve müşteri portföyünüzde ciddi gelişim kaydetmek istiyorsanız, reklam vermek sizin için kaçınılmaz olacaktır.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Reklam büyüme oranınıza, pazardaki payınıza, kitlenize, bilinirliğinize mükemmel derecede katkı yapar ve sizleri her seferinde daha da ileriye götürür. Gaziantep'in en prestijli noktalarında sizlerin prestijine olumlu etki bırakıyoruz.\n    </p>"
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "Geveze Ajans vizyon, Gaziantep reklam ajansı vizyonu"
+      },
+      "description": {
+        "tr": "Geveze Ajans'ın vizyonu, Gaziantep'in en prestijli reklam ajansı olarak, müşterilerine en iyi hizmeti sunmak ve markalarını değerli kılmaktır."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 3,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "kmioj.webp"
+    },
+    {
+      "name": {
+        "tr": "Kalite Politikamız"
+      },
+      "status": "play",
+      "id": "kalitepolitikamiz",
+      "path": "kalite-politikamiz",
+      "category": "kurumsal",
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Kalite Politikamız</h2><p style=\" font-size: 16px;\">Kalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en iyi kalite standartlarını sağlamak için çalışıyor ve tüm süreçlerimizi bu doğrultuda sürekli gözden geçiriyoruz. Reklam şirketinizin büyüme ve markalaşma değerine ciddi katkılar yapar.</p>"
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "Geveze Ajans kalite politikası, Gaziantep reklam ajansı kalite"
+      },
+      "description": {
+        "tr": "Geveze Ajans'ın kalite politikası, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedeflemektedir."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 4,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "b3k2k.webp"
+    },
+    {
+      "name": {
+        "tr": "Gizlilik Politikası"
+      },
+      "status": "play",
+      "id": "gizlilikpolitikasi",
+      "path": "gizlilik-politikasi",
+      "category": "kurumsal",
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Gizlilik Politikamız</h2>\n    <p style=\"font-size: 16px;\">\n        Web sitemizi ziyaret ettiğinizde, sitemizi kullanımınızı ve sitemizde sunulan hizmetleri geliştirmek amacıyla çerezler (cookies) aracılığıyla bazı bilgiler toplanmaktadır. Bu bilgiler, kimlik bilgileriniz hariç olmak üzere, sitemizde yer alan hizmetlerin daha iyi sunulması ve kullanıcı deneyiminin iyileştirilmesi amacıyla kullanılmaktadır.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Toplanan bilgiler, üçüncü taraflarla paylaşılmamakta olup, yalnızca sitemizin performansını artırmak ve hizmetlerimizi geliştirmek amacıyla kullanılmaktadır. Kullanıcılar, tarayıcı ayarlarını değiştirerek çerezlerin kullanımını engelleyebilirler.\n    </p>"
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "Geveze Ajans gizlilik politikası, Gaziantep reklam ajansı gizlilik"
+      },
+      "description": {
+        "tr": "Geveze Ajans gizlilik politikası, kullanıcı verilerinin güvenliği ve gizliliği konusunda en üst düzey önlemleri almaktadır."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 5,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "gp3of.webp"
+    },
+    {
+      "name": {
+        "tr": "Kişisel Veriler"
+      },
+      "status": "play",
+      "id": "kisiselveriler",
+      "path": "kisisel-veriler",
+      "category": "kurumsal",
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Kişisel Veriler</h2>\n    <p style=\"font-size: 16px;\">\n        Kişisel verileriniz, yalnızca yasal gereklilikleri karşılamak, taleplerinizi yerine getirmek ve size daha iyi hizmet sunmak amacıyla toplanmaktadır. Kişisel verilerinizin güvenliği bizim için önceliklidir ve bu verilerin korunması için 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) başta olmak üzere, ilgili tüm mevzuat çerçevesinde gerekli teknik ve idari tedbirleri almaktayız.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Toplanan kişisel veriler, yalnızca yetkili kişiler tarafından erişilebilir olup, izniniz dışında üçüncü taraflarla paylaşılmamaktadır. Kişisel verilerinizin hangi amaçlarla işlendiğini, nasıl saklandığını, kimlerle paylaşıldığını öğrenme hakkına sahipsiniz.\n    </p>"
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "Geveze Ajans kişisel veriler, KVKK, Gaziantep reklam ajansı veri güvenliği"
+      },
+      "description": {
+        "tr": "Geveze Ajans, kişisel verilerin korunması konusunda KVKK ve ilgili mevzuat çerçevesinde gerekli tüm önlemleri almaktadır."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 6,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "bpo43.webp"
+    },
+    {
+      "name": {
+        "tr": "Kullanıcı Hakları"
+      },
+      "status": "play",
+      "id": "kullanicahaklari",
+      "path": "kullanici-haklari",
+      "category": "kurumsal",
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Kullanıcı Hakları</h2>\n    <p style=\"font-size: 16px;\">\n        Herkes, kişisel verilerinin korunmasını isteme hakkına sahiptir. Kişisel verilerinizin korunması bizim için çok önemlidir ve bu doğrultuda 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat çerçevesinde hareket etmekteyiz. Kullanıcılar, verilerinin hangi amaçlarla toplandığı, nasıl saklandığı ve kimlerle paylaşıldığı konusunda bilgilendirilme hakkına sahiptir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Kişisel verilerinizi güncelleme, düzeltme, silme ve anonimleştirme taleplerinde bulunabilirsiniz. Aynı zamanda, toplanan verilerin hangi amaçla kullanıldığı ve işleme süreciyle ilgili ayrıntılı bilgi talep edebilir, bu süreçlerde yer alan üçüncü taraflar hakkında bilgi alabilirsiniz.\n    </p>"
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "Geveze Ajans kullanıcı hakları, KVKK hakları, Gaziantep reklam ajansı kullanıcı hakları"
+      },
+      "description": {
+        "tr": "Geveze Ajans, kullanıcıların kişisel verilerinin korunması ve kullanıcı hakları konusunda KVKK ve ilgili mevzuat çerçevesinde hareket etmektedir."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 7,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "kxafa.webp"
+    },
+    {
+      "name": {
+        "tr": "Yasal Uyarı"
+      },
+      "status": "play",
+      "id": "yasaluyari",
+      "path": "yasal-uyari",
+      "category": "kurumsal",
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Yasal Uyarı</h2>\n    <p style=\" font-size: 16px;\">\n        Sitemizde yer alan tüm içerik, 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile 5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenlenmesi ve Bu Yayınlar Yoluyla İşlenen Suçlarla Mücadele Edilmesi Hakkında Kanun'un hükümleri uyarınca korunmaktadır. Sitemizde yer alan hiçbir içeriğin kopyalanması, çoğaltılması, yayılması, satılması, dağıtılması, sergilenmesi, yayımlanması, herhangi bir şekilde ticari amaçla kullanılması veya başka platformlarda izinsiz olarak paylaşılması yasaktır.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Sitemizde yer alan içeriğin hukuka aykırı bir şekilde kullanılması veya dağıtılması durumunda, sitemiz yetkili mercilere başvurma ve yasal haklarını koruma hakkını saklı tutar. İnternet ortamında yer alan içeriklerin izinsiz paylaşımı, hukuki olarak ağır yaptırımlar doğurabileceği gibi, eser sahiplerinin haklarını ihlal eder.\n    </p>"
+      },
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "keyword": {
+        "tr": "Geveze Ajans yasal uyarı, telif hakları, Gaziantep reklam ajansı yasal"
+      },
+      "description": {
+        "tr": "Geveze Ajans yasal uyarı sayfası, site içeriğinin telif hakları ve kullanım koşulları hakkında bilgi vermektedir."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 8,
+      "desc": {},
+      "icon": "home",
+      "bgimg": "pldoz.webp"
+    }
+  ],
+  "index": 4,
+  "desing": {
+    "header": [],
+    "body": [
+      "whxr63"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "detail": true,
+    "bgimg": true,
+    "img": false
+  }
+}

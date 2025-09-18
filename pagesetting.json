@@ -1,0 +1,117 @@
+{
+  "data": [
+    {
+      "name": "Sayfalar",
+      "path": "page",
+      "desc": [],
+      "data": [],
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "page": true,
+        "detail": true,
+        "body": true
+      }
+    },
+    {
+      "name": "Açık Hava",
+      "path": "acikhava",
+      "desc": [],
+      "data": [],
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [
+          "whxr63"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "detail": true,
+        "bgimg": true,
+        "img": true,
+        "body": true
+      }
+    },
+    {
+      "name": "Avmler",
+      "path": "avm",
+      "desc": [],
+      "data": [],
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [
+          "whxr63"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "detail": true,
+        "img": true,
+        "bgimg": true
+      }
+    },
+    {
+      "name": "Toplu Taşımalar",
+      "path": "toplutasima",
+      "desc": [],
+      "data": [],
+      "index": 3,
+      "desing": {
+        "header": [],
+        "body": [
+          "whxr63"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "detail": true,
+        "img": true,
+        "bgimg": true,
+        "body": true
+      }
+    },
+    {
+      "name": "Kurumsal",
+      "path": "kurumsal",
+      "desc": [],
+      "data": [],
+      "index": 4,
+      "desing": {
+        "header": [],
+        "body": [
+          "whxr63"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "detail": true,
+        "bgimg": true,
+        "img": false
+      }
+    },
+    {
+      "name": "Geveze Etkisi",
+      "path": "gevezeetkisi",
+      "desc": [],
+      "data": [],
+      "index": 5,
+      "desing": {
+        "header": [],
+        "body": [
+          "whxr63"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "img": false,
+        "bgimg": true
+      }
+    }
+  ]
+}

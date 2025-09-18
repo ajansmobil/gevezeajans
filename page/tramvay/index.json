@@ -1,0 +1,26 @@
+{
+  "name": {
+    "tr": "Tramvay"
+  },
+  "status": "play",
+  "category": "",
+  "id": "tramvay",
+  "externalUrl": "",
+  "path": "tramvay",
+  "keyword": {
+    "tr": "Tramvay, toplu taşıma, Gaziantep tramvay"
+  },
+  "description": {
+    "tr": "Tramvay reklam noktası - Şehrin her noktasına ulaşan önemli reklam mecrası"
+  },
+  "text": {
+    "tr": "Tramvaylar, şehrin her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Araç giydirme ve iç alan reklamları ile geniş kitleye ulaşılır. Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar."
+  },
+  "spot": {
+    "tr": "Haftalık Hedef Kitle: 300-600 Bin Kişi"
+  },
+  "index": 3,
+  "icon": "home",
+  "desc": {},
+  "img": "yki9f.jpg"
+}

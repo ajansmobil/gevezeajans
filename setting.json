@@ -1,0 +1,29 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Gaziantep'in en prestijli reklam ajansı. Açıkhava reklamcılığı, AVM reklamları, toplu taşıma reklamları ve daha fazlası için Geveze Ajans."
+  },
+  "keyword": {
+    "tr": "Gaziantep reklam ajansı, açıkhava reklamcılığı, AVM reklamları, toplu taşıma reklamları, billboard, led ekran, dijital reklam"
+  },
+  "multi": false,
+  "category": "Kurumsal",
+  "name": "Geveze Ajans - Açıkhava Reklamcılığı",
+  "domain": "gevezeajans.com",
+  "langs": {
+    "tr": true,
+    "en": false,
+    "ar": false,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.svg"
+}

@@ -1,5 +1,5 @@
 
-  .dmj2r {
+  .zty2o {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .dmj2rtitle {
+  .zty2otitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .dmj2rtitlebody {
+  .zty2otitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .dmj2rtitlebodytitle {
+  .zty2otitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .dmj2rtitlebodylang {
+  .zty2otitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .dmj2rtitlebodylang ul {
+  .zty2otitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .dmj2rbody {
+  .zty2obody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .dmj2rmenu {
+  .zty2omenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .dmj2rmenulist {
+  .zty2omenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .dmj2rmenubody {
+  .zty2omenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .dmj2rmenulist ul {
+  .zty2omenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .dmj2rmenulist ul a {
+  .zty2omenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,26 @@
     white-space: nowrap;
   }
 
-  .dmj2rmenulist ul a:hover {
+  .zty2omenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .dmj2rmenulistactive {
+  .zty2o-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dmj2rmenulistbody {
+  .zty2omenulistbody {
     width: 100%;
   }
 
-
   @media screen and (min-width: 1024px) {
-    .dmj2rbodylogo {
+    .zty2obodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +120,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .dmj2rmenu {
+    .zty2omenu {
       overflow-x: auto;
     }
 
-    .dmj2rmenulist ul {
+    .zty2omenulist ul {
       flex-direction: row;
     }
 
-    .dmj2rbodylogo {
+    .zty2obodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +136,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .dmj2rmenulist ul a {
+    .zty2omenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,42 +145,84 @@
   #content {
     justify-content: start;
   }
-  .ndgrb {
-    display: flex;
+
+  .pkmct {
     width: var(--max);
     margin-top: 20px;
-    gap: 20px;
-  }
-  .ndgrb-menu {
-    width: 220px;
-    background-color: --menubgcolor--;
-    border-radius: 5px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
     gap: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float: left;
+    position: relative;
   }
-  .ndgrb-menu > a {
-    background-color: #ffffff;
-    padding: 10px 15px;
+
+  .pkmct-menu-btn {
+    display: none;
+    background-color: #000;
+    padding: 10px 20px;
     border-radius: 5px;
-    color: #333;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  .ndgrb-menu > a:hover,
-  .ndgrb-menu > .active {
-    background-color: #1e3046;
+    cursor: pointer;
+    font-weight: bold;
     color: #fff;
+    justify-content: space-between;
+    align-items: center;
   }
-  .ndgrb-body {
-    flex: 1;
+
+  .pkmct-menu-btn i {
+    font-size: 20px;
+  }
+
+  .pkmct-menu {
+    width: 200px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 5px;
+    float: left;
   }
-  .ndgrb-title {
+
+  .pkmct-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    float: right;
+  }
+
+  .pkmct-menu > a {
+    background-color: #fff;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+  }
+
+  .pkmct-menu > .active,
+  .pkmct-menu > a:hover {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+  }
+
+  .pkmct-desc-menu {
+    width: 200px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+
+  .pkmct-desc-menu > div {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 5px;
+  }
+
+  .pkmct-desc-body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pkmct-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -193,7 +234,8 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .ndgrb-title::before {
+
+  .pkmct-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,22 +249,78 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .ndgrb-title span {
+
+  .pkmct-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
-  @media screen and (max-width: 1024px) {
-    .ndgrb {
-      flex-direction: column;
-      width: calc(100% - 10px);
-      padding: 5px;
+
+  .pkmct-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+
+  .pkmct-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(var(--max) - 460px);
+  }
+
+  .pkmct-img img {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .pkmct-desc {
+      width: calc(var(--max) - 240px);
     }
-    .ndgrb-menu {
+  }
+
+  @media screen and (max-width: 1024px) {
+    .pkmct-menu-btn {
+      display: flex;
+      width: calc(100% - 55px);
+      margin-left: 5px;
+    }
+
+    .pkmct {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 5px;
+      gap: 5px;
+      margin-top: 0px;
+    }
+
+    .pkmct-img {
+      width: 100%;
+    }
+
+    .pkmct-body {
+      width: 100%;
+      order: 3;
+      padding: 10px;
+    }
+
+    .pkmct-menu {
+      width: 100%;
+      float: none;
+      flex-direction: column;
+      order: 1;
       display: none;
     }
-    .ndgrb-body {
-      width: 100%;
+
+    .pkmct-menu.active {
+      display: flex;
+    }
+
+    .pkmct-desc {
+      width: 100% !important;
+      order: 2;
     }
   }
 
@@ -243,6 +341,7 @@
     z-index: 10000;
     padding-right: 20px;
   }
+
   .whatsappicon {
     width: 40px;
     height: 40px;

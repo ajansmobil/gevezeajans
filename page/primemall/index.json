@@ -1,0 +1,26 @@
+{
+  "name": {
+    "tr": "Primemall"
+  },
+  "status": "play",
+  "category": "",
+  "id": "primemall",
+  "externalUrl": "",
+  "path": "primemall",
+  "keyword": {
+    "tr": "Primemall, alışveriş merkezi, Gaziantep AVM"
+  },
+  "description": {
+    "tr": "Primemall reklam noktası - Gaziantep'in en yoğun alışveriş merkezlerinden biri"
+  },
+  "text": {
+    "tr": "Primemall AVM'de led ekran, billboard ve iç alanlarda reklam imkanı. Yüksek ziyaretçi trafiği ile marka bilinirliği artar. Her türlü tüketim alışkanlığının olduğu insanların uğrak noktası olan AVM'ler sizlere yeni müşteriler kazandırmanın yanı sıra prestijli bir marka izlenimi verir."
+  },
+  "spot": {
+    "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
+  },
+  "index": 0,
+  "icon": "home",
+  "desc": {},
+  "img": "oevz4.jpg"
+}

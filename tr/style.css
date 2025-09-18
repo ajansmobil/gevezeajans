@@ -1,5 +1,5 @@
 
-  .j1elx {
+  .vk3tq {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .j1elxtitle {
+  .vk3tqtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .j1elxtitlebody {
+  .vk3tqtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .j1elxtitlebodytitle {
+  .vk3tqtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .j1elxtitlebodylang {
+  .vk3tqtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .j1elxtitlebodylang ul {
+  .vk3tqtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .j1elxbody {
+  .vk3tqbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .j1elxmenu {
+  .vk3tqmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .j1elxmenulist {
+  .vk3tqmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .j1elxmenubody {
+  .vk3tqmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .j1elxmenulist ul {
+  .vk3tqmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .j1elxmenulist ul a {
+  .vk3tqmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,26 @@
     white-space: nowrap;
   }
 
-  .j1elxmenulist ul a:hover {
+  .vk3tqmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .j1elxmenulistactive {
+  .vk3tq-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .j1elxmenulistbody {
+  .vk3tqmenulistbody {
     width: 100%;
   }
 
-
   @media screen and (min-width: 1024px) {
-    .j1elxbodylogo {
+    .vk3tqbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +120,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .j1elxmenu {
+    .vk3tqmenu {
       overflow-x: auto;
     }
 
-    .j1elxmenulist ul {
+    .vk3tqmenulist ul {
       flex-direction: row;
     }
 
-    .j1elxbodylogo {
+    .vk3tqbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,18 +136,73 @@
   }
 
   @media screen and (max-width: 768px) {
-    .j1elxmenulist ul a {
+    .vk3tqmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .sliderxkr2bpbody {
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Safari özel düzeltme */
+  @media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance:none) {
+      .swiper-slide>img {
+        height: auto;
+        min-height: 100%;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+      }
+
+      .swiper-slide {
+        overflow: hidden;
+      }
+    }
+  }
+
+  .swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .nktb8-text-body {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #F9B200 0%, #000000 33%, #F9B200 66%, #000000 100%);
+    background: linear-gradient(
+      135deg,
+      #F9B200 0%,
+      #000000 33%,
+      #F9B200 66%,
+      #000000 100%
+    );
     margin: 0px 0px 0px 0px;
     padding: 25px 0px 25px 0px;
     font-size: 36px;
@@ -164,21 +218,18 @@
     -webkit-font-smoothing: antialiased;
   }
 
+  @media screen and (max-width: 1200px) {
+  }
 
 
-
-
-  @media screen and (max-width: 1200px) {}
-
-
-  .vcpo7 {
+  .w6eiv {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .vcpo7body {
+  .w6eivbody {
     width: var(--max);
     display: grid;
     gap: 20px;
@@ -188,7 +239,7 @@
     /* Center all grid items */
   }
 
-  .vcpo7bodyitem {
+  .w6eivbodyitem {
     position: relative;
     background-color: #ffffff;
     border-radius: 10px;
@@ -203,14 +254,14 @@
     justify-content: center;
   }
 
-  .vcpo7bodyitem:hover {
+  .w6eivbodyitem:hover {
     transform: scale(1.05);
     /* Zoom effect */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   }
 
-  .vcpo7bodyitemimg {
-    aspect-ratio: 2 / 1;
+  .w6eivbodyitemimg {
+    aspect-ratio: 3 / 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,41 +270,51 @@
     margin-bottom: 10px;
   }
 
-  .vcpo7bodyitemimg img {
+  .w6eivbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* Cover the entire area */
   }
 
-  .vcpo7bodyitemtitle {
+  .w6eivbodyitemtitle {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
     font-weight: 600;
     color: #444;
     font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
   }
 
   @media screen and (max-width: 1024px) {
-    .vcpo7body {
+    .w6eivbody {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media screen and (max-width: 768px) {
-    .vcpo7body {
+    .w6eivbody {
       grid-template-columns: repeat(2, 1fr);
     }
   }
 
 
-  .sliderxjieaubody {
+  .o4izi-text-body {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #F9B200 0%, #000000 33%, #F9B200 66%, #000000 100%);
+    background: linear-gradient(
+      135deg,
+      #F9B200 0%,
+      #000000 33%,
+      #F9B200 66%,
+      #000000 100%
+    );
     margin: 15px 0px 0px 0px;
     padding: 25px 0px 25px 0px;
     font-size: 36px;
@@ -269,21 +330,18 @@
     -webkit-font-smoothing: antialiased;
   }
 
+  @media screen and (max-width: 1200px) {
+  }
 
 
-
-
-  @media screen and (max-width: 1200px) {}
-
-
-  .mghe8 {
+  .jzwlq {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .mghe8body {
+  .jzwlqbody {
     width: var(--max);
     display: grid;
     gap: 20px;
@@ -293,7 +351,7 @@
     /* Center all grid items */
   }
 
-  .mghe8bodyitem {
+  .jzwlqbodyitem {
     position: relative;
     background-color: #ffffff;
     border-radius: 10px;
@@ -308,14 +366,14 @@
     justify-content: center;
   }
 
-  .mghe8bodyitem:hover {
+  .jzwlqbodyitem:hover {
     transform: scale(1.05);
     /* Zoom effect */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   }
 
-  .mghe8bodyitemimg {
-    aspect-ratio: 2 / 1;
+  .jzwlqbodyitemimg {
+    aspect-ratio: 3 / 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,41 +382,51 @@
     margin-bottom: 10px;
   }
 
-  .mghe8bodyitemimg img {
+  .jzwlqbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* Cover the entire area */
   }
 
-  .mghe8bodyitemtitle {
+  .jzwlqbodyitemtitle {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
     font-weight: 600;
     color: #444;
     font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
   }
 
   @media screen and (max-width: 1024px) {
-    .mghe8body {
+    .jzwlqbody {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media screen and (max-width: 768px) {
-    .mghe8body {
+    .jzwlqbody {
       grid-template-columns: repeat(2, 1fr);
     }
   }
 
 
-  .sliderxa0qhqbody {
+  .erxoj-text-body {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #F9B200 0%, #000000 33%, #F9B200 66%, #000000 100%);
+    background: linear-gradient(
+      135deg,
+      #F9B200 0%,
+      #000000 33%,
+      #F9B200 66%,
+      #000000 100%
+    );
     margin: 15px 0px 0px 0px;
     padding: 25px 0px 25px 0px;
     font-size: 36px;
@@ -374,21 +442,18 @@
     -webkit-font-smoothing: antialiased;
   }
 
+  @media screen and (max-width: 1200px) {
+  }
 
 
-
-
-  @media screen and (max-width: 1200px) {}
-
-
-  .j8et3 {
+  .psuco {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .j8et3body {
+  .psucobody {
     width: var(--max);
     display: grid;
     gap: 20px;
@@ -398,7 +463,7 @@
     /* Center all grid items */
   }
 
-  .j8et3bodyitem {
+  .psucobodyitem {
     position: relative;
     background-color: #ffffff;
     border-radius: 10px;
@@ -413,14 +478,14 @@
     justify-content: center;
   }
 
-  .j8et3bodyitem:hover {
+  .psucobodyitem:hover {
     transform: scale(1.05);
     /* Zoom effect */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   }
 
-  .j8et3bodyitemimg {
-    aspect-ratio: 2 / 1;
+  .psucobodyitemimg {
+    aspect-ratio: 3 / 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -429,30 +494,34 @@
     margin-bottom: 10px;
   }
 
-  .j8et3bodyitemimg img {
+  .psucobodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* Cover the entire area */
   }
 
-  .j8et3bodyitemtitle {
+  .psucobodyitemtitle {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
     font-weight: 600;
     color: #444;
     font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
   }
 
   @media screen and (max-width: 1024px) {
-    .j8et3body {
+    .psucobody {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media screen and (max-width: 768px) {
-    .j8et3body {
+    .psucobody {
       grid-template-columns: repeat(2, 1fr);
     }
   }
@@ -474,6 +543,7 @@
     z-index: 10000;
     padding-right: 20px;
   }
+
   .whatsappicon {
     width: 40px;
     height: 40px;

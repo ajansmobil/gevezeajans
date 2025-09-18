@@ -1,0 +1,306 @@
+{
+  "name": "Geveze Etkisi",
+  "path": "gevezeetkisi",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Bina Asansörleri"
+      },
+      "status": "play",
+      "category": "",
+      "id": "bina-asansorleri",
+      "externalUrl": "",
+      "path": "bina-asansorleri",
+      "keyword": {
+        "tr": "Bina asansörleri, asansör reklamı, apartman asansörü, Gaziantep asansör reklamı"
+      },
+      "description": {
+        "tr": "Gaziantep'te bina asansörlerinde reklam alanları. Doğrudan hedef kitleye ulaşım için etkili reklam çözümleri."
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Bina Asansörleri Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Reklam sizleri hedeflerinize yakınlaştırmak için araç niteliğindedir. Reklam vermeyen şirketler genel olarak pazarlama elemanları çalıştırmaktadır ve bu elemanların yeterli sayıda olması gerekmektedir. Asansör reklamları, personel maliyetinden daha uygun ve etkili bir çözüm sunar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Haftalık hedef kitlemiz 100-400 bin kişiye ulaşmaktadır. Caddeye renk katıyoruz, boyamıyoruz dijital baskı ile yaratıcı kampanyalar ile gözleri dolduruyoruz.\n    </p>"
+      },
+      "spot": {
+        "tr": "Haftalık Hedef Kitle: 100-400 Bin Kişi"
+      },
+      "index": 0,
+      "icon": "home",
+      "bgimg": "v8rqn.webp",
+      "img": "vj2u6.webp",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Cadde Duvarları"
+      },
+      "status": "play",
+      "category": "",
+      "id": "cadde-duvarlari",
+      "externalUrl": "",
+      "path": "cadde-duvarlari",
+      "keyword": {
+        "tr": "Cadde duvarları, outdoor reklam, duvar reklamı, Gaziantep duvar reklamı"
+      },
+      "description": {
+        "tr": "Gaziantep'te cadde duvarlarında reklam alanları. Şehrin en işlek noktalarında yüksek görünürlük sağlayan reklam çözümleri."
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Cadde Duvarları Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Cadde duvarları, şehrin en işlek noktalarında yer alan ve yüksek görünürlük sağlayan reklam alanlarıdır. Yaya ve araç trafiğinin yoğun olduğu bölgelerde konumlandırılmış olan bu alanlar, markanızın hedef kitlesine ulaşmasını sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Dijital baskı teknolojisi ile yüksek kaliteli görseller kullanılarak hazırlanan reklamlar, uzun süre dayanıklı ve etkileyici bir görünüm sunar. Haftalık hedef kitlemiz 200-500 bin kişiye ulaşmaktadır.\n    </p>"
+      },
+      "spot": {
+        "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
+      },
+      "index": 1,
+      "icon": "home",
+      "bgimg": "dq34n.webp",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Toplu Taşıma"
+      },
+      "status": "play",
+      "category": "",
+      "id": "toplu-tasima",
+      "externalUrl": "",
+      "path": "toplu-tasima",
+      "keyword": {
+        "tr": "Toplu taşıma reklamı, otobüs reklamı, tramvay reklamı, Gaziantep toplu taşıma reklamı"
+      },
+      "description": {
+        "tr": "Gaziantep'te toplu taşıma araçlarında reklam alanları. Belediye otobüsü, halk otobüsü, dolmuş, tramvay ve taksilerde reklam çözümleri."
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Toplu Taşıma Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Toplu taşıma araçları, şehrin her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Belediye otobüsleri, halk otobüsleri, dolmuşlar, tramvaylar ve taksiler üzerinde yer alan reklamlar, hedef kitlenize sürekli ve etkili bir şekilde ulaşmanızı sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar. Haftalık hedef kitlemiz 300-600 bin kişiye ulaşmaktadır.\n    </p>"
+      },
+      "spot": {
+        "tr": "Haftalık Hedef Kitle: 300-600 Bin Kişi"
+      },
+      "index": 2,
+      "icon": "home",
+      "bgimg": "tt1kc.webp",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Organize Sanayi"
+      },
+      "status": "play",
+      "category": "",
+      "id": "organize-sanayi",
+      "externalUrl": "",
+      "path": "organize-sanayi",
+      "keyword": {
+        "tr": "Organize Sanayi Bölgesi, OSB reklamı, sanayi reklamı, Gaziantep OSB reklamı"
+      },
+      "description": {
+        "tr": "Gaziantep Organize Sanayi Bölgesi'nde reklam alanları. İş dünyasına yönelik hedef kitleye ulaşım için etkili reklam çözümleri."
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Organize Sanayi Bölgesi Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Organize Sanayi Bölgesi, şehrin en önemli üretim ve ticaret merkezlerinden biridir. Bu bölgede yer alan reklam alanları, iş dünyasına yönelik hedef kitlenize ulaşmanızı sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Organize sanayi bölgesi, iş verenlerin ve işçilerin uğrak olarak mecburi duraklarından biridir. Her gün geçiş yapılan ve sürekliliği olan noktalarda bulunan reklamlar şirketinize pozitif etki bırakır. Haftalık hedef kitlemiz 150-300 bin kişiye ulaşmaktadır.\n    </p>"
+      },
+      "spot": {
+        "tr": "Haftalık Hedef Kitle: 150-300 Bin Kişi"
+      },
+      "index": 3,
+      "icon": "home",
+      "bgimg": "pbu3e.webp",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Havalimanı"
+      },
+      "status": "play",
+      "category": "",
+      "id": "havalimani",
+      "externalUrl": "",
+      "path": "havalimani",
+      "keyword": {
+        "tr": "Havalimanı reklamı, GZT Havalimanı, havaalanı reklamı, Gaziantep havalimanı reklamı"
+      },
+      "description": {
+        "tr": "Gaziantep Havalimanı'nda reklam alanları. Seyahat eden ve iş dünyasına yönelik hedef kitleye ulaşım için prestijli reklam çözümleri."
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Havalimanı Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Gaziantep Havalimanı, şehrin en önemli ulaşım merkezlerinden biridir. Bu bölgede yer alan reklam alanları, seyahat eden ve iş dünyasına yönelik hedef kitlenize ulaşmanızı sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Havalimanı reklamları, prestijli ve yüksek profilli bir kitleye ulaşmak için idealdir. Marka imajını güçlendirir ve seçkin hedef kitleye doğrudan ulaşım sağlar. Haftalık hedef kitlemiz 50-100 bin kişiye ulaşmaktadır.\n    </p>"
+      },
+      "spot": {
+        "tr": "Haftalık Hedef Kitle: 50-100 Bin Kişi"
+      },
+      "index": 4,
+      "icon": "home",
+      "bgimg": "vz1kc.webp",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "AVM Reklamları"
+      },
+      "status": "play",
+      "category": "",
+      "id": "avm-reklamlari",
+      "externalUrl": "",
+      "path": "avm-reklamlari",
+      "keyword": {
+        "tr": "AVM reklamı, alışveriş merkezi reklamı, Forum AVM, M1 AVM, Primemall, Sanko Park"
+      },
+      "description": {
+        "tr": "Gaziantep'te AVM'lerde reklam alanları. Forum AVM, M1 AVM, Primemall ve Sanko Park'ta alışveriş yapan hedef kitleye ulaşım için etkili reklam çözümleri."
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">AVM Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        AVM'ler, şehrin en önemli alışveriş ve sosyal yaşam merkezleridir. Bu bölgelerde yer alan reklam alanları, alışveriş yapan ve sosyal aktivitelere katılan hedef kitlenize ulaşmanızı sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Kitlenizin alışveriş alışkanlıkları sizleri AVM koridorlarında yer almaya iter. Her türlü tüketim alışkanlığının olduğu insanların uğrak noktası olan AVM'ler sizlere yeni müşteriler kazandırmanın yanı sıra prestijli bir marka izlenimi verir. Haftalık hedef kitlemiz 200-500 bin kişiye ulaşmaktadır.\n    </p>"
+      },
+      "spot": {
+        "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
+      },
+      "index": 5,
+      "icon": "home",
+      "bgimg": "avm1kc.webp",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Iconova Cadde"
+      },
+      "status": "play",
+      "category": "",
+      "id": "iconova-cadde",
+      "externalUrl": "",
+      "path": "iconova-cadde",
+      "keyword": {
+        "tr": "Iconova Cadde, alışveriş caddesi, Primemall, Iconova, Gaziantep cadde reklamı"
+      },
+      "description": {
+        "tr": "Gaziantep Iconova Cadde'de reklam alanları. Alışveriş ve sosyal yaşam merkezinde hedef kitleye ulaşım için etkili reklam çözümleri."
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Iconova Cadde Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Iconova Cadde, şehrin en önemli alışveriş ve sosyal yaşam merkezlerinden biridir. Bu bölgede yer alan reklam alanları, alışveriş yapan ve sosyal aktivitelere katılan hedef kitlenize ulaşmanızı sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Caddenin kralı olmak için bende varım diyorsan. Cadde Direkleri, Cadde Billboardlar, Cadde Led Ekran/ Digiboard, Megalight ve CLP ler ile sizi Gaziantep'teki caddelerin lideri konumuna getiriyoruz. Haftalık hedef kitlemiz 150-300 bin kişiye ulaşmaktadır.\n    </p>"
+      },
+      "spot": {
+        "tr": "Haftalık Hedef Kitle: 150-300 Bin Kişi"
+      },
+      "index": 6,
+      "icon": "home",
+      "bgimg": "j59t6.webp",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Sinema Reklamları"
+      },
+      "status": "play",
+      "category": "",
+      "id": "sinema-reklamlari",
+      "externalUrl": "",
+      "path": "sinema-reklamlari",
+      "keyword": {
+        "tr": "Sinema reklamı, film öncesi reklam, Gaziantep sinema reklamı"
+      },
+      "description": {
+        "tr": "Gaziantep'te sinema salonlarında reklam alanları. Film öncesi ve aralarda gösterilen reklamlar ile genç ve aile hedef kitleye ulaşım."
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Sinema Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Sinema salonlarında gösterim öncesi veya aralarda reklam yayınlanır. Hedef kitle; gençler, aileler ve şehirdeki sosyal yaşamı takip edenlerdir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Sinema reklamları, izleyicinin dikkatinin en yüksek olduğu anda gösterilir. Marka bilinirliği ve prestij için etkilidir. Hedef kitleye doğrudan ulaşım, yüksek etkileşim ve akılda kalıcılık sağlar.\n    </p>"
+      },
+      "spot": {
+        "tr": "Yüksek Görünürlük ve Prestij"
+      },
+      "index": 7,
+      "icon": "home",
+      "bgimg": "sinema1kc.webp",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Pano Reklamları"
+      },
+      "status": "play",
+      "category": "",
+      "id": "pano-reklamlari",
+      "externalUrl": "",
+      "path": "pano-reklamlari",
+      "keyword": {
+        "tr": "Pano reklamı, billboard, Gaziantep pano reklamı"
+      },
+      "description": {
+        "tr": "Gaziantep'te şehir içi ve ana arterlerde büyük panolarda reklam alanları. Yüksek görünürlük sağlayan reklam çözümleri."
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Pano Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Şehir içi ve ana arterlerde büyük panolar. Hedef kitle; araç ve yaya trafiği. Panolar, geniş kitlelere ulaşmak için idealdir. Marka mesajı kısa ve net olmalıdır.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Şehirde sürekli görünürlük ve marka bilinirliği sağlar. Geniş erişim, sürekli görünürlük ve hızlı mesaj iletimi avantajları sunar.\n    </p>"
+      },
+      "spot": {
+        "tr": "Geniş Erişim ve Sürekli Görünürlük"
+      },
+      "index": 8,
+      "icon": "home",
+      "bgimg": "pano1kc.webp",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Özel Uygulama Billboard"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ozel-uygulama-billboard",
+      "externalUrl": "",
+      "path": "ozel-uygulama-billboard",
+      "keyword": {
+        "tr": "Özel uygulama billboard, 3D billboard, hareketli billboard, Gaziantep özel billboard"
+      },
+      "description": {
+        "tr": "Gaziantep'te standart dışı, yaratıcı billboard uygulamaları. Dikkat çekmek isteyen markalar için özel tasarımlı reklam çözümleri."
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Özel Uygulama Billboard Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Standart dışı, yaratıcı billboard uygulamaları. Hedef kitle; dikkat çekmek isteyen markalar. 3D, hareketli veya ışıklı özel tasarımlar ile fark yaratılır.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Dikkat çekicilik, viral etki ve marka imajı güçlendirme sağlar. Yüksek etkileşim ve sosyal medyada paylaşılabilirlik avantajları sunar.\n    </p>"
+      },
+      "spot": {
+        "tr": "Yüksek Etkileşim ve Viral Potansiyel"
+      },
+      "index": 9,
+      "icon": "home",
+      "bgimg": "ozel1kc.webp",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Üniversite Reklamları"
+      },
+      "status": "play",
+      "category": "",
+      "id": "universite-reklamlari",
+      "externalUrl": "",
+      "path": "universite-reklamlari",
+      "keyword": {
+        "tr": "Üniversite reklamı, kampüs reklamı, Gaziantep üniversite reklamı"
+      },
+      "description": {
+        "tr": "Gaziantep'te üniversite kampüslerinde reklam alanları. Genç ve dinamik hedef kitleye ulaşım için etkili reklam çözümleri."
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Üniversite Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Üniversite kampüslerinde pano, afiş ve dijital ekranlar. Hedef kitle; öğrenciler ve akademik personel. Genç ve dinamik kitleye ulaşmak için idealdir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Marka gençleşmesi ve yeni müşteri kazanımı sağlar. Hedefli iletişim ve yenilikçi imaj avantajları sunar.\n    </p>"
+      },
+      "spot": {
+        "tr": "Genç ve Dinamik Hedef Kitle"
+      },
+      "index": 10,
+      "icon": "home",
+      "bgimg": "uni1kc.webp",
+      "desc": {}
+    }
+  ],
+  "index": 5,
+  "desing": {
+    "header": [],
+    "body": [
+      "whxr63"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": false,
+    "bgimg": true
+  }
+}

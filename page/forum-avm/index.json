@@ -1,0 +1,31 @@
+{
+  "name": {
+    "tr": "Forum AVM"
+  },
+  "status": "play",
+  "category": "",
+  "id": "forum-avm",
+  "externalUrl": "",
+  "path": "forum-avm",
+  "keyword": {
+    "tr": "Forum AVM, alışveriş merkezi, Gaziantep AVM"
+  },
+  "description": {
+    "tr": "Forum AVM reklam noktası - Şehrin en prestijli alışveriş merkezlerinden biri"
+  },
+  "text": {
+    "tr": "Forum AVM, şehrin en prestijli alışveriş merkezlerinden biri olarak, markanızın değerini artırır ve geniş bir müşteri kitlesine ulaşmanızı sağlar. Dijital ekran, billboard ve otopark gibi alanlarda reklam verilebilir."
+  },
+  "spot": {
+    "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
+  },
+  "index": 1,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "icon": "home",
+  "desc": {},
+  "img": "okfc7.jpg"
+}

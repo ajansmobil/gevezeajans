@@ -1,0 +1,144 @@
+{
+  "name": "Açık Hava",
+  "path": "services",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Iconova Cadde"
+      },
+      "status": "play",
+      "category": "cadde",
+      "id": "iconova-cadde",
+      "externalUrl": "",
+      "path": "iconova-cadde",
+      "keyword": {
+        "tr": "Iconova Cadde, alışveriş caddesi"
+      },
+      "description": {
+        "tr": "Iconova Cadde reklam noktası"
+      },
+      "text": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 0,
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Havalimanı"
+      },
+      "status": "play",
+      "category": "havalimani",
+      "id": "havalimani",
+      "externalUrl": "",
+      "path": "havalimani",
+      "keyword": {
+        "tr": "Havalimanı, havaalanı"
+      },
+      "description": {
+        "tr": "Havalimanı reklam noktası"
+      },
+      "text": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 1,
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Organize Sanayi Bölgesi"
+      },
+      "status": "play",
+      "category": "sanayi",
+      "id": "organize-sanayi",
+      "externalUrl": "",
+      "path": "organize-sanayi-bolgesi",
+      "keyword": {
+        "tr": "Organize Sanayi Bölgesi, OSB"
+      },
+      "description": {
+        "tr": "Organize Sanayi Bölgesi reklam noktası"
+      },
+      "text": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 2,
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Cadde Duvarları"
+      },
+      "status": "play",
+      "category": "cadde",
+      "id": "cadde-duvarlari",
+      "externalUrl": "",
+      "path": "cadde-duvarlari",
+      "keyword": {
+        "tr": "Cadde duvarları, outdoor reklam"
+      },
+      "description": {
+        "tr": "Cadde duvarları reklam noktası"
+      },
+      "text": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 3,
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Bina Asansörleri"
+      },
+      "status": "play",
+      "category": "asansor",
+      "id": "bina-asansorleri",
+      "externalUrl": "",
+      "path": "bina-asansorleri",
+      "keyword": {
+        "tr": "Bina asansörleri, asansör reklamı"
+      },
+      "description": {
+        "tr": "Bina asansörleri reklam noktası"
+      },
+      "text": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 4,
+      "icon": "home",
+      "desc": {}
+    }
+  ],
+  "index": 1,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "detail": true,
+    "bgimg": true,
+    "img": true,
+    "body": true
+  }
+}

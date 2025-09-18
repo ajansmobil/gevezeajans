@@ -1,0 +1,26 @@
+{
+  "name": {
+    "tr": "Belediye Otobüsü"
+  },
+  "status": "play",
+  "category": "",
+  "id": "belediye-otobusu",
+  "externalUrl": "",
+  "path": "belediye-otobusu",
+  "keyword": {
+    "tr": "Belediye otobüsü, toplu taşıma, Gaziantep belediye otobüsü"
+  },
+  "description": {
+    "tr": "Belediye otobüsleri reklam noktası - Şehrin her noktasına ulaşan önemli reklam mecrası"
+  },
+  "text": {
+    "tr": "Belediye otobüsleri, şehrin her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Araç giydirme ve iç alan reklamları ile geniş kitleye ulaşılır. Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar."
+  },
+  "spot": {
+    "tr": "Haftalık Hedef Kitle: 300-600 Bin Kişi"
+  },
+  "index": 0,
+  "icon": "home",
+  "desc": {},
+  "img": "jchrz.jpg"
+}

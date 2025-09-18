@@ -1,5 +1,5 @@
 
-  .ialss {
+  .daxva {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ialsstitle {
+  .daxvatitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ialsstitlebody {
+  .daxvatitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ialsstitlebodytitle {
+  .daxvatitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ialsstitlebodylang {
+  .daxvatitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ialsstitlebodylang ul {
+  .daxvatitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ialssbody {
+  .daxvabody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ialssmenu {
+  .daxvamenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ialssmenulist {
+  .daxvamenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ialssmenubody {
+  .daxvamenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .ialssmenulist ul {
+  .daxvamenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .ialssmenulist ul a {
+  .daxvamenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,26 @@
     white-space: nowrap;
   }
 
-  .ialssmenulist ul a:hover {
+  .daxvamenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ialssmenulistactive {
+  .daxva-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .ialssmenulistbody {
+  .daxvamenulistbody {
     width: 100%;
   }
 
-
   @media screen and (min-width: 1024px) {
-    .ialssbodylogo {
+    .daxvabodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +120,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ialssmenu {
+    .daxvamenu {
       overflow-x: auto;
     }
 
-    .ialssmenulist ul {
+    .daxvamenulist ul {
       flex-direction: row;
     }
 
-    .ialssbodylogo {
+    .daxvabodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +136,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ialssmenulist ul a {
+    .daxvamenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,42 +145,84 @@
   #content {
     justify-content: start;
   }
-  .kea4p {
-    display: flex;
+
+  .a388h {
     width: var(--max);
     margin-top: 20px;
-    gap: 20px;
-  }
-  .kea4p-menu {
-    width: 220px;
-    background-color: --menubgcolor--;
-    border-radius: 5px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
     gap: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float: left;
+    position: relative;
   }
-  .kea4p-menu > a {
-    background-color: #ffffff;
-    padding: 10px 15px;
+
+  .a388h-menu-btn {
+    display: none;
+    background-color: #000;
+    padding: 10px 20px;
     border-radius: 5px;
-    color: #333;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  .kea4p-menu > a:hover,
-  .kea4p-menu > .active {
-    background-color: #1e3046;
+    cursor: pointer;
+    font-weight: bold;
     color: #fff;
+    justify-content: space-between;
+    align-items: center;
   }
-  .kea4p-body {
-    flex: 1;
+
+  .a388h-menu-btn i {
+    font-size: 20px;
+  }
+
+  .a388h-menu {
+    width: 200px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 5px;
+    float: left;
   }
-  .kea4p-title {
+
+  .a388h-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    float: right;
+  }
+
+  .a388h-menu > a {
+    background-color: #fff;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+  }
+
+  .a388h-menu > .active,
+  .a388h-menu > a:hover {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+  }
+
+  .a388h-desc-menu {
+    width: 200px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+
+  .a388h-desc-menu > div {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 5px;
+  }
+
+  .a388h-desc-body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .a388h-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -193,7 +234,8 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .kea4p-title::before {
+
+  .a388h-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,22 +249,78 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .kea4p-title span {
+
+  .a388h-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
-  @media screen and (max-width: 1024px) {
-    .kea4p {
-      flex-direction: column;
-      width: calc(100% - 10px);
-      padding: 5px;
+
+  .a388h-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+
+  .a388h-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(var(--max) - 460px);
+  }
+
+  .a388h-img img {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .a388h-desc {
+      width: calc(var(--max) - 240px);
     }
-    .kea4p-menu {
+  }
+
+  @media screen and (max-width: 1024px) {
+    .a388h-menu-btn {
+      display: flex;
+      width: calc(100% - 55px);
+      margin-left: 5px;
+    }
+
+    .a388h {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 5px;
+      gap: 5px;
+      margin-top: 0px;
+    }
+
+    .a388h-img {
+      width: 100%;
+    }
+
+    .a388h-body {
+      width: 100%;
+      order: 3;
+      padding: 10px;
+    }
+
+    .a388h-menu {
+      width: 100%;
+      float: none;
+      flex-direction: column;
+      order: 1;
       display: none;
     }
-    .kea4p-body {
-      width: 100%;
+
+    .a388h-menu.active {
+      display: flex;
+    }
+
+    .a388h-desc {
+      width: 100% !important;
+      order: 2;
     }
   }
 
@@ -243,6 +341,7 @@
     z-index: 10000;
     padding-right: 20px;
   }
+
   .whatsappicon {
     width: 40px;
     height: 40px;

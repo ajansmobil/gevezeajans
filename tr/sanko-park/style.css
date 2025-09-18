@@ -1,5 +1,5 @@
 
-  .s4dwa {
+  .ye00g {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .s4dwatitle {
+  .ye00gtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .s4dwatitlebody {
+  .ye00gtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .s4dwatitlebodytitle {
+  .ye00gtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .s4dwatitlebodylang {
+  .ye00gtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .s4dwatitlebodylang ul {
+  .ye00gtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .s4dwabody {
+  .ye00gbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .s4dwamenu {
+  .ye00gmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .s4dwamenulist {
+  .ye00gmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .s4dwamenubody {
+  .ye00gmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .s4dwamenulist ul {
+  .ye00gmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .s4dwamenulist ul a {
+  .ye00gmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,26 @@
     white-space: nowrap;
   }
 
-  .s4dwamenulist ul a:hover {
+  .ye00gmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .s4dwamenulistactive {
+  .ye00g-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .s4dwamenulistbody {
+  .ye00gmenulistbody {
     width: 100%;
   }
 
-
   @media screen and (min-width: 1024px) {
-    .s4dwabodylogo {
+    .ye00gbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +120,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .s4dwamenu {
+    .ye00gmenu {
       overflow-x: auto;
     }
 
-    .s4dwamenulist ul {
+    .ye00gmenulist ul {
       flex-direction: row;
     }
 
-    .s4dwabodylogo {
+    .ye00gbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,78 +136,191 @@
   }
 
   @media screen and (max-width: 768px) {
-    .s4dwamenulist ul a {
+    .ye00gmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .j2iep {
+  #content {
+    justify-content: start;
+  }
+
+  .vh6wx {
+    width: var(--max);
+    margin-top: 20px;
+    gap: 10px;
+    float: left;
+    position: relative;
+  }
+
+  .vh6wx-menu-btn {
+    display: none;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .vh6wx-menu-btn i {
+    font-size: 20px;
+  }
+
+  .vh6wx-menu {
+    width: 200px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    float: left;
+  }
+
+  .vh6wx-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    float: right;
+  }
+
+  .vh6wx-menu > a {
+    background-color: #fff;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+  }
+
+  .vh6wx-menu > .active,
+  .vh6wx-menu > a:hover {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+  }
+
+  .vh6wx-desc-menu {
+    width: 200px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+
+  .vh6wx-desc-menu > div {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 5px;
+  }
+
+  .vh6wx-desc-body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .vh6wx-title {
     width: 100%;
-    margin: 30px 0px 30px 0px;
+    height: 200px;
+    background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-  }
-  .j2iepcontainertitle {
-    font-size: 28px;
+    color: #fff;
     font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .j2iepcontainerlist {
-    padding: 10px;
+
+  .vh6wx-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/page/sanko-park/bg/{{bgimg}}");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  .vh6wx-title span {
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+  }
+
+  .vh6wx-body {
     display: flex;
-    border-radius: 8px;
-    border-bottom: solid 1px #ddd;
-    gap: 20px;
-    transition: background-color 0.3s ease;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
   }
-  .j2iepcontainerlist > div {
+
+  .vh6wx-img {
     display: flex;
     align-items: center;
-    font-size: 20px;
-    color: #444;
+    justify-content: center;
+    width: calc(var(--max) - 460px);
   }
-  .j2iepcontainerlist:hover {
-    background-color: #f9f9f9;
-    border-bottom-color: #1e3046;
+
+  .vh6wx-img img {
+    width: 100%;
   }
-  .j2iepcontainer {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 20px;
-  }
-  .j2iepcontainerbody {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  .j2iepbody {
-    width: calc(var(--max) - 40px);
-    background-color: #ebebeb;
-    border: 1px solid #dedede;
-    border-radius: 10px;
-    padding: 20px;
-  }
-  .j2iepcontainerlist > span {
-    font-size: 24px;
-    color: #1e3046;
-  }
-  @media screen and (max-width: 1024px) {
-    .j2iepbody {
-      width: 100%;
-      padding: 20px;
-      flex-direction: column;
+
+  @media screen and (min-width: 1024px) {
+    .vh6wx-desc {
+      width: calc(var(--max) - 240px);
     }
-    .j2iepcontainerbody {
-      padding: 15px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .vh6wx-menu-btn {
+      display: flex;
+      width: calc(100% - 55px);
+      margin-left: 5px;
+    }
+
+    .vh6wx {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 5px;
+      gap: 5px;
+      margin-top: 0px;
+    }
+
+    .vh6wx-img {
+      width: 100%;
+    }
+
+    .vh6wx-body {
+      width: 100%;
+      order: 3;
+      padding: 10px;
+    }
+
+    .vh6wx-menu {
+      width: 100%;
+      float: none;
+      flex-direction: column;
+      order: 1;
+      display: none;
+    }
+
+    .vh6wx-menu.active {
+      display: flex;
+    }
+
+    .vh6wx-desc {
+      width: 100% !important;
+      order: 2;
     }
   }
 
@@ -229,6 +341,7 @@
     z-index: 10000;
     padding-right: 20px;
   }
+
   .whatsappicon {
     width: 40px;
     height: 40px;

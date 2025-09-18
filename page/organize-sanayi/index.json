@@ -1,0 +1,31 @@
+{
+  "name": {
+    "tr": "Organize Sanayi Bölgesi"
+  },
+  "status": "play",
+  "category": "",
+  "id": "organize-sanayi",
+  "externalUrl": "",
+  "path": "organize-sanayi-bolgesi",
+  "keyword": {
+    "tr": "Organize Sanayi Bölgesi, OSB, sanayi reklamı"
+  },
+  "description": {
+    "tr": "Organize Sanayi Bölgesi reklam noktası - İş dünyasına yönelik hedef kitleye ulaşım"
+  },
+  "text": {
+    "tr": "Organize Sanayi Bölgesi, şehrin en önemli üretim ve ticaret merkezlerinden biridir. Bu bölgede yer alan reklam alanları, iş dünyasına yönelik hedef kitlenize ulaşmanızı sağlar. Dijital baskı teknolojisi ile yüksek kaliteli görseller kullanılarak hazırlanan reklamlar, uzun süre dayanıklı ve etkileyici bir görünüm sunar."
+  },
+  "spot": {
+    "tr": "Haftalık Hedef Kitle: 150-300 Bin Kişi"
+  },
+  "index": 2,
+  "icon": "home",
+  "desc": {},
+  "img": "w332x.jpg",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  }
+}

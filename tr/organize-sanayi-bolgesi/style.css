@@ -1,5 +1,5 @@
 
-  .xpoo9 {
+  .ia0wo {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .xpoo9title {
+  .ia0wotitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .xpoo9titlebody {
+  .ia0wotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .xpoo9titlebodytitle {
+  .ia0wotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .xpoo9titlebodylang {
+  .ia0wotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .xpoo9titlebodylang ul {
+  .ia0wotitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .xpoo9body {
+  .ia0wobody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .xpoo9menu {
+  .ia0womenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .xpoo9menulist {
+  .ia0womenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .xpoo9menubody {
+  .ia0womenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .xpoo9menulist ul {
+  .ia0womenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .xpoo9menulist ul a {
+  .ia0womenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,26 @@
     white-space: nowrap;
   }
 
-  .xpoo9menulist ul a:hover {
+  .ia0womenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .xpoo9menulistactive {
+  .ia0wo-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .xpoo9menulistbody {
+  .ia0womenulistbody {
     width: 100%;
   }
 
-
   @media screen and (min-width: 1024px) {
-    .xpoo9bodylogo {
+    .ia0wobodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +120,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .xpoo9menu {
+    .ia0womenu {
       overflow-x: auto;
     }
 
-    .xpoo9menulist ul {
+    .ia0womenulist ul {
       flex-direction: row;
     }
 
-    .xpoo9bodylogo {
+    .ia0wobodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,8 +136,191 @@
   }
 
   @media screen and (max-width: 768px) {
-    .xpoo9menulist ul a {
+    .ia0womenulist ul a {
       font-size: 14px;
+    }
+  }
+
+
+  #content {
+    justify-content: start;
+  }
+
+  .zlzka {
+    width: var(--max);
+    margin-top: 20px;
+    gap: 10px;
+    float: left;
+    position: relative;
+  }
+
+  .zlzka-menu-btn {
+    display: none;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .zlzka-menu-btn i {
+    font-size: 20px;
+  }
+
+  .zlzka-menu {
+    width: 200px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    float: left;
+  }
+
+  .zlzka-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    float: right;
+  }
+
+  .zlzka-menu > a {
+    background-color: #fff;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+  }
+
+  .zlzka-menu > .active,
+  .zlzka-menu > a:hover {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+  }
+
+  .zlzka-desc-menu {
+    width: 200px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+
+  .zlzka-desc-menu > div {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 5px;
+  }
+
+  .zlzka-desc-body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .zlzka-title {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .zlzka-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/page/organize-sanayi/bg/{{bgimg}}");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  .zlzka-title span {
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+  }
+
+  .zlzka-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+
+  .zlzka-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(var(--max) - 460px);
+  }
+
+  .zlzka-img img {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .zlzka-desc {
+      width: calc(var(--max) - 240px);
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .zlzka-menu-btn {
+      display: flex;
+      width: calc(100% - 55px);
+      margin-left: 5px;
+    }
+
+    .zlzka {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 5px;
+      gap: 5px;
+      margin-top: 0px;
+    }
+
+    .zlzka-img {
+      width: 100%;
+    }
+
+    .zlzka-body {
+      width: 100%;
+      order: 3;
+      padding: 10px;
+    }
+
+    .zlzka-menu {
+      width: 100%;
+      float: none;
+      flex-direction: column;
+      order: 1;
+      display: none;
+    }
+
+    .zlzka-menu.active {
+      display: flex;
+    }
+
+    .zlzka-desc {
+      width: 100% !important;
+      order: 2;
     }
   }
 
@@ -159,6 +341,7 @@
     z-index: 10000;
     padding-right: 20px;
   }
+
   .whatsappicon {
     width: 40px;
     height: 40px;

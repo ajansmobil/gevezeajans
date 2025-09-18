@@ -1,5 +1,5 @@
 
-  .oucbk {
+  .lfjtx {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .oucbktitle {
+  .lfjtxtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .oucbktitlebody {
+  .lfjtxtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .oucbktitlebodytitle {
+  .lfjtxtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .oucbktitlebodylang {
+  .lfjtxtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .oucbktitlebodylang ul {
+  .lfjtxtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .oucbkbody {
+  .lfjtxbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .oucbkmenu {
+  .lfjtxmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .oucbkmenulist {
+  .lfjtxmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .oucbkmenubody {
+  .lfjtxmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .oucbkmenulist ul {
+  .lfjtxmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .oucbkmenulist ul a {
+  .lfjtxmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,26 @@
     white-space: nowrap;
   }
 
-  .oucbkmenulist ul a:hover {
+  .lfjtxmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .oucbkmenulistactive {
+  .lfjtx-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .oucbkmenulistbody {
+  .lfjtxmenulistbody {
     width: 100%;
   }
 
-
   @media screen and (min-width: 1024px) {
-    .oucbkbodylogo {
+    .lfjtxbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +120,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .oucbkmenu {
+    .lfjtxmenu {
       overflow-x: auto;
     }
 
-    .oucbkmenulist ul {
+    .lfjtxmenulist ul {
       flex-direction: row;
     }
 
-    .oucbkbodylogo {
+    .lfjtxbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,8 +136,191 @@
   }
 
   @media screen and (max-width: 768px) {
-    .oucbkmenulist ul a {
+    .lfjtxmenulist ul a {
       font-size: 14px;
+    }
+  }
+
+
+  #content {
+    justify-content: start;
+  }
+
+  .w55lp {
+    width: var(--max);
+    margin-top: 20px;
+    gap: 10px;
+    float: left;
+    position: relative;
+  }
+
+  .w55lp-menu-btn {
+    display: none;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .w55lp-menu-btn i {
+    font-size: 20px;
+  }
+
+  .w55lp-menu {
+    width: 200px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    float: left;
+  }
+
+  .w55lp-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    float: right;
+  }
+
+  .w55lp-menu > a {
+    background-color: #fff;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+  }
+
+  .w55lp-menu > .active,
+  .w55lp-menu > a:hover {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+  }
+
+  .w55lp-desc-menu {
+    width: 200px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+
+  .w55lp-desc-menu > div {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 5px;
+  }
+
+  .w55lp-desc-body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .w55lp-title {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .w55lp-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/page/belediye-otobusu/bg/{{bgimg}}");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  .w55lp-title span {
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+  }
+
+  .w55lp-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+
+  .w55lp-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(var(--max) - 460px);
+  }
+
+  .w55lp-img img {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .w55lp-desc {
+      width: calc(var(--max) - 240px);
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .w55lp-menu-btn {
+      display: flex;
+      width: calc(100% - 55px);
+      margin-left: 5px;
+    }
+
+    .w55lp {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 5px;
+      gap: 5px;
+      margin-top: 0px;
+    }
+
+    .w55lp-img {
+      width: 100%;
+    }
+
+    .w55lp-body {
+      width: 100%;
+      order: 3;
+      padding: 10px;
+    }
+
+    .w55lp-menu {
+      width: 100%;
+      float: none;
+      flex-direction: column;
+      order: 1;
+      display: none;
+    }
+
+    .w55lp-menu.active {
+      display: flex;
+    }
+
+    .w55lp-desc {
+      width: 100% !important;
+      order: 2;
     }
   }
 
@@ -159,6 +341,7 @@
     z-index: 10000;
     padding-right: 20px;
   }
+
   .whatsappicon {
     width: 40px;
     height: 40px;

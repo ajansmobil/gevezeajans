@@ -1,0 +1,26 @@
+{
+  "name": {
+    "tr": "Dolmuş"
+  },
+  "status": "play",
+  "category": "",
+  "id": "dolmus",
+  "externalUrl": "",
+  "path": "dolmus",
+  "keyword": {
+    "tr": "Dolmuş, toplu taşıma, Gaziantep dolmuş"
+  },
+  "description": {
+    "tr": "Dolmuş araçları reklam noktası - Şehrin her noktasına ulaşan önemli reklam mecrası"
+  },
+  "text": {
+    "tr": "Dolmuşlar, şehrin her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Araç giydirme ve iç alan reklamları ile geniş kitleye ulaşılır. Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar."
+  },
+  "spot": {
+    "tr": "Haftalık Hedef Kitle: 300-600 Bin Kişi"
+  },
+  "index": 2,
+  "icon": "home",
+  "desc": {},
+  "img": "lymkl.jpg"
+}

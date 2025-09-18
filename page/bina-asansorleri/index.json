@@ -1,0 +1,31 @@
+{
+  "name": {
+    "tr": "Bina Asansörleri"
+  },
+  "status": "play",
+  "category": "",
+  "id": "bina-asansorleri",
+  "externalUrl": "",
+  "path": "bina-asansorleri",
+  "keyword": {
+    "tr": "Bina asansörleri, asansör reklamı, apartman asansörü"
+  },
+  "description": {
+    "tr": "Bina asansörleri reklam noktası - Doğrudan hedef kitleye ulaşım"
+  },
+  "text": {
+    "tr": "Reklam sizleri hedeflerinize yakınlaştırmak için araç niteliğindedir. Reklam vermeyen şirketler genel olarak pazarlama elemanları çalıştırmaktadır ve bu elemanların yeterli sayıda olması gerekmektedir. Asansör reklamları, personel maliyetinden daha uygun ve etkili bir çözüm sunar."
+  },
+  "spot": {
+    "tr": "Haftalık Hedef Kitle: 100-400 Bin Kişi"
+  },
+  "index": 4,
+  "icon": "home",
+  "desc": {},
+  "img": "fqufy.jpg",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  }
+}

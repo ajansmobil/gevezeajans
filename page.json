@@ -1,0 +1,183 @@
+{
+  "name": "Sayfalar",
+  "path": "page",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Bizi Tanıyın"
+      },
+      "status": "play",
+      "category": "",
+      "id": "p0ebjrqjlp",
+      "externalUrl": "",
+      "path": "kurumsal",
+      "keyword": {
+        "tr": "Gaziantep reklam ajansı, outdoor reklam, billboard reklam, durak reklamı, toplu taşıma reklamı, AVM reklamı, tabela, reklam stratejisi, marka değeri, prestij"
+      },
+      "description": {
+        "tr": "Gaziantep'in önde gelen reklam ajansı olarak, işletmenizin marka değerini artırmak için profesyonel reklam çözümleri sunuyoruz. Billboard, durak, toplu taşıma ve AVM reklamları ile işletmenizi öne çıkarıyoruz."
+      },
+      "text": {
+        "tr": "İşletmeniz için parlak fikirler sağlıyoruz\nGüneydoğu Anadolu bölgesinde, adından söz ettiren Gaziantep'te bizlerde adınızdan bahsedilmesi, prestij ve marka değerinizin pozitif anlamda yukarı doğru çıkması için doğru stratejiler ve profesyonellikle hareket ediyoruz. Gaziantep'te bulunan Billboardlar, Duraklar, Toplu Ulaşım Araçları, Megaligtlar, CLP'ler, Tramvaylar, Organize sanayi bölgesi Bilboardları, AVM'ler gibi yerlerde ve noktalarda giydirme işlemlerinizin yanı sıra, tabelalarımızda sizlere yer veriyoruz. Adımızdan değil! adınızdan söz ettirilmesi için tüm imkanlarımızı sizlere sunuyoruz."
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [
+          "whxr63"
+        ],
+        "footer": []
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Açıkhava Plus"
+      },
+      "status": "play",
+      "category": "",
+      "id": "i3yhizsx50",
+      "externalUrl": "",
+      "path": "acikhava-plus",
+      "keyword": {
+        "tr": "açıkhava reklam, outdoor reklam çözümleri, billboard reklam, durak reklamı, toplu taşıma reklamı, AVM reklamı, reklam stratejisi, marka tanıtımı"
+      },
+      "description": {
+        "tr": "Açıkhava reklam çözümlerimizle işletmenizi en iyi şekilde tanıtıyoruz. Billboard, durak, toplu taşıma ve AVM reklamları ile markanızı öne çıkarıyoruz."
+      },
+      "text": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 1,
+      "icon": "home",
+      "desc": {},
+      "desing": {
+        "header": [],
+        "body": [
+          "psz7wf",
+          "knsasad",
+          "psz7wf2",
+          "kns0qc",
+          "psz7wf3",
+          "fyyc8f"
+        ],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "Nerelerdeyiz"
+      },
+      "status": "play",
+      "category": "",
+      "id": "tzbap06ji6",
+      "externalUrl": "",
+      "path": "nerelerdeyiz",
+      "keyword": {
+        "tr": "Gaziantep reklam noktaları, billboard lokasyonları, durak reklam noktaları, toplu taşıma reklam alanları, AVM reklam noktaları, reklam lokasyonları"
+      },
+      "description": {
+        "tr": "Gaziantep'in stratejik noktalarında reklam alanlarımızı keşfedin. Billboard, durak, toplu taşıma ve AVM reklam noktalarımızla markanızı en iyi şekilde tanıtın."
+      },
+      "text": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 2,
+      "icon": "home",
+      "desc": {},
+      "desing": {
+        "header": [],
+        "body": [
+          "t9s1b9"
+        ],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "Geveze Etkisi"
+      },
+      "status": "play",
+      "category": "",
+      "id": "oczz1bxg73",
+      "externalUrl": "",
+      "path": "geveze-etkisi",
+      "keyword": {
+        "tr": "reklam etkisi, marka bilinirliği, reklam başarı hikayeleri, reklam kampanyaları, marka tanıtım başarıları, reklam stratejileri"
+      },
+      "description": {
+        "tr": "Geveze Ajans'ın başarılı reklam kampanyaları ve marka tanıtım hikayeleri. Reklam stratejilerimizle işletmenizin bilinirliğini artırıyoruz."
+      },
+      "text": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 3,
+      "icon": "home",
+      "desc": {},
+      "desing": {
+        "header": [],
+        "body": [
+          "piw8zb"
+        ],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "İletişim"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ch1wtfk6ts",
+      "externalUrl": "",
+      "path": "iletisim",
+      "keyword": {
+        "tr": "Gaziantep reklam ajansı iletişim, reklam ajansı telefon, reklam ajansı adres, reklam ajansı iletişim bilgileri, reklam hizmetleri iletişim"
+      },
+      "description": {
+        "tr": "Geveze Ajans ile iletişime geçin. Reklam hizmetlerimiz hakkında bilgi almak ve projeleriniz için teklif almak için bize ulaşın."
+      },
+      "text": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "index": 4,
+      "icon": "home",
+      "desc": {},
+      "desing": {
+        "header": [],
+        "body": [
+          "cu0c57",
+          "i87tyt"
+        ],
+        "footer": []
+      }
+    }
+  ],
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "detail": true,
+    "body": true
+  }
+}

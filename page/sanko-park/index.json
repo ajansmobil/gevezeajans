@@ -1,0 +1,26 @@
+{
+  "name": {
+    "tr": "Sanko Park"
+  },
+  "status": "play",
+  "category": "",
+  "id": "sanko-park",
+  "externalUrl": "",
+  "path": "sanko-park",
+  "keyword": {
+    "tr": "Sanko Park, alışveriş merkezi, Gaziantep AVM"
+  },
+  "description": {
+    "tr": "Sanko Park reklam noktası - Gaziantep'in en uğrak AVM'lerinden biri"
+  },
+  "text": {
+    "tr": "Sanko Park'ta led ekran, billboard, otopark ve WC gibi alanlarda reklam verilebilir. Şehrin en eski ve köklü AVM'lerinden biri olarak, güvenilir ve prestijli bir konumlandırma sağlar. Her yaş grubundan ziyaretçiye ulaşma imkanı sunar."
+  },
+  "spot": {
+    "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
+  },
+  "index": 2,
+  "icon": "home",
+  "desc": {},
+  "img": "bkl4v.jpg"
+}

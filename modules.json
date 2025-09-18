@@ -1,0 +1,381 @@
+{
+  "data": [
+    {
+      "index": 0,
+      "name": "Menü 2",
+      "path": "menu-2",
+      "local": "header",
+      "category": "menu",
+      "desing": {
+        "color": "#000",
+        "page": "page",
+        "size": 4,
+        "number": "905320000000",
+        "name": {
+          "tr": "Hemen Teklif Al"
+        }
+      },
+      "id": "ofbmyq"
+    },
+    {
+      "index": 1,
+      "name": "Slider",
+      "path": "slider",
+      "local": "header",
+      "category": "slider",
+      "data": [
+        {
+          "img": "06.jpg"
+        },
+        {
+          "img": "09.jpg"
+        },
+        {
+          "img": "08.jpg"
+        },
+        {
+          "img": "07.jpg"
+        },
+        {
+          "img": "01.jpg"
+        },
+        {
+          "img": "02.jpg"
+        },
+        {
+          "img": "03.jpg"
+        },
+        {
+          "img": "04.jpg"
+        },
+        {
+          "img": "05.jpg"
+        }
+      ],
+      "id": "abar6m"
+    },
+    {
+      "index": 2,
+      "name": "Footer 1",
+      "path": "footer-1",
+      "local": "footer",
+      "category": "footer",
+      "desing": {
+        "color": "#000000"
+      },
+      "id": "getr5x",
+      "data": []
+    },
+    {
+      "index": 3,
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "desing": {
+        "color": "#1e3046",
+        "name": {
+          "tr": "Bize Ulaşın"
+        },
+        "margin": "30px 0px 30px 0px"
+      },
+      "data": [
+        {
+          "icon": "phone",
+          "text": "0532 505 99 97",
+          "url": "tel:05325059997"
+        },
+        {
+          "icon": "email",
+          "text": "info@{{domain}}"
+        },
+        {
+          "icon": "map",
+          "text": "Atatürk Mah. Süleyman Kamçı Cad. Erdem Apt. No:8/A Şehitkamil / Gaziantep"
+        }
+      ],
+      "id": "cu0c57"
+    },
+    {
+      "name": "Maps",
+      "path": "map",
+      "local": "body",
+      "category": "map",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "backgroundcolor": "#000",
+        "color": "#1e3046",
+        "img": "map.png",
+        "externalUrl": ""
+      },
+      "id": "i87tyt",
+      "index": 4
+    },
+    {
+      "index": 5,
+      "name": "kurumsal",
+      "path": "page-desing-5",
+      "local": "body",
+      "category": "page",
+      "desing": {
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "50",
+        "backgroundcolor": "#000",
+        "category": "kurumsal",
+        "menu-active": "#000"
+      },
+      "id": "whxr63"
+    },
+    {
+      "name": "Whatsapp",
+      "path": "whatsapp",
+      "local": "footer",
+      "category": "contact",
+      "desing": {
+        "number": "905325059997",
+        "name": {
+          "tr": "Bize Ulaşın"
+        },
+        "position": "fixed",
+        "color": "#25D366",
+        "z_index": 10000,
+        "responsive": true
+      },
+      "id": "sr5qzp",
+      "index": 6,
+      "data": []
+    },
+    {
+      "index": 7,
+      "name": "toplutasima",
+      "path": "page-list-2",
+      "local": "body",
+      "category": "page list",
+      "desing": {
+        "page": "toplutasima",
+        "size": 3,
+        "category": "",
+        "aspect-ratio": "3 / 2"
+      },
+      "id": "fyyc8f"
+    },
+    {
+      "index": 8,
+      "name": "avm",
+      "path": "page-list-2",
+      "local": "body",
+      "category": "page list",
+      "desing": {
+        "page": "avm",
+        "size": 2,
+        "category": "",
+        "aspect-ratio": "3 / 2"
+      },
+      "id": "kns0qc"
+    },
+    {
+      "index": 9,
+      "name": "acikhava",
+      "path": "page-list-2",
+      "local": "body",
+      "desing": {
+        "page": "acikhava",
+        "size": 3,
+        "category": "",
+        "aspect-ratio": "3 / 2"
+      },
+      "id": "knsasad",
+      "category": "page list"
+    },
+    {
+      "index": 10,
+      "name": "Açık Hava",
+      "path": "text",
+      "local": "body",
+      "category": "slogan",
+      "desing": {
+        "name": {
+          "tr": "Açık Hava"
+        },
+        "bgcolor": "#F9B200",
+        "bgcolor2": "#000000",
+        "padding": "25px 0px 25px 0px",
+        "margin": "0px 0px 0px 0px",
+        "font-size": "36px",
+        "color": "#fff"
+      },
+      "id": "psz7wf"
+    },
+    {
+      "index": 11,
+      "name": "AVMlerde Reklam",
+      "path": "text",
+      "local": "body",
+      "category": "slogan",
+      "desing": {
+        "name": {
+          "tr": "AVMlerde Reklam"
+        },
+        "bgcolor": "#F9B200",
+        "bgcolor2": "#000000",
+        "padding": "25px 0px 25px 0px",
+        "margin": "15px 0px 0px 0px",
+        "font-size": "36px",
+        "color": "#fff"
+      },
+      "id": "psz7wf2"
+    },
+    {
+      "index": 12,
+      "name": "Gezen Reklam",
+      "path": "text",
+      "local": "body",
+      "category": "slogan",
+      "desing": {
+        "name": {
+          "tr": "Gezen Reklam"
+        },
+        "bgcolor": "#F9B200",
+        "bgcolor2": "#000000",
+        "padding": "25px 0px 25px 0px",
+        "margin": "15px 0px 0px 0px",
+        "font-size": "36px",
+        "color": "#fff"
+      },
+      "id": "psz7wf3"
+    },
+    {
+      "index": 13,
+      "name": "Nerelerdeyiz",
+      "path": "module-list-3",
+      "local": "body",
+      "category": "Module list",
+      "desing": {
+        "size": 4
+      },
+      "data": [
+        {
+          "img": "1.webp"
+        },
+        {
+          "img": "10.webp"
+        },
+        {
+          "img": "11.webp"
+        },
+        {
+          "img": "12.webp"
+        },
+        {
+          "img": "13.webp"
+        },
+        {
+          "img": "14.webp"
+        },
+        {
+          "img": "15.webp"
+        },
+        {
+          "img": "16.webp"
+        },
+        {
+          "img": "17.webp"
+        },
+        {
+          "img": "18.webp"
+        },
+        {
+          "img": "19.webp"
+        },
+        {
+          "img": "2.webp"
+        },
+        {
+          "img": "20.webp"
+        },
+        {
+          "img": "21.webp"
+        },
+        {
+          "img": "22.webp"
+        },
+        {
+          "img": "23.webp"
+        },
+        {
+          "img": "24.webp"
+        },
+        {
+          "img": "25.webp"
+        },
+        {
+          "img": "26.webp"
+        },
+        {
+          "img": "27.webp"
+        },
+        {
+          "img": "28.webp"
+        },
+        {
+          "img": "29.webp"
+        },
+        {
+          "img": "3.webp"
+        },
+        {
+          "img": "30.webp"
+        },
+        {
+          "img": "31.webp"
+        },
+        {
+          "img": "32.webp"
+        },
+        {
+          "img": "33.webp"
+        },
+        {
+          "img": "4.webp"
+        },
+        {
+          "img": "5.webp"
+        },
+        {
+          "img": "6.webp"
+        },
+        {
+          "img": "7.webp"
+        },
+        {
+          "img": "8.webp"
+        },
+        {
+          "img": "9.webp"
+        }
+      ],
+      "id": "t9s1b9"
+    },
+    {
+      "index": 14,
+      "name": "Gevezeetkisi Listesi Column",
+      "path": "page-column-text",
+      "local": "body",
+      "category": "page list",
+      "desing": {
+        "page": "gevezeetkisi",
+        "bgcolor": "#F9B200",
+        "color": "#000",
+        "height": "200px",
+        "font-size": "18px",
+        "opacity": "0.5",
+        "chilebgcolor": "#000",
+        "chilecolor": "#fff",
+        "chilesize": "16px"
+      },
+      "id": "piw8zb"
+    }
+  ]
+}

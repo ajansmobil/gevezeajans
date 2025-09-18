@@ -1,5 +1,5 @@
 
-  .borh9 {
+  .a5x7f {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .borh9title {
+  .a5x7ftitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .borh9titlebody {
+  .a5x7ftitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .borh9titlebodytitle {
+  .a5x7ftitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .borh9titlebodylang {
+  .a5x7ftitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .borh9titlebodylang ul {
+  .a5x7ftitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .borh9body {
+  .a5x7fbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .borh9menu {
+  .a5x7fmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .borh9menulist {
+  .a5x7fmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .borh9menubody {
+  .a5x7fmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .borh9menulist ul {
+  .a5x7fmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .borh9menulist ul a {
+  .a5x7fmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,26 @@
     white-space: nowrap;
   }
 
-  .borh9menulist ul a:hover {
+  .a5x7fmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .borh9menulistactive {
+  .a5x7f-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .borh9menulistbody {
+  .a5x7fmenulistbody {
     width: 100%;
   }
 
-
   @media screen and (min-width: 1024px) {
-    .borh9bodylogo {
+    .a5x7fbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +120,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .borh9menu {
+    .a5x7fmenu {
       overflow-x: auto;
     }
 
-    .borh9menulist ul {
+    .a5x7fmenulist ul {
       flex-direction: row;
     }
 
-    .borh9bodylogo {
+    .a5x7fbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,7 +136,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .borh9menulist ul a {
+    .a5x7fmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,42 +145,84 @@
   #content {
     justify-content: start;
   }
-  .mg28s {
-    display: flex;
+
+  .b62of {
     width: var(--max);
     margin-top: 20px;
-    gap: 20px;
-  }
-  .mg28s-menu {
-    width: 220px;
-    background-color: --menubgcolor--;
-    border-radius: 5px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
     gap: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float: left;
+    position: relative;
   }
-  .mg28s-menu > a {
-    background-color: #ffffff;
-    padding: 10px 15px;
+
+  .b62of-menu-btn {
+    display: none;
+    background-color: #000;
+    padding: 10px 20px;
     border-radius: 5px;
-    color: #333;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  .mg28s-menu > a:hover,
-  .mg28s-menu > .active {
-    background-color: #1e3046;
+    cursor: pointer;
+    font-weight: bold;
     color: #fff;
+    justify-content: space-between;
+    align-items: center;
   }
-  .mg28s-body {
-    flex: 1;
+
+  .b62of-menu-btn i {
+    font-size: 20px;
+  }
+
+  .b62of-menu {
+    width: 200px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 5px;
+    float: left;
   }
-  .mg28s-title {
+
+  .b62of-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    float: right;
+  }
+
+  .b62of-menu > a {
+    background-color: #fff;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+  }
+
+  .b62of-menu > .active,
+  .b62of-menu > a:hover {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+  }
+
+  .b62of-desc-menu {
+    width: 200px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+
+  .b62of-desc-menu > div {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 5px;
+  }
+
+  .b62of-desc-body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .b62of-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -193,7 +234,8 @@
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
-  .mg28s-title::before {
+
+  .b62of-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,22 +249,78 @@
     opacity: 0.5;
     z-index: 1;
   }
-  .mg28s-title span {
+
+  .b62of-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
-  @media screen and (max-width: 1024px) {
-    .mg28s {
-      flex-direction: column;
-      width: calc(100% - 10px);
-      padding: 5px;
+
+  .b62of-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+  }
+
+  .b62of-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(var(--max) - 460px);
+  }
+
+  .b62of-img img {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .b62of-desc {
+      width: calc(var(--max) - 240px);
     }
-    .mg28s-menu {
+  }
+
+  @media screen and (max-width: 1024px) {
+    .b62of-menu-btn {
+      display: flex;
+      width: calc(100% - 55px);
+      margin-left: 5px;
+    }
+
+    .b62of {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 5px;
+      gap: 5px;
+      margin-top: 0px;
+    }
+
+    .b62of-img {
+      width: 100%;
+    }
+
+    .b62of-body {
+      width: 100%;
+      order: 3;
+      padding: 10px;
+    }
+
+    .b62of-menu {
+      width: 100%;
+      float: none;
+      flex-direction: column;
+      order: 1;
       display: none;
     }
-    .mg28s-body {
-      width: 100%;
+
+    .b62of-menu.active {
+      display: flex;
+    }
+
+    .b62of-desc {
+      width: 100% !important;
+      order: 2;
     }
   }
 
@@ -243,6 +341,7 @@
     z-index: 10000;
     padding-right: 20px;
   }
+
   .whatsappicon {
     width: 40px;
     height: 40px;

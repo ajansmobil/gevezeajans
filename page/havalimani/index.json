@@ -1,0 +1,31 @@
+{
+  "name": {
+    "tr": "Havalimanı"
+  },
+  "status": "play",
+  "category": "",
+  "id": "havalimani",
+  "externalUrl": "",
+  "path": "havalimani",
+  "keyword": {
+    "tr": "Havalimanı, havaalanı, GZT Havalimanı"
+  },
+  "description": {
+    "tr": "Gaziantep Havalimanı reklam noktası - Şehrin en prestijli ulaşım merkezlerinden biri"
+  },
+  "text": {
+    "tr": "Gaziantep Havalimanı, şehrin en önemli ulaşım merkezlerinden biridir. Bu bölgede yer alan reklam alanları, seyahat eden ve iş dünyasına yönelik hedef kitlenize ulaşmanızı sağlar. Dijital baskı teknolojisi ile yüksek kaliteli görseller kullanılarak hazırlanan reklamlar, uzun süre dayanıklı ve etkileyici bir görünüm sunar."
+  },
+  "spot": {
+    "tr": "Haftalık Hedef Kitle: 50-100 Bin Kişi"
+  },
+  "index": 1,
+  "icon": "home",
+  "desc": {},
+  "img": "mna2h.jpg",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  }
+}

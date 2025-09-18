@@ -1,5 +1,5 @@
 
-  .ciwqd {
+  .jegxi {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .ciwqdtitle {
+  .jegxititle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .ciwqdtitlebody {
+  .jegxititlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ciwqdtitlebodytitle {
+  .jegxititlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ciwqdtitlebodylang {
+  .jegxititlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ciwqdtitlebodylang ul {
+  .jegxititlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ciwqdbody {
+  .jegxibody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .ciwqdmenu {
+  .jegximenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ciwqdmenulist {
+  .jegximenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .ciwqdmenubody {
+  .jegximenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .ciwqdmenulist ul {
+  .jegximenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .ciwqdmenulist ul a {
+  .jegximenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,27 +93,26 @@
     white-space: nowrap;
   }
 
-  .ciwqdmenulist ul a:hover {
+  .jegximenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .ciwqdmenulistactive {
+  .jegxi-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .ciwqdmenulistbody {
+  .jegximenulistbody {
     width: 100%;
   }
 
-
   @media screen and (min-width: 1024px) {
-    .ciwqdbodylogo {
+    .jegxibodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -121,15 +120,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ciwqdmenu {
+    .jegximenu {
       overflow-x: auto;
     }
 
-    .ciwqdmenulist ul {
+    .jegximenulist ul {
       flex-direction: row;
     }
 
-    .ciwqdbodylogo {
+    .jegxibodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -137,24 +136,24 @@
   }
 
   @media screen and (max-width: 768px) {
-    .ciwqdmenulist ul a {
+    .jegximenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .hq5vs {
+  .qxkx2 {
     width: 100%;
     margin: 15px 0;
   }
 
-  .hq5vsbody {
+  .qxkx2body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
 
-  .hq5vsbodyitem {
+  .qxkx2bodyitem {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,7 +166,7 @@
     position: relative;
   }
 
-  .hq5vsbodyitemlink {
+  .qxkx2bodyitemlink {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,7 +174,7 @@
     width: 100%;
   }
 
-  .hq5vsbodyitemimg {
+  .qxkx2bodyitemimg {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,17 +185,17 @@
     transition: all 0.3s ease;
   }
 
-  .hq5vsbodyitemimg:hover {
+  .qxkx2bodyitemimg:hover {
     transform: translateY(-10px);
   }
 
-  .hq5vsbodyitemimg img {
+  .qxkx2bodyitemimg img {
     max-height: 200px;
     max-width: calc(200px * 2);
     border-radius: 10px;
   }
 
-  .hq5vsbodyitemtitle {
+  .qxkx2bodyitemtitle {
     padding: 5px;
     display: flex;
     align-items: center;
@@ -210,12 +209,12 @@
     transition: all 0.3s ease;
   }
 
-  .hq5vsbodyitemtitle:hover {
+  .qxkx2bodyitemtitle:hover {
     transform: translateY(-2px);
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
   }
 
-  .hq5vsbodybg {
+  .qxkx2bodybg {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -226,7 +225,7 @@
     opacity: 0.5;
   }
 
-  .hq5vsbodyitems {
+  .qxkx2bodyitems {
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -234,31 +233,33 @@
     gap: 15px;
     opacity: 0;
     position: relative;
-    transition: opacity 0.3s ease, transform 0.5s ease;
+    transition:
+      opacity 0.3s ease,
+      transform 0.5s ease;
   }
 
-  .hq5vsbodyitems.left {
+  .qxkx2bodyitems.left {
     align-self: flex-start;
     border-radius: 0px 10px 10px 0px;
     transform: translateX(-100px);
   }
 
-  .hq5vsbodyitems.right {
+  .qxkx2bodyitems.right {
     align-self: flex-end;
     border-radius: 10px 0px 0px 10px;
     transform: translateX(100px);
   }
 
-  .hq5vsbodyitems.visible {
+  .qxkx2bodyitems.visible {
     opacity: 1;
     transform: translateX(0);
   }
 
-  .hq5vsbodyitem.lefts {
+  .qxkx2bodyitem.lefts {
     align-self: flex-end;
   }
 
-  .hq5vsbodyitem.rights {
+  .qxkx2bodyitem.rights {
     align-self: flex-start;
   }
 
@@ -286,11 +287,11 @@
     }
   }
 
-  .hq5vsbodyitems {
+  .qxkx2bodyitems {
     animation-delay: 0.3s;
   }
 
-  .hq5vsbodyitechile {
+  .qxkx2bodyitechile {
     display: flex;
     gap: 10px;
     margin-top: 5px;
@@ -299,10 +300,9 @@
     z-index: 2;
     text-align: center;
     color: #000;
-
   }
 
-  .hq5vsbodyitechilesubpage {
+  .qxkx2bodyitechilesubpage {
     font-size: 16px;
     color: #fff !important;
     padding: 10px;
@@ -317,17 +317,17 @@
     z-index: 3;
   }
 
-  .hq5vsbodyitechilesubpage:hover {
+  .qxkx2bodyitechilesubpage:hover {
     opacity: 0.8;
     transform: translateY(-2px);
   }
 
   @media screen and (max-width: 1024px) {
-    .hq5vsbodyitem {
+    .qxkx2bodyitem {
       width: calc(100% - 30px);
     }
 
-    .hq5vsbody {
+    .qxkx2body {
       display: flex;
       flex-direction: column;
       gap: 15px;
@@ -351,6 +351,7 @@
     z-index: 10000;
     padding-right: 20px;
   }
+
   .whatsappicon {
     width: 40px;
     height: 40px;
