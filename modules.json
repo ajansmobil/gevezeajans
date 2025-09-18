@@ -200,7 +200,7 @@
           "tr": "Açık Hava"
         },
         "bgcolor": "#F9B200",
-        "bgcolor2": "#000000",
+        "bgcolor2": "#F9B200",
         "padding": "25px 0px 25px 0px",
         "margin": "0px 0px 0px 0px",
         "font-size": "36px",

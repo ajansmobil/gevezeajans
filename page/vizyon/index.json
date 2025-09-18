@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Vizyon"
+  },
+  "status": "play",
+  "id": "vizyon",
+  "path": "vizyon",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Vizyonumuz</h2>\n    <p style=\" font-size: 16px;\">\n        Vizyonumuz, Gaziantep'in en prestijli reklam ajansı olarak, müşterilerimize en iyi hizmeti sunmak ve markalarını değerli kılmaktır. Duyulmuş, hafızalarda yer edinmiş bir marka olmak istiyorsanız ve müşteri portföyünüzde ciddi gelişim kaydetmek istiyorsanız, reklam vermek sizin için kaçınılmaz olacaktır.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Reklam büyüme oranınıza, pazardaki payınıza, kitlenize, bilinirliğinize mükemmel derecede katkı yapar ve sizleri her seferinde daha da ileriye götürür. Gaziantep'in en prestijli noktalarında sizlerin prestijine olumlu etki bırakıyoruz.\n    </p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "Geveze Ajans vizyon, Gaziantep reklam ajansı vizyonu"
+  },
+  "description": {
+    "tr": "Geveze Ajans'ın vizyonu, Gaziantep'in en prestijli reklam ajansı olarak, müşterilerine en iyi hizmeti sunmak ve markalarını değerli kılmaktır."
+  },
+  "spot": {
+    "tr": "Gaziantep'in En Prestijli Reklam Ajansı Olmak!"
+  },
+  "index": 2,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "kmioj.webp",
+  "update": "2025-09-18T06:28:36.569Z",
+  "date": "2025-09-18T06:28:33.371Z"
+}

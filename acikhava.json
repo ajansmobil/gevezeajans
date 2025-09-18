@@ -10,7 +10,7 @@
       "status": "play",
       "category": "",
       "id": "iconova-cadde",
-      "path": "iconova-cadde",
+      "path": "iconova-cadde-nnu-jye-v99",
       "spot": {
         "tr": "Haftalık Hedef Kitle: 150-300 Bin Kişi"
       },
@@ -32,29 +32,19 @@
       "status": "play",
       "category": "",
       "id": "havalimani",
-      "externalUrl": "",
-      "path": "havalimani",
-      "keyword": {
-        "tr": "Havalimanı, havaalanı, GZT Havalimanı"
-      },
-      "description": {
-        "tr": "Gaziantep Havalimanı reklam noktası - Şehrin en prestijli ulaşım merkezlerinden biri"
-      },
-      "text": {
-        "tr": "Gaziantep Havalimanı, şehrin en önemli ulaşım merkezlerinden biridir. Bu bölgede yer alan reklam alanları, seyahat eden ve iş dünyasına yönelik hedef kitlenize ulaşmanızı sağlar. Dijital baskı teknolojisi ile yüksek kaliteli görseller kullanılarak hazırlanan reklamlar, uzun süre dayanıklı ve etkileyici bir görünüm sunar."
-      },
+      "path": "havalimani-65p-tdx-v4e",
       "spot": {
         "tr": "Haftalık Hedef Kitle: 50-100 Bin Kişi"
       },
       "index": 1,
       "icon": "home",
-      "desc": {},
       "img": "mna2h.jpg",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
-      }
+      },
+      "desc": {}
     },
     {
       "name": {
@@ -63,29 +53,19 @@
       "status": "play",
       "category": "",
       "id": "organize-sanayi",
-      "externalUrl": "",
-      "path": "organize-sanayi-bolgesi",
-      "keyword": {
-        "tr": "Organize Sanayi Bölgesi, OSB, sanayi reklamı"
-      },
-      "description": {
-        "tr": "Organize Sanayi Bölgesi reklam noktası - İş dünyasına yönelik hedef kitleye ulaşım"
-      },
-      "text": {
-        "tr": "Organize Sanayi Bölgesi, şehrin en önemli üretim ve ticaret merkezlerinden biridir. Bu bölgede yer alan reklam alanları, iş dünyasına yönelik hedef kitlenize ulaşmanızı sağlar. Dijital baskı teknolojisi ile yüksek kaliteli görseller kullanılarak hazırlanan reklamlar, uzun süre dayanıklı ve etkileyici bir görünüm sunar."
-      },
+      "path": "organize-sanayi-bolgesi-15u-n7h",
       "spot": {
         "tr": "Haftalık Hedef Kitle: 150-300 Bin Kişi"
       },
       "index": 2,
       "icon": "home",
-      "desc": {},
       "img": "w332x.jpg",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
-      }
+      },
+      "desc": {}
     },
     {
       "name": {
@@ -94,29 +74,19 @@
       "status": "play",
       "category": "",
       "id": "cadde-duvarlari",
-      "externalUrl": "",
-      "path": "cadde-duvarlari",
-      "keyword": {
-        "tr": "Cadde duvarları, outdoor reklam, duvar reklamı"
-      },
-      "description": {
-        "tr": "Cadde duvarları reklam noktası - Şehrin en işlek noktalarında yüksek görünürlük"
-      },
-      "text": {
-        "tr": "Cadde duvarları, şehrin en işlek noktalarında yer alan ve yüksek görünürlük sağlayan reklam alanlarıdır. Yaya ve araç trafiğinin yoğun olduğu bölgelerde konumlandırılmış olan bu alanlar, markanızın hedef kitlesine ulaşmasını sağlar. Dijital baskı teknolojisi ile yüksek kaliteli görseller kullanılarak hazırlanan reklamlar, uzun süre dayanıklı ve etkileyici bir görünüm sunar."
-      },
+      "path": "cadde-duvarlari-slu-hmz-fhe",
       "spot": {
         "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
       },
       "index": 3,
       "icon": "home",
-      "desc": {},
       "img": "qe92m.jpg",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
-      }
+      },
+      "desc": {}
     },
     {
       "name": {
@@ -125,29 +95,19 @@
       "status": "play",
       "category": "",
       "id": "bina-asansorleri",
-      "externalUrl": "",
-      "path": "bina-asansorleri",
-      "keyword": {
-        "tr": "Bina asansörleri, asansör reklamı, apartman asansörü"
-      },
-      "description": {
-        "tr": "Bina asansörleri reklam noktası - Doğrudan hedef kitleye ulaşım"
-      },
-      "text": {
-        "tr": "Reklam sizleri hedeflerinize yakınlaştırmak için araç niteliğindedir. Reklam vermeyen şirketler genel olarak pazarlama elemanları çalıştırmaktadır ve bu elemanların yeterli sayıda olması gerekmektedir. Asansör reklamları, personel maliyetinden daha uygun ve etkili bir çözüm sunar."
-      },
+      "path": "bina-asansorleri-3mn-pu4-uhw",
       "spot": {
         "tr": "Haftalık Hedef Kitle: 100-400 Bin Kişi"
       },
       "index": 4,
       "icon": "home",
-      "desc": {},
       "img": "fqufy.jpg",
       "desing": {
         "header": [],
         "body": [],
         "footer": []
-      }
+      },
+      "desc": {}
     }
   ],
   "index": 1,

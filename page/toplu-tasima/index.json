@@ -1,0 +1,28 @@
+{
+  "name": {
+    "tr": "Toplu Taşıma"
+  },
+  "status": "play",
+  "category": "",
+  "id": "toplu-tasima",
+  "externalUrl": "",
+  "path": "toplu-tasima",
+  "keyword": {
+    "tr": "Toplu taşıma reklamı, otobüs reklamı, tramvay reklamı, Gaziantep toplu taşıma reklamı"
+  },
+  "description": {
+    "tr": "Gaziantep'te toplu taşıma araçlarında reklam alanları. Belediye otobüsü, halk otobüsü, dolmuş, tramvay ve taksilerde reklam çözümleri."
+  },
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Toplu Taşıma Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Toplu taşıma araçları, şehrin her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Belediye otobüsleri, halk otobüsleri, dolmuşlar, tramvaylar ve taksiler üzerinde yer alan reklamlar, hedef kitlenize sürekli ve etkili bir şekilde ulaşmanızı sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar. Haftalık hedef kitlemiz 300-600 bin kişiye ulaşmaktadır.\n    </p>"
+  },
+  "spot": {
+    "tr": "Haftalık Hedef Kitle: 300-600 Bin Kişi"
+  },
+  "index": 2,
+  "icon": "home",
+  "bgimg": "tt1kc.webp",
+  "desc": {},
+  "update": "2025-09-18T06:28:36.585Z",
+  "date": "2025-09-18T06:28:33.391Z"
+}

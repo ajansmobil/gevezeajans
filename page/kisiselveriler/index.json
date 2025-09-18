@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Kişisel Veriler"
+  },
+  "status": "play",
+  "id": "kisiselveriler",
+  "path": "kisisel-veriler",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Kişisel Veriler</h2>\n    <p style=\"font-size: 16px;\">\n        Kişisel verileriniz, yalnızca yasal gereklilikleri karşılamak, taleplerinizi yerine getirmek ve size daha iyi hizmet sunmak amacıyla toplanmaktadır. Kişisel verilerinizin güvenliği bizim için önceliklidir ve bu verilerin korunması için 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) başta olmak üzere, ilgili tüm mevzuat çerçevesinde gerekli teknik ve idari tedbirleri almaktayız.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Toplanan kişisel veriler, yalnızca yetkili kişiler tarafından erişilebilir olup, izniniz dışında üçüncü taraflarla paylaşılmamaktadır. Kişisel verilerinizin hangi amaçlarla işlendiğini, nasıl saklandığını, kimlerle paylaşıldığını öğrenme hakkına sahipsiniz.\n    </p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "Geveze Ajans kişisel veriler, KVKK, Gaziantep reklam ajansı veri güvenliği"
+  },
+  "description": {
+    "tr": "Geveze Ajans, kişisel verilerin korunması konusunda KVKK ve ilgili mevzuat çerçevesinde gerekli tüm önlemleri almaktadır."
+  },
+  "spot": {
+    "tr": "Kişisel Verilerinizin Korunması Bizim İçin Çok Önemli!"
+  },
+  "index": 5,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "bpo43.webp",
+  "update": "2025-09-18T06:28:36.575Z",
+  "date": "2025-09-18T06:28:33.379Z"
+}

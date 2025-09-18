@@ -1,0 +1,28 @@
+{
+  "name": {
+    "tr": "Pano Reklamları"
+  },
+  "status": "play",
+  "category": "",
+  "id": "pano-reklamlari",
+  "externalUrl": "",
+  "path": "pano-reklamlari",
+  "keyword": {
+    "tr": "Pano reklamı, billboard, Gaziantep pano reklamı"
+  },
+  "description": {
+    "tr": "Gaziantep'te şehir içi ve ana arterlerde büyük panolarda reklam alanları. Yüksek görünürlük sağlayan reklam çözümleri."
+  },
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Pano Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Şehir içi ve ana arterlerde büyük panolar. Hedef kitle; araç ve yaya trafiği. Panolar, geniş kitlelere ulaşmak için idealdir. Marka mesajı kısa ve net olmalıdır.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Şehirde sürekli görünürlük ve marka bilinirliği sağlar. Geniş erişim, sürekli görünürlük ve hızlı mesaj iletimi avantajları sunar.\n    </p>"
+  },
+  "spot": {
+    "tr": "Geniş Erişim ve Sürekli Görünürlük"
+  },
+  "index": 8,
+  "icon": "home",
+  "bgimg": "pano1kc.webp",
+  "desc": {},
+  "update": "2025-09-18T06:28:36.597Z",
+  "date": "2025-09-18T06:28:33.404Z"
+}

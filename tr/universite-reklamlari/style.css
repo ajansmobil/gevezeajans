@@ -1,5 +1,5 @@
 
-  .r47b5 {
+  .djmvm {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .r47b5title {
+  .djmvmtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .r47b5titlebody {
+  .djmvmtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .r47b5titlebodytitle {
+  .djmvmtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .r47b5titlebodylang {
+  .djmvmtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .r47b5titlebodylang ul {
+  .djmvmtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .r47b5body {
+  .djmvmbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .r47b5menu {
+  .djmvmmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .r47b5menulist {
+  .djmvmmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .r47b5menubody {
+  .djmvmmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .r47b5menulist ul {
+  .djmvmmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .r47b5menulist ul a {
+  .djmvmmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,26 +93,26 @@
     white-space: nowrap;
   }
 
-  .r47b5menulist ul a:hover {
+  .djmvmmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .r47b5-menu-list-active {
+  .djmvm-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .r47b5menulistbody {
+  .djmvmmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .r47b5bodylogo {
+    .djmvmbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -120,15 +120,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .r47b5menu {
+    .djmvmmenu {
       overflow-x: auto;
     }
 
-    .r47b5menulist ul {
+    .djmvmmenulist ul {
       flex-direction: row;
     }
 
-    .r47b5bodylogo {
+    .djmvmbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -136,7 +136,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .r47b5menulist ul a {
+    .djmvmmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,7 +146,7 @@
     justify-content: start;
   }
 
-  .cxoeg {
+  .ex7yc {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -154,7 +154,7 @@
     position: relative;
   }
 
-  .cxoeg-menu-btn {
+  .ex7yc-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -166,11 +166,11 @@
     align-items: center;
   }
 
-  .cxoeg-menu-btn i {
+  .ex7yc-menu-btn i {
     font-size: 20px;
   }
 
-  .cxoeg-menu {
+  .ex7yc-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -181,28 +181,28 @@
     float: left;
   }
 
-  .cxoeg-desc {
+  .ex7yc-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .cxoeg-menu > a {
+  .ex7yc-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .cxoeg-menu > .active,
-  .cxoeg-menu > a:hover {
+  .ex7yc-menu > .active,
+  .ex7yc-menu > a:hover {
     background-color: #000;
     color: #fff;
     display: flex;
   }
 
-  .cxoeg-desc-menu {
+  .ex7yc-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -210,19 +210,19 @@
     border-radius: 5px;
   }
 
-  .cxoeg-desc-menu > div {
+  .ex7yc-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .cxoeg-desc-body {
+  .ex7yc-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .cxoeg-title {
+  .ex7yc-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -235,7 +235,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .cxoeg-title::before {
+  .ex7yc-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -250,44 +250,44 @@
     z-index: 1;
   }
 
-  .cxoeg-title span {
+  .ex7yc-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .cxoeg-body {
+  .ex7yc-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .cxoeg-img {
+  .ex7yc-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .cxoeg-img img {
+  .ex7yc-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .cxoeg-desc {
+    .ex7yc-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .cxoeg-menu-btn {
+    .ex7yc-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .cxoeg {
+    .ex7yc {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -296,17 +296,17 @@
       margin-top: 0px;
     }
 
-    .cxoeg-img {
+    .ex7yc-img {
       width: 100%;
     }
 
-    .cxoeg-body {
+    .ex7yc-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .cxoeg-menu {
+    .ex7yc-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -314,11 +314,11 @@
       display: none;
     }
 
-    .cxoeg-menu.active {
+    .ex7yc-menu.active {
       display: flex;
     }
 
-    .cxoeg-desc {
+    .ex7yc-desc {
       width: 100% !important;
       order: 2;
     }

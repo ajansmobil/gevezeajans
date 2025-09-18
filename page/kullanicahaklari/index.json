@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Kullanıcı Hakları"
+  },
+  "status": "play",
+  "id": "kullanicahaklari",
+  "path": "kullanici-haklari",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Kullanıcı Hakları</h2>\n    <p style=\"font-size: 16px;\">\n        Herkes, kişisel verilerinin korunmasını isteme hakkına sahiptir. Kişisel verilerinizin korunması bizim için çok önemlidir ve bu doğrultuda 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat çerçevesinde hareket etmekteyiz. Kullanıcılar, verilerinin hangi amaçlarla toplandığı, nasıl saklandığı ve kimlerle paylaşıldığı konusunda bilgilendirilme hakkına sahiptir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Kişisel verilerinizi güncelleme, düzeltme, silme ve anonimleştirme taleplerinde bulunabilirsiniz. Aynı zamanda, toplanan verilerin hangi amaçla kullanıldığı ve işleme süreciyle ilgili ayrıntılı bilgi talep edebilir, bu süreçlerde yer alan üçüncü taraflar hakkında bilgi alabilirsiniz.\n    </p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "Geveze Ajans kullanıcı hakları, KVKK hakları, Gaziantep reklam ajansı kullanıcı hakları"
+  },
+  "description": {
+    "tr": "Geveze Ajans, kullanıcıların kişisel verilerinin korunması ve kullanıcı hakları konusunda KVKK ve ilgili mevzuat çerçevesinde hareket etmektedir."
+  },
+  "spot": {
+    "tr": "Kullanıcı Haklarınızı Koruyoruz!"
+  },
+  "index": 6,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "kxafa.webp",
+  "update": "2025-09-18T06:28:36.577Z",
+  "date": "2025-09-18T06:28:33.381Z"
+}

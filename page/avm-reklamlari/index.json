@@ -1,0 +1,28 @@
+{
+  "name": {
+    "tr": "AVM Reklamları"
+  },
+  "status": "play",
+  "category": "",
+  "id": "avm-reklamlari",
+  "externalUrl": "",
+  "path": "avm-reklamlari",
+  "keyword": {
+    "tr": "AVM reklamı, alışveriş merkezi reklamı, Forum AVM, M1 AVM, Primemall, Sanko Park"
+  },
+  "description": {
+    "tr": "Gaziantep'te AVM'lerde reklam alanları. Forum AVM, M1 AVM, Primemall ve Sanko Park'ta alışveriş yapan hedef kitleye ulaşım için etkili reklam çözümleri."
+  },
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">AVM Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        AVM'ler, şehrin en önemli alışveriş ve sosyal yaşam merkezleridir. Bu bölgelerde yer alan reklam alanları, alışveriş yapan ve sosyal aktivitelere katılan hedef kitlenize ulaşmanızı sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Kitlenizin alışveriş alışkanlıkları sizleri AVM koridorlarında yer almaya iter. Her türlü tüketim alışkanlığının olduğu insanların uğrak noktası olan AVM'ler sizlere yeni müşteriler kazandırmanın yanı sıra prestijli bir marka izlenimi verir. Haftalık hedef kitlemiz 200-500 bin kişiye ulaşmaktadır.\n    </p>"
+  },
+  "spot": {
+    "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
+  },
+  "index": 5,
+  "icon": "home",
+  "bgimg": "avm1kc.webp",
+  "desc": {},
+  "update": "2025-09-18T06:28:36.591Z",
+  "date": "2025-09-18T06:28:33.397Z"
+}

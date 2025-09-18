@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Kalite Politikamız"
+  },
+  "status": "play",
+  "id": "kalitepolitikamiz",
+  "path": "kalite-politikamiz",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Kalite Politikamız</h2><p style=\" font-size: 16px;\">Kalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en iyi kalite standartlarını sağlamak için çalışıyor ve tüm süreçlerimizi bu doğrultuda sürekli gözden geçiriyoruz. Reklam şirketinizin büyüme ve markalaşma değerine ciddi katkılar yapar.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "Geveze Ajans kalite politikası, Gaziantep reklam ajansı kalite"
+  },
+  "description": {
+    "tr": "Geveze Ajans'ın kalite politikası, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedeflemektedir."
+  },
+  "spot": {
+    "tr": "Müşteri Memnuniyetini En Üst Seviyede Tutmak!"
+  },
+  "index": 3,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "b3k2k.webp",
+  "update": "2025-09-18T06:28:36.571Z",
+  "date": "2025-09-18T06:28:33.374Z"
+}

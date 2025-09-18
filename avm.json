@@ -10,24 +10,14 @@
       "status": "play",
       "category": "",
       "id": "primemall",
-      "externalUrl": "",
       "path": "primemall",
-      "keyword": {
-        "tr": "Primemall, alışveriş merkezi, Gaziantep AVM"
-      },
-      "description": {
-        "tr": "Primemall reklam noktası - Gaziantep'in en yoğun alışveriş merkezlerinden biri"
-      },
-      "text": {
-        "tr": "Primemall AVM'de led ekran, billboard ve iç alanlarda reklam imkanı. Yüksek ziyaretçi trafiği ile marka bilinirliği artar. Her türlü tüketim alışkanlığının olduğu insanların uğrak noktası olan AVM'ler sizlere yeni müşteriler kazandırmanın yanı sıra prestijli bir marka izlenimi verir."
-      },
       "spot": {
         "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
       },
       "index": 0,
       "icon": "home",
-      "desc": {},
-      "img": "oevz4.jpg"
+      "img": "oevz4.jpg",
+      "desc": {}
     },
     {
       "name": {
@@ -36,17 +26,7 @@
       "status": "play",
       "category": "",
       "id": "forum-avm",
-      "externalUrl": "",
       "path": "forum-avm",
-      "keyword": {
-        "tr": "Forum AVM, alışveriş merkezi, Gaziantep AVM"
-      },
-      "description": {
-        "tr": "Forum AVM reklam noktası - Şehrin en prestijli alışveriş merkezlerinden biri"
-      },
-      "text": {
-        "tr": "Forum AVM, şehrin en prestijli alışveriş merkezlerinden biri olarak, markanızın değerini artırır ve geniş bir müşteri kitlesine ulaşmanızı sağlar. Dijital ekran, billboard ve otopark gibi alanlarda reklam verilebilir."
-      },
       "spot": {
         "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
       },
@@ -57,8 +37,8 @@
         "footer": []
       },
       "icon": "home",
-      "desc": {},
-      "img": "okfc7.jpg"
+      "img": "okfc7.jpg",
+      "desc": {}
     },
     {
       "name": {
@@ -67,24 +47,14 @@
       "status": "play",
       "category": "",
       "id": "sanko-park",
-      "externalUrl": "",
       "path": "sanko-park",
-      "keyword": {
-        "tr": "Sanko Park, alışveriş merkezi, Gaziantep AVM"
-      },
-      "description": {
-        "tr": "Sanko Park reklam noktası - Gaziantep'in en uğrak AVM'lerinden biri"
-      },
-      "text": {
-        "tr": "Sanko Park'ta led ekran, billboard, otopark ve WC gibi alanlarda reklam verilebilir. Şehrin en eski ve köklü AVM'lerinden biri olarak, güvenilir ve prestijli bir konumlandırma sağlar. Her yaş grubundan ziyaretçiye ulaşma imkanı sunar."
-      },
       "spot": {
         "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
       },
       "index": 2,
       "icon": "home",
-      "desc": {},
-      "img": "bkl4v.jpg"
+      "img": "bkl4v.jpg",
+      "desc": {}
     },
     {
       "name": {
@@ -93,24 +63,14 @@
       "status": "play",
       "category": "",
       "id": "m1-avm",
-      "externalUrl": "",
       "path": "m1-avm",
-      "keyword": {
-        "tr": "M1 AVM, alışveriş merkezi, Gaziantep AVM"
-      },
-      "description": {
-        "tr": "M1 AVM reklam noktası - Modern mimarisi ve geniş alanı ile dikkat çekici"
-      },
-      "text": {
-        "tr": "M1 AVM, modern mimarisi ve geniş alanı ile markanızın dikkat çekmesini sağlar. Sosyal etkinliklerin yoğun olduğu bir merkez olarak, hedef kitlenize sürekli erişim imkanı sunar. İç ve dış alanlarda reklam seçenekleri sunulur."
-      },
       "spot": {
         "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
       },
       "index": 3,
       "icon": "home",
-      "desc": {},
-      "img": "i27mc.jpg"
+      "img": "i27mc.jpg",
+      "desc": {}
     }
   ],
   "index": 2,

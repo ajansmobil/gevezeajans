@@ -1,0 +1,28 @@
+{
+  "name": {
+    "tr": "Üniversite Reklamları"
+  },
+  "status": "play",
+  "category": "",
+  "id": "universite-reklamlari",
+  "externalUrl": "",
+  "path": "universite-reklamlari",
+  "keyword": {
+    "tr": "Üniversite reklamı, kampüs reklamı, Gaziantep üniversite reklamı"
+  },
+  "description": {
+    "tr": "Gaziantep'te üniversite kampüslerinde reklam alanları. Genç ve dinamik hedef kitleye ulaşım için etkili reklam çözümleri."
+  },
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Üniversite Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Üniversite kampüslerinde pano, afiş ve dijital ekranlar. Hedef kitle; öğrenciler ve akademik personel. Genç ve dinamik kitleye ulaşmak için idealdir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Marka gençleşmesi ve yeni müşteri kazanımı sağlar. Hedefli iletişim ve yenilikçi imaj avantajları sunar.\n    </p>"
+  },
+  "spot": {
+    "tr": "Genç ve Dinamik Hedef Kitle"
+  },
+  "index": 10,
+  "icon": "home",
+  "bgimg": "uni1kc.webp",
+  "desc": {},
+  "update": "2025-09-18T06:28:36.600Z",
+  "date": "2025-09-18T06:28:33.409Z"
+}

@@ -1,0 +1,28 @@
+{
+  "name": {
+    "tr": "Sinema Reklamları"
+  },
+  "status": "play",
+  "category": "",
+  "id": "sinema-reklamlari",
+  "externalUrl": "",
+  "path": "sinema-reklamlari",
+  "keyword": {
+    "tr": "Sinema reklamı, film öncesi reklam, Gaziantep sinema reklamı"
+  },
+  "description": {
+    "tr": "Gaziantep'te sinema salonlarında reklam alanları. Film öncesi ve aralarda gösterilen reklamlar ile genç ve aile hedef kitleye ulaşım."
+  },
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Sinema Reklam Alanları</h2>\n    <p style=\"font-size: 16px;\">\n        Sinema salonlarında gösterim öncesi veya aralarda reklam yayınlanır. Hedef kitle; gençler, aileler ve şehirdeki sosyal yaşamı takip edenlerdir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Sinema reklamları, izleyicinin dikkatinin en yüksek olduğu anda gösterilir. Marka bilinirliği ve prestij için etkilidir. Hedef kitleye doğrudan ulaşım, yüksek etkileşim ve akılda kalıcılık sağlar.\n    </p>"
+  },
+  "spot": {
+    "tr": "Yüksek Görünürlük ve Prestij"
+  },
+  "index": 7,
+  "icon": "home",
+  "bgimg": "sinema1kc.webp",
+  "desc": {},
+  "update": "2025-09-18T06:28:36.595Z",
+  "date": "2025-09-18T06:28:33.402Z"
+}

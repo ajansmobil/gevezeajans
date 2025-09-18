@@ -109,8 +109,9 @@
         "footer": []
       },
       "modulestatus": {
-        "img": false,
-        "bgimg": true
+        "img": true,
+        "bgimg": true,
+        "detail": true
       }
     }
   ]

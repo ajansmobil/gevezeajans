@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Yasal Uyarı"
+  },
+  "status": "play",
+  "id": "yasaluyari",
+  "path": "yasal-uyari",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Yasal Uyarı</h2>\n    <p style=\" font-size: 16px;\">\n        Sitemizde yer alan tüm içerik, 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile 5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenlenmesi ve Bu Yayınlar Yoluyla İşlenen Suçlarla Mücadele Edilmesi Hakkında Kanun'un hükümleri uyarınca korunmaktadır. Sitemizde yer alan hiçbir içeriğin kopyalanması, çoğaltılması, yayılması, satılması, dağıtılması, sergilenmesi, yayımlanması, herhangi bir şekilde ticari amaçla kullanılması veya başka platformlarda izinsiz olarak paylaşılması yasaktır.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Sitemizde yer alan içeriğin hukuka aykırı bir şekilde kullanılması veya dağıtılması durumunda, sitemiz yetkili mercilere başvurma ve yasal haklarını koruma hakkını saklı tutar. İnternet ortamında yer alan içeriklerin izinsiz paylaşımı, hukuki olarak ağır yaptırımlar doğurabileceği gibi, eser sahiplerinin haklarını ihlal eder.\n    </p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "Geveze Ajans yasal uyarı, telif hakları, Gaziantep reklam ajansı yasal"
+  },
+  "description": {
+    "tr": "Geveze Ajans yasal uyarı sayfası, site içeriğinin telif hakları ve kullanım koşulları hakkında bilgi vermektedir."
+  },
+  "spot": {
+    "tr": "Telif Haklarını Koruyoruz, Yasal Haklarımızı Saklı Tutuyoruz!"
+  },
+  "index": 7,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "pldoz.webp",
+  "update": "2025-09-18T06:28:36.579Z",
+  "date": "2025-09-18T06:28:33.384Z"
+}

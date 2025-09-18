@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Misyon"
+  },
+  "status": "play",
+  "id": "misyon",
+  "path": "misyon",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Misyonumuz</h2>\n    <p style=\" font-size: 16px;\">\n        Misyonumuz, müşterilerimize en iyi reklam hizmetini sunmak ve markalarını değerli kılmaktır. Caddenin kralı olmak için bende varım diyorsan. Cadde Direkleri, Cadde Billboardlar, Cadde Led Ekran/ Digiboard, Megalight ve CLP ler ile sizi Gaziantep'teki caddelerin lideri konumuna getiriyoruz.\n    </p>\n    <p style=\" font-size: 16px;\">\n        Yürüyenin, duranın, yaratıcılık sevenlerin, odağı alışveriş olanların, gencinin yaşlısının dikkatini üzerinize çekiyoruz. Geveze ajans ile caddeleri baştan keşfedin. Reklam şirketinizin büyüme ve markalaşma değerine ciddi katkılar yapar.\n    </p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "Geveze Ajans misyon, Gaziantep reklam ajansı misyonu"
+  },
+  "description": {
+    "tr": "Geveze Ajans'ın misyonu, müşterilerine en iyi reklam hizmetini sunmak ve markalarını değerli kılmaktır."
+  },
+  "spot": {
+    "tr": "Müşterilerimize En İyi Reklam Hizmetini Sunmak!"
+  },
+  "index": 1,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "ay9dn.webp",
+  "update": "2025-09-18T06:28:36.567Z",
+  "date": "2025-09-18T06:28:33.368Z"
+}

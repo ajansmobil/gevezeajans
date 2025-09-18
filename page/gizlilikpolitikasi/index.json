@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Gizlilik Politikası"
+  },
+  "status": "play",
+  "id": "gizlilikpolitikasi",
+  "path": "gizlilik-politikasi",
+  "category": "kurumsal",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Gizlilik Politikamız</h2>\n    <p style=\"font-size: 16px;\">\n        Web sitemizi ziyaret ettiğinizde, sitemizi kullanımınızı ve sitemizde sunulan hizmetleri geliştirmek amacıyla çerezler (cookies) aracılığıyla bazı bilgiler toplanmaktadır. Bu bilgiler, kimlik bilgileriniz hariç olmak üzere, sitemizde yer alan hizmetlerin daha iyi sunulması ve kullanıcı deneyiminin iyileştirilmesi amacıyla kullanılmaktadır.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Toplanan bilgiler, üçüncü taraflarla paylaşılmamakta olup, yalnızca sitemizin performansını artırmak ve hizmetlerimizi geliştirmek amacıyla kullanılmaktadır. Kullanıcılar, tarayıcı ayarlarını değiştirerek çerezlerin kullanımını engelleyebilirler.\n    </p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "keyword": {
+    "tr": "Geveze Ajans gizlilik politikası, Gaziantep reklam ajansı gizlilik"
+  },
+  "description": {
+    "tr": "Geveze Ajans gizlilik politikası, kullanıcı verilerinin güvenliği ve gizliliği konusunda en üst düzey önlemleri almaktadır."
+  },
+  "spot": {
+    "tr": "Verilerinizin Güvenliği Bizim İçin Öncelikli!"
+  },
+  "index": 4,
+  "desc": {},
+  "icon": "home",
+  "bgimg": "gp3of.webp",
+  "update": "2025-09-18T06:28:36.573Z",
+  "date": "2025-09-18T06:28:33.376Z"
+}

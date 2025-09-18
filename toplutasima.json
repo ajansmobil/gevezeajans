@@ -10,24 +10,14 @@
       "status": "play",
       "category": "",
       "id": "belediye-otobusu",
-      "externalUrl": "",
       "path": "belediye-otobusu",
-      "keyword": {
-        "tr": "Belediye otobüsü, toplu taşıma, Gaziantep belediye otobüsü"
-      },
-      "description": {
-        "tr": "Belediye otobüsleri reklam noktası - Şehrin her noktasına ulaşan önemli reklam mecrası"
-      },
-      "text": {
-        "tr": "Belediye otobüsleri, şehrin her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Araç giydirme ve iç alan reklamları ile geniş kitleye ulaşılır. Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar."
-      },
       "spot": {
         "tr": "Haftalık Hedef Kitle: 300-600 Bin Kişi"
       },
       "index": 0,
       "icon": "home",
-      "desc": {},
-      "img": "jchrz.jpg"
+      "img": "jchrz.jpg",
+      "desc": {}
     },
     {
       "name": {
@@ -36,24 +26,14 @@
       "status": "play",
       "category": "",
       "id": "halk-otobusu",
-      "externalUrl": "",
       "path": "halk-otobusu",
-      "keyword": {
-        "tr": "Halk otobüsü, toplu taşıma, Gaziantep halk otobüsü"
-      },
-      "description": {
-        "tr": "Halk otobüsleri reklam noktası - Şehrin her noktasına ulaşan önemli reklam mecrası"
-      },
-      "text": {
-        "tr": "Halk otobüsleri, şehrin her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Araç giydirme ve iç alan reklamları ile geniş kitleye ulaşılır. Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar."
-      },
       "spot": {
         "tr": "Haftalık Hedef Kitle: 300-600 Bin Kişi"
       },
       "index": 1,
       "icon": "home",
-      "desc": {},
-      "img": "zuvah.jpg"
+      "img": "zuvah.jpg",
+      "desc": {}
     },
     {
       "name": {
@@ -62,24 +42,14 @@
       "status": "play",
       "category": "",
       "id": "dolmus",
-      "externalUrl": "",
       "path": "dolmus",
-      "keyword": {
-        "tr": "Dolmuş, toplu taşıma, Gaziantep dolmuş"
-      },
-      "description": {
-        "tr": "Dolmuş araçları reklam noktası - Şehrin her noktasına ulaşan önemli reklam mecrası"
-      },
-      "text": {
-        "tr": "Dolmuşlar, şehrin her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Araç giydirme ve iç alan reklamları ile geniş kitleye ulaşılır. Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar."
-      },
       "spot": {
         "tr": "Haftalık Hedef Kitle: 300-600 Bin Kişi"
       },
       "index": 2,
       "icon": "home",
-      "desc": {},
-      "img": "lymkl.jpg"
+      "img": "lymkl.jpg",
+      "desc": {}
     },
     {
       "name": {
@@ -88,24 +58,14 @@
       "status": "play",
       "category": "",
       "id": "tramvay",
-      "externalUrl": "",
       "path": "tramvay",
-      "keyword": {
-        "tr": "Tramvay, toplu taşıma, Gaziantep tramvay"
-      },
-      "description": {
-        "tr": "Tramvay reklam noktası - Şehrin her noktasına ulaşan önemli reklam mecrası"
-      },
-      "text": {
-        "tr": "Tramvaylar, şehrin her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Araç giydirme ve iç alan reklamları ile geniş kitleye ulaşılır. Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar."
-      },
       "spot": {
         "tr": "Haftalık Hedef Kitle: 300-600 Bin Kişi"
       },
       "index": 3,
       "icon": "home",
-      "desc": {},
-      "img": "yki9f.jpg"
+      "img": "yki9f.jpg",
+      "desc": {}
     },
     {
       "name": {
@@ -114,24 +74,14 @@
       "status": "play",
       "category": "",
       "id": "taksiler",
-      "externalUrl": "",
       "path": "taksiler",
-      "keyword": {
-        "tr": "Taksi, toplu taşıma, Gaziantep taksi"
-      },
-      "description": {
-        "tr": "Taksi araçları reklam noktası - Şehrin her noktasına ulaşan önemli reklam mecrası"
-      },
-      "text": {
-        "tr": "Taksiler, şehrin her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Araç giydirme ve iç alan reklamları ile geniş kitleye ulaşılır. Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar."
-      },
       "spot": {
         "tr": "Haftalık Hedef Kitle: 300-600 Bin Kişi"
       },
       "index": 4,
       "icon": "home",
-      "desc": {},
-      "img": "cdqsn.jpg"
+      "img": "cdqsn.jpg",
+      "desc": {}
     }
   ],
   "index": 3,
