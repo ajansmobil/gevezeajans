@@ -7,13 +7,12 @@
       "local": "header",
       "category": "menu",
       "desing": {
-        "color": "#000",
+        "bgcolor": "#F9B200",
         "page": "page",
-        "size": 4,
-        "number": "905320000000",
         "name": {
           "tr": "Hemen Teklif Al"
-        }
+        },
+        "color": "#000"
       },
       "id": "ofbmyq"
     },
@@ -61,7 +60,7 @@
       "local": "footer",
       "category": "footer",
       "desing": {
-        "color": "#000000"
+        "bgcolor": "#F9B200 "
       },
       "id": "getr5x",
       "data": []
@@ -157,7 +156,9 @@
         "page": "toplutasima",
         "size": 3,
         "category": "",
-        "aspect-ratio": "3 / 2"
+        "aspect-ratio": "3 / 2",
+        "bgcolor": "#222",
+        "color": "#fff"
       },
       "id": "fyyc8f"
     },
@@ -171,7 +172,9 @@
         "page": "avm",
         "size": 2,
         "category": "",
-        "aspect-ratio": "3 / 2"
+        "aspect-ratio": "3 / 2",
+        "bgcolor": "#222",
+        "color": "#fff"
       },
       "id": "kns0qc"
     },
@@ -181,6 +184,8 @@
       "path": "page-list-2",
       "local": "body",
       "desing": {
+        "bgcolor": "#222",
+        "color": "#fff",
         "page": "acikhava",
         "size": 3,
         "category": "",
@@ -219,7 +224,7 @@
           "tr": "AVMlerde Reklam"
         },
         "bgcolor": "#F9B200",
-        "bgcolor2": "#000000",
+        "bgcolor2": "#F9B200",
         "padding": "25px 0px 25px 0px",
         "margin": "15px 0px 0px 0px",
         "font-size": "36px",
@@ -238,7 +243,7 @@
           "tr": "Gezen Reklam"
         },
         "bgcolor": "#F9B200",
-        "bgcolor2": "#000000",
+        "bgcolor2": "#F9B200",
         "padding": "25px 0px 25px 0px",
         "margin": "15px 0px 0px 0px",
         "font-size": "36px",
@@ -376,6 +381,14 @@
         "chilesize": "16px"
       },
       "id": "piw8zb"
+    },
+    {
+      "name": "Code",
+      "path": "code",
+      "local": "body",
+      "category": "code",
+      "id": "vuq107",
+      "index": 15
     }
   ]
 }

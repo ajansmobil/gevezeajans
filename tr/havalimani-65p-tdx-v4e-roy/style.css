@@ -1,5 +1,5 @@
 
-  .vugv1 {
+  .s1vkj {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .vugv1title {
+  .s1vkjtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .vugv1titlebody {
+  .s1vkjtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .vugv1titlebodytitle {
+  .s1vkjtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .vugv1titlebodylang {
+  .s1vkjtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .vugv1titlebodylang ul {
+  .s1vkjtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .vugv1body {
+  .s1vkjbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,30 +48,30 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .vugv1menu {
+  .s1vkjmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .vugv1menulist {
+  .s1vkjmenulist {
     width: calc(100% - 20px);
-    background-color: #000;
+    background-color: #F9B200;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .vugv1menubody {
+  .s1vkjmenubody {
     width: 100%;
-    background-color: #000;
+    background-color: #F9B200;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .vugv1menulist ul {
+  .s1vkjmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,11 +81,11 @@
     overflow-x: auto;
   }
 
-  .vugv1menulist ul a {
+  .s1vkjmenulist ul a {
     padding: 10px;
     font-size: 16px;
-    color: #fff;
-    border-bottom: 1px solid #ddd;
+    color: #000 !important;
+    border-bottom: 1px solid #000 !important;
     width: 100%;
     text-align: center;
     text-decoration: none;
@@ -93,26 +93,26 @@
     white-space: nowrap;
   }
 
-  .vugv1menulist ul a:hover {
+  .s1vkjmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .vugv1-menu-list-active {
+  .s1vkj-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .vugv1menulistbody {
+  .s1vkjmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .vugv1bodylogo {
+    .s1vkjbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -120,15 +120,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .vugv1menu {
+    .s1vkjmenu {
       overflow-x: auto;
     }
 
-    .vugv1menulist ul {
+    .s1vkjmenulist ul {
       flex-direction: row;
     }
 
-    .vugv1bodylogo {
+    .s1vkjbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -136,7 +136,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .vugv1menulist ul a {
+    .s1vkjmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,7 +146,7 @@
     justify-content: start;
   }
 
-  .rw5ec {
+  .kr11v {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -154,7 +154,7 @@
     position: relative;
   }
 
-  .rw5ec-menu-btn {
+  .kr11v-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -166,11 +166,11 @@
     align-items: center;
   }
 
-  .rw5ec-menu-btn i {
+  .kr11v-menu-btn i {
     font-size: 20px;
   }
 
-  .rw5ec-menu {
+  .kr11v-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -181,28 +181,28 @@
     float: left;
   }
 
-  .rw5ec-desc {
+  .kr11v-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .rw5ec-menu > a {
+  .kr11v-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .rw5ec-menu > .active,
-  .rw5ec-menu > a:hover {
+  .kr11v-menu > .active,
+  .kr11v-menu > a:hover {
     background-color: #000;
     color: #fff;
     display: flex;
   }
 
-  .rw5ec-desc-menu {
+  .kr11v-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -210,19 +210,19 @@
     border-radius: 5px;
   }
 
-  .rw5ec-desc-menu > div {
+  .kr11v-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .rw5ec-desc-body {
+  .kr11v-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .rw5ec-title {
+  .kr11v-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -235,7 +235,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .rw5ec-title::before {
+  .kr11v-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -250,44 +250,44 @@
     z-index: 1;
   }
 
-  .rw5ec-title span {
+  .kr11v-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .rw5ec-body {
+  .kr11v-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .rw5ec-img {
+  .kr11v-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .rw5ec-img img {
+  .kr11v-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .rw5ec-desc {
+    .kr11v-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .rw5ec-menu-btn {
+    .kr11v-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .rw5ec {
+    .kr11v {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -296,17 +296,17 @@
       margin-top: 0px;
     }
 
-    .rw5ec-img {
+    .kr11v-img {
       width: 100%;
     }
 
-    .rw5ec-body {
+    .kr11v-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .rw5ec-menu {
+    .kr11v-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -314,11 +314,11 @@
       display: none;
     }
 
-    .rw5ec-menu.active {
+    .kr11v-menu.active {
       display: flex;
     }
 
-    .rw5ec-desc {
+    .kr11v-desc {
       width: 100% !important;
       order: 2;
     }
@@ -350,7 +350,7 @@
 
   .footer {
     position: relative;
-    background: #000000;
+    background: #F9B200 ;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -376,7 +376,7 @@
 
   .social-icon__link {
     font-size: 2rem;
-    color: #fff;
+    color: --color--;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
@@ -384,11 +384,11 @@
 
   .social-icon__link:hover {
     transform: translateY(-10px);
-  }
+  } 
 
   .menu__link {
     font-size: 1.2rem;
-    color: #fff !important;
+    color: --color-- !important;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
@@ -401,8 +401,8 @@
     opacity: 1;
   }
 
-  .footer p {
-    color: #fff;
+  .footer p { 
+    color: --color--;
     margin: 15px 0 10px 0;
     font-size: 1rem;
     font-weight: 300;
@@ -414,7 +414,7 @@
     left: 0;
     width: 100%;
     height: 100px;
-    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23000000;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23F9B200 ;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
     background-size: 1000px 102px;
   }
 
