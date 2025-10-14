@@ -14,7 +14,7 @@
     "tr": "Primemall reklam noktası - Gaziantep'in en yoğun alışveriş merkezlerinden biri"
   },
   "text": {
-    "tr": "Primemall AVM'de led ekran, billboard ve iç alanlarda reklam imkanı. Yüksek ziyaretçi trafiği ile marka bilinirliği artar. Her türlü tüketim alışkanlığının olduğu insanların uğrak noktası olan AVM'ler sizlere yeni müşteriler kazandırmanın yanı sıra prestijli bir marka izlenimi verir."
+    "tr": "<h2 style=\"font-size: 24px;\">Primemall - Gaziantep'in Prestij Merkezi</h2>\n    <p style=\"font-size: 16px;\">\n        Primemall, Gaziantep'in en büyük ve en prestijli alışveriş merkezlerinden biridir. Hafta sonu ve hafta içi günlük binlerce ziyaretçiye ev sahipliği yapan Primemall, şehrin sosyal ve ticari yaşamının nabzının attığı önemli bir merkezdir. Bu AVM'de yer alan reklam alanlarımız, haftalık 200-500 bin kişilik hedef kitleye ulaşarak markanızı en etkili şekilde tanıtmanızı sağlar. LED ekran, billboard ve iç alan reklam seçenekleri ile markanızı her köşeden görünür kılıyoruz.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Primemall, sadece bir alışveriş merkezi değil; aynı zamanda eğlence, yeme-içme ve sosyal aktivitelerin merkezi konumundadır. Sinema salonları, restoranlar, kafeler, oyun alanları ve etkinlik alanları ile her yaştan ve her kesimden insanı bir araya getiren bir yaşam alanıdır. Aileler hafta sonu gezmek için, gençler arkadaşlarıyla vakit geçirmek için, iş insanları yemek ve toplantı için Primemall'u tercih eder. Bu çeşitli demografik yapı, her sektörden markanın hedef kitlesine ulaşmasını mümkün kılar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        AVM içindeki reklam alanlarımız, ana girişler, merkezi koridorlar, yürüyen merdivenler, asansörler ve yemek katı gibi yoğun trafiğe sahip noktalarda konumlandırılmıştır. Ziyaretçiler, AVM'de geçirdikleri süre boyunca reklamınızı defalarca görürler. Alışveriş yaparken, yemek yerken, sinema için beklerken veya etkinlik alanlarına giderken markanız sürekli göz önündedir. Bu sürekli maruz kalma, marka bilinirliği ve satın alma kararı açısından büyük avantaj sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        LED ekran reklam seçeneklerimiz, dinamik içerikler paylaşmanıza olanak tanır. Video reklamlar, animasyonlar ve döngüsel görseller ile markanızı daha etkileyici bir şekilde sunabilirsiniz. Özellikle kampanya duyuruları, yeni ürün lansmanları ve sezonluk promosyonlar için LED ekranlar ideal bir seçenektir. İçeriklerinizi anlık olarak güncelleyebilir, farklı saatlerde farklı mesajlar verebilirsiniz.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Primemall, Iconova Cadde'ye de komşu konumdadır. Bu sayede, hem AVM içindeki hem de cadde üzerindeki reklam alanlarımızdan birlikte faydalanarak markanızın görünürlüğünü maksimuma çıkarabilirsiniz. Primemall'a gelen ziyaretçiler, genellikle Iconova Cadde'de de vakit geçirirler. Bu iki lokasyonda birlikte reklam vermek, markanızın hatırlanabilirliğini kat be kat artırır.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Her türlü tüketim alışkanlığının olduğu insanların uğrak noktası olan AVM'ler sizlere yeni müşteriler kazandırmanın yanı sıra prestijli bir marka izlenimi verir. Özellikle moda, kozmetik, teknoloji, gıda, eğlence ve finans sektörlerindeki markalar için Primemall reklam alanları stratejik önem taşır. Ziyaretçiler, AVM'de gezerken yeni ürün ve hizmetleri keşfetmeye açıktırlar ve satın alma eğilimleri yüksektir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Geveze Ajans olarak, Primemall'da birden fazla reklam noktası sunuyoruz. Ana girişler, merkezi meydanlar, yemek katı, sinema girişleri ve park alanları gibi farklı noktalarda seçeneklerimiz bulunmaktadır. Her reklam noktasının ziyaretçi trafiği analizi, hedef kitle profili, görünürlük süresi ve etkileşim potansiyeli detaylı olarak raporlanır. Bütçenize ve kampanya hedeflerinize en uygun reklam noktasını seçmeniz için size rehberlik ediyoruz. Primemall'da yerinizi alın ve markanızı Gaziantep'in prestij merkezinde tanıtın!\n    </p>"
   },
   "spot": {
     "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
@@ -22,7 +22,12 @@
   "index": 0,
   "icon": "home",
   "desc": {},
-  "img": "oevz4.jpg",
+  "img": "oevz4.webp",
   "update": "2025-09-18T06:28:36.547Z",
-  "date": "2025-09-18T06:28:33.346Z"
+  "date": "2025-09-18T06:28:33.346Z",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  }
 }

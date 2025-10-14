@@ -1,5 +1,5 @@
 
-  .skuiz {
+  .k8isb {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .skuiztitle {
+  .k8isbtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .skuiztitlebody {
+  .k8isbtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .skuiztitlebodytitle {
+  .k8isbtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .skuiztitlebodylang {
+  .k8isbtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .skuiztitlebodylang ul {
+  .k8isbtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .skuizbody {
+  .k8isbbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .skuizmenu {
+  .k8isbmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .skuizmenulist {
+  .k8isbmenulist {
     width: calc(100% - 20px);
     background-color: #F9B200;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .skuizmenubody {
+  .k8isbmenubody {
     width: 100%;
     background-color: #F9B200;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .skuizmenulist ul {
+  .k8isbmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .skuizmenulist ul a {
+  .k8isbmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #000 !important;
@@ -93,26 +93,26 @@
     white-space: nowrap;
   }
 
-  .skuizmenulist ul a:hover {
+  .k8isbmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .skuiz-menu-list-active {
+  .k8isb-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .skuizmenulistbody {
+  .k8isbmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .skuizbodylogo {
+    .k8isbbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -120,15 +120,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .skuizmenu {
+    .k8isbmenu {
       overflow-x: auto;
     }
 
-    .skuizmenulist ul {
+    .k8isbmenulist ul {
       flex-direction: row;
     }
 
-    .skuizbodylogo {
+    .k8isbbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -136,7 +136,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .skuizmenulist ul a {
+    .k8isbmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,7 +146,7 @@
     justify-content: start;
   }
 
-  .gicr4 {
+  .idilt {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -154,7 +154,7 @@
     position: relative;
   }
 
-  .gicr4-menu-btn {
+  .idilt-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -166,11 +166,11 @@
     align-items: center;
   }
 
-  .gicr4-menu-btn i {
+  .idilt-menu-btn i {
     font-size: 20px;
   }
 
-  .gicr4-menu {
+  .idilt-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -181,28 +181,28 @@
     float: left;
   }
 
-  .gicr4-desc {
+  .idilt-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .gicr4-menu > a {
+  .idilt-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .gicr4-menu > .active,
-  .gicr4-menu > a:hover {
+  .idilt-menu > .active,
+  .idilt-menu > a:hover {
     background-color: #000;
     color: #fff;
     display: flex;
   }
 
-  .gicr4-desc-menu {
+  .idilt-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -210,19 +210,19 @@
     border-radius: 5px;
   }
 
-  .gicr4-desc-menu > div {
+  .idilt-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .gicr4-desc-body {
+  .idilt-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .gicr4-title {
+  .idilt-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -235,7 +235,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .gicr4-title::before {
+  .idilt-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -250,44 +250,44 @@
     z-index: 1;
   }
 
-  .gicr4-title span {
+  .idilt-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .gicr4-body {
+  .idilt-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .gicr4-img {
+  .idilt-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .gicr4-img img {
+  .idilt-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .gicr4-desc {
+    .idilt-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .gicr4-menu-btn {
+    .idilt-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .gicr4 {
+    .idilt {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -296,17 +296,17 @@
       margin-top: 0px;
     }
 
-    .gicr4-img {
+    .idilt-img {
       width: 100%;
     }
 
-    .gicr4-body {
+    .idilt-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .gicr4-menu {
+    .idilt-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -314,11 +314,11 @@
       display: none;
     }
 
-    .gicr4-menu.active {
+    .idilt-menu.active {
       display: flex;
     }
 
-    .gicr4-desc {
+    .idilt-desc {
       width: 100% !important;
       order: 2;
     }
@@ -348,6 +348,17 @@
   }
 
 
+  .moduleimg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .moduleimg > img {
+    width: 100%;
+    max-width: 250px;
+  }
+
   .footer {
     position: relative;
     background: #F9B200 ;
@@ -376,7 +387,7 @@
 
   .social-icon__link {
     font-size: 2rem;
-    color: --color--;
+    color: #fff;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
@@ -388,7 +399,7 @@
 
   .menu__link {
     font-size: 1.2rem;
-    color: --color-- !important;
+    color: #fff !important;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
@@ -402,7 +413,7 @@
   }
 
   .footer p { 
-    color: --color--;
+    color: #fff;
     margin: 15px 0 10px 0;
     font-size: 1rem;
     font-weight: 300;

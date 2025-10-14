@@ -22,7 +22,12 @@
   "index": 4,
   "icon": "home",
   "desc": {},
-  "img": "cdqsn.jpg",
+  "img": "cdqsn.webp",
   "update": "2025-09-18T06:28:36.563Z",
-  "date": "2025-09-18T06:28:33.363Z"
+  "date": "2025-09-18T06:28:33.363Z",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  }
 }

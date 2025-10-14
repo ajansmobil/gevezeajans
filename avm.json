@@ -10,14 +10,31 @@
       "status": "play",
       "category": "",
       "id": "primemall",
+      "externalUrl": "",
       "path": "primemall",
+      "keyword": {
+        "tr": "Primemall, alışveriş merkezi, Gaziantep AVM"
+      },
+      "description": {
+        "tr": "Primemall reklam noktası - Gaziantep'in en yoğun alışveriş merkezlerinden biri"
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Primemall - Gaziantep'in Prestij Merkezi</h2>\n    <p style=\"font-size: 16px;\">\n        Primemall, Gaziantep'in en büyük ve en prestijli alışveriş merkezlerinden biridir. Hafta sonu ve hafta içi günlük binlerce ziyaretçiye ev sahipliği yapan Primemall, şehrin sosyal ve ticari yaşamının nabzının attığı önemli bir merkezdir. Bu AVM'de yer alan reklam alanlarımız, haftalık 200-500 bin kişilik hedef kitleye ulaşarak markanızı en etkili şekilde tanıtmanızı sağlar. LED ekran, billboard ve iç alan reklam seçenekleri ile markanızı her köşeden görünür kılıyoruz.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Primemall, sadece bir alışveriş merkezi değil; aynı zamanda eğlence, yeme-içme ve sosyal aktivitelerin merkezi konumundadır. Sinema salonları, restoranlar, kafeler, oyun alanları ve etkinlik alanları ile her yaştan ve her kesimden insanı bir araya getiren bir yaşam alanıdır. Aileler hafta sonu gezmek için, gençler arkadaşlarıyla vakit geçirmek için, iş insanları yemek ve toplantı için Primemall'u tercih eder. Bu çeşitli demografik yapı, her sektörden markanın hedef kitlesine ulaşmasını mümkün kılar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        AVM içindeki reklam alanlarımız, ana girişler, merkezi koridorlar, yürüyen merdivenler, asansörler ve yemek katı gibi yoğun trafiğe sahip noktalarda konumlandırılmıştır. Ziyaretçiler, AVM'de geçirdikleri süre boyunca reklamınızı defalarca görürler. Alışveriş yaparken, yemek yerken, sinema için beklerken veya etkinlik alanlarına giderken markanız sürekli göz önündedir. Bu sürekli maruz kalma, marka bilinirliği ve satın alma kararı açısından büyük avantaj sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        LED ekran reklam seçeneklerimiz, dinamik içerikler paylaşmanıza olanak tanır. Video reklamlar, animasyonlar ve döngüsel görseller ile markanızı daha etkileyici bir şekilde sunabilirsiniz. Özellikle kampanya duyuruları, yeni ürün lansmanları ve sezonluk promosyonlar için LED ekranlar ideal bir seçenektir. İçeriklerinizi anlık olarak güncelleyebilir, farklı saatlerde farklı mesajlar verebilirsiniz.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Primemall, Iconova Cadde'ye de komşu konumdadır. Bu sayede, hem AVM içindeki hem de cadde üzerindeki reklam alanlarımızdan birlikte faydalanarak markanızın görünürlüğünü maksimuma çıkarabilirsiniz. Primemall'a gelen ziyaretçiler, genellikle Iconova Cadde'de de vakit geçirirler. Bu iki lokasyonda birlikte reklam vermek, markanızın hatırlanabilirliğini kat be kat artırır.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Her türlü tüketim alışkanlığının olduğu insanların uğrak noktası olan AVM'ler sizlere yeni müşteriler kazandırmanın yanı sıra prestijli bir marka izlenimi verir. Özellikle moda, kozmetik, teknoloji, gıda, eğlence ve finans sektörlerindeki markalar için Primemall reklam alanları stratejik önem taşır. Ziyaretçiler, AVM'de gezerken yeni ürün ve hizmetleri keşfetmeye açıktırlar ve satın alma eğilimleri yüksektir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Geveze Ajans olarak, Primemall'da birden fazla reklam noktası sunuyoruz. Ana girişler, merkezi meydanlar, yemek katı, sinema girişleri ve park alanları gibi farklı noktalarda seçeneklerimiz bulunmaktadır. Her reklam noktasının ziyaretçi trafiği analizi, hedef kitle profili, görünürlük süresi ve etkileşim potansiyeli detaylı olarak raporlanır. Bütçenize ve kampanya hedeflerinize en uygun reklam noktasını seçmeniz için size rehberlik ediyoruz. Primemall'da yerinizi alın ve markanızı Gaziantep'in prestij merkezinde tanıtın!\n    </p>"
+      },
       "spot": {
         "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
       },
       "index": 0,
       "icon": "home",
-      "img": "oevz4.jpg",
-      "desc": {}
+      "desc": {},
+      "img": "oevz4.webp",
+      "update": "2025-09-18T06:28:36.547Z",
+      "date": "2025-09-18T06:28:33.346Z",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
     },
     {
       "name": {
@@ -26,7 +43,17 @@
       "status": "play",
       "category": "",
       "id": "forum-avm",
+      "externalUrl": "",
       "path": "forum-avm",
+      "keyword": {
+        "tr": "Forum AVM, alışveriş merkezi, Gaziantep AVM"
+      },
+      "description": {
+        "tr": "Forum AVM reklam noktası - Şehrin en prestijli alışveriş merkezlerinden biri"
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Forum AVM - Alışverişin ve Eğlencenin Merkezi</h2>\n    <p style=\"font-size: 16px;\">\n        Forum AVM, Gaziantep'in en prestijli ve köklü alışveriş merkezlerinden biri olarak, şehrin sosyal ve ticari yaşamında önemli bir yere sahiptir. Merkezi konumu, geniş mağaza çeşitliliği ve kaliteli hizmet anlayışı ile her gün binlerce ziyaretçiye ev sahipliği yapar. Bu AVM'de yer alan reklam alanlarımız, haftalık 200-500 bin kişilik hedef kitleye ulaşarak markanızın değerini artırır ve geniş bir müşteri kitlesine ulaşmanızı sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Forum AVM, ulusal ve uluslararası markaların bir araya geldiği, alışveriş deneyimini zirveye taşıyan bir merkezdir. Moda, kozmetik, teknoloji, ev eşyaları, oyuncak ve daha birçok kategoride dünya çapında markalar, Forum AVM'de mağaza açmıştır. Bu prestijli ortamda reklam vermek, markanızın da bu kalite algısından faydalanmasını sağlar. Tüketiciler, Forum AVM'de gördükleri markaları otomatik olarak güvenilir ve kaliteli olarak algılarlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Dijital ekran, billboard ve otopark gibi alanlarda reklam seçenekleri sunulur. Dijital ekranlar, merkezi konumlarda yerleştirilmiş olup, dinamik içerikler paylaşmanıza olanak tanır. Ana girişler, yürüyen merdivenler, yemek katı ve sinema salonları yakınında konumlandırılmış dijital ekranlarımız, her gün binlerce kişi tarafından görülür. Video reklamlar, animasyonlar ve döngüsel görseller ile markanızı daha etkileyici bir şekilde sunabilirsiniz.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Otopark reklam alanları, araç sahipleri için ideal bir mecradır. Forum AVM'nin geniş otopark alanında, sütunlar, duvarlar ve yönlendirme panoları üzerinde reklam alanları sunuyoruz. Araç sahipleri, park ederken, araçlarına dönerken ve otopark içinde yürürken reklamlarınızı görürler. Özellikle otomotiv, sigorta, finans ve emlak sektörlerindeki markalar için otopark reklamları etkili sonuçlar verir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Forum AVM, hafta sonu ailelerin, genç çiftlerin ve arkadaş gruplarının tercih ettiği önemli bir sosyalleşme mekanıdır. Özellikle Cumartesi ve Pazar günleri ziyaretçi sayısı zirveye ulaşır. Aileler, çocuklarıyla birlikte alışveriş yapar, yemek yer ve eğlenir. Gençler, arkadaşlarıyla buluşur, sinemaya gider ve kafeler de vakit geçirir. Bu çeşitli demografik yapı, her sektörden markanın hedef kitlesine ulaşmasını mümkün kılar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Forum AVM'nin sinema salonları, şehrin en popüler vizyondaki filmleri gösterir ve her hafta binlerce sinemaseveri ağırlar. Sinema girişleri ve koridorlarında yer alan reklam alanlarımız, sinema izleyicilerinin dikkatini çeker. Özellikle genç ve dinamik bir kitleye ulaşmak isteyen markalar için sinema alanları stratejik önem taşır. Film başlamadan önce ve aralarda gösterilen reklamlar, izleyicilerin yüksek dikkatini yakalar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Geveze Ajans olarak, Forum AVM'de birden fazla reklam noktası sunuyoruz. Ana girişler, merkezi koridorlar, yemek katı, sinema alanları, otopark bölgeleri ve asansörler gibi farklı noktalarda seçeneklerimiz bulunmaktadır. Her reklam noktasının ziyaretçi trafiği analizi, hedef kitle profili, görünürlük süresi ve etkileşim potansiyeli detaylı olarak raporlanır. Bütçenize ve kampanya hedeflerinize en uygun reklam noktasını seçmeniz için size rehberlik ediyoruz. Forum AVM'de yerinizi alın ve markanızı Gaziantep'in prestij merkezinde tanıtın!\n    </p>"
+      },
       "spot": {
         "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
       },
@@ -37,8 +64,10 @@
         "footer": []
       },
       "icon": "home",
-      "img": "okfc7.jpg",
-      "desc": {}
+      "desc": {},
+      "img": "okfc7.webp",
+      "update": "2025-09-18T06:28:36.550Z",
+      "date": "2025-09-18T06:28:33.348Z"
     },
     {
       "name": {
@@ -47,14 +76,31 @@
       "status": "play",
       "category": "",
       "id": "sanko-park",
+      "externalUrl": "",
       "path": "sanko-park",
+      "keyword": {
+        "tr": "Sanko Park, alışveriş merkezi, Gaziantep AVM"
+      },
+      "description": {
+        "tr": "Sanko Park reklam noktası - Gaziantep'in en uğrak AVM'lerinden biri"
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">Sanko Park - Gaziantep'in Köklü AVM'si</h2>\n    <p style=\"font-size: 16px;\">\n        Sanko Park, Gaziantep'in en eski ve köklü alışveriş merkezlerinden biri olarak, şehrin ticari ve sosyal yaşamına uzun yıllardır hizmet etmektedir. Köklü geçmişi, güvenilir markası ve merkezi konumu ile şehir halkının gözünde özel bir yere sahiptir. Bu AVM'de yer alan reklam alanlarımız, haftalık 200-500 bin kişilik hedef kitleye ulaşarak markanıza güvenilir ve prestijli bir konumlandırma sağlar. LED ekran, billboard, otopark ve iç alan reklam seçenekleri ile markanızı her köşeden görünür kılıyoruz.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Sanko Park, sadece bir alışveriş merkezi değil; aynı zamanda Gaziantep'in hafızasında özel bir yere sahip bir marka ve yaşam alanıdır. Uzun yıllardır Gaziantepli ailelerin alışveriş, eğlence ve sosyalleşme merkezi olan Sanko Park, her yaş grubundan ziyaretçiye ulaşma imkanı sunar. Özellikle orta ve üst segment ailelerin tercih ettiği Sanko Park, kaliteli ve güvenilir bir ortam sunarak markanızın da bu prestijden faydalanmasını sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        LED ekran reklam seçeneklerimiz, AVM'nin ana girişlerinde, merkezi koridorlarında ve yemek katında konumlandırılmıştır. Dinamik içerikler paylaşmanıza olanak tanıyan LED ekranlar, video reklamlar, animasyonlar ve döngüsel görseller ile markanızı daha etkileyici bir şekilde sunar. Özellikle kampanya duyuruları, yeni ürün lansmanları ve sezonluk promosyonlar için LED ekranlar ideal bir seçenektir. İçeriklerinizi anlık olarak güncelleyebilir, farklı saatlerde farklı mesajlar verebilirsiniz.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Billboard reklam alanlarımız, AVM'nin dış cephesinde ve otopark girişlerinde konumlandırılmıştır. Dışarıdan geçen araç ve yaya trafiğinden maksimum görünürlük sağlayan bu alanlar, markanızın AVM dışındaki kitlelere de ulaşmasını mümkün kılar. Özellikle AVM'nin ana cadde üzerindeki konumu, günlük binlerce aracın geçtiği bir noktada olması, billboard reklamlarının etkisini artırır.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Otopark reklam alanları, Sanko Park'ın geniş otopark bölgesinde sunulmaktadır. Sütunlar, duvarlar, yönlendirme panoları ve asansör girişleri üzerinde reklam alanları bulunmaktadır. Araç sahipleri, park ederken, araçlarına dönerken ve otopark içinde yürürken reklamlarınızı görürler. Özellikle otomotiv, sigorta, finans, emlak ve oto servis hizmetleri veren markalar için otopark reklamları son derece etkili sonuçlar verir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Sanko Park, yemek katı ile de ünlüdür. Türk mutfağından dünya mutfaklarına kadar geniş bir yelpazede restoran ve kafe seçenekleri sunar. Yemek katı, özellikle öğle ve akşam saatlerinde yoğun ziyaretçi trafiği görür. Aileler, iş insanları ve genç grupları yemek katında buluşur ve vakit geçirir. Bu bölgede yer alan reklam alanlarımız, yemek yiyen ve sosyalleşen kitlelere doğrudan ulaşmanızı sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Her yaş grubundan ziyaretçiye ulaşma imkanı sunan Sanko Park, çocuklar için oyun alanları, gençler için teknoloji mağazaları ve yetişkinler için moda ve ev eşyaları mağazaları ile geniş bir demografiye hitap eder. Bu çeşitlilik, her sektörden markanın hedef kitlesini bulmasını mümkün kılar. Özellikle aile odaklı markalar, eğitim kurumları, çocuk ürünleri ve oyuncak markaları için Sanko Park ideal bir reklam mecrası sunar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Geveze Ajans olarak, Sanko Park'ta birden fazla reklam noktası sunuyoruz. Ana girişler, merkezi koridorlar, yemek katı, otopark bölgeleri, asansörler ve dış cephe gibi farklı noktalarda seçeneklerimiz bulunmaktadır. Her reklam noktasının ziyaretçi trafiği analizi, hedef kitle profili, görünürlük süresi ve etkileşim potansiyeli detaylı olarak raporlanır. Bütçenize ve kampanya hedeflerinize en uygun reklam noktasını seçmeniz için size rehberlik ediyoruz. Sanko Park'ta yerinizi alın ve markanızı Gaziantep'in köklü AVM'sinde tanıtın!\n    </p>"
+      },
       "spot": {
         "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
       },
       "index": 2,
       "icon": "home",
-      "img": "bkl4v.jpg",
-      "desc": {}
+      "desc": {},
+      "img": "bkl4v.webp",
+      "update": "2025-09-18T06:28:36.552Z",
+      "date": "2025-09-18T06:28:33.351Z",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
     },
     {
       "name": {
@@ -63,14 +109,31 @@
       "status": "play",
       "category": "",
       "id": "m1-avm",
+      "externalUrl": "",
       "path": "m1-avm",
+      "keyword": {
+        "tr": "M1 AVM, alışveriş merkezi, Gaziantep AVM"
+      },
+      "description": {
+        "tr": "M1 AVM reklam noktası - Modern mimarisi ve geniş alanı ile dikkat çekici"
+      },
+      "text": {
+        "tr": "<h2 style=\"font-size: 24px;\">M1 AVM - Modern Mimarinin ve Geniş Alanların Buluştuğu Nokta</h2>\n    <p style=\"font-size: 16px;\">\n        M1 AVM, modern mimarisi ve geniş alanı ile Gaziantep'in en dikkat çeken alışveriş merkezlerinden biridir. Çağdaş tasarımı, ferah iç mekanları ve geniş mağaza çeşitliliği ile her yaştan ve her kesimden ziyaretçiye hitap eder. Bu AVM'de yer alan reklam alanlarımız, haftalık 200-500 bin kişilik hedef kitleye ulaşarak markanızın dikkat çekmesini ve akılda kalmasını sağlar. İç ve dış alanlarda sunduğumuz reklam seçenekleri ile markanızı her açıdan görünür kılıyoruz.\n    </p>\n    <p style=\"font-size: 16px;\">\n        M1 AVM, sosyal etkinliklerin yoğun olduğu bir merkez olarak, hedef kitlenize sürekli erişim imkanı sunar. Konserler, sergiler, çocuk etkinlikleri, moda şovları ve ürün lansmanları gibi birçok organizasyona ev sahipliği yapar. Bu etkinlikler, AVM'ye ekstra ziyaretçi çeker ve markanızın daha geniş kitlelere ulaşmasını sağlar. Özellikle etkinlik günlerinde, reklam alanlarınız binlerce kişi tarafından görülür ve markanız hafızalarda yer eder.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Modern mimarisi ile dikkat çeken M1 AVM, geniş koridorları, yüksek tavanları ve doğal ışık alan atriumları ile ziyaretçilerine konforlu bir alışveriş deneyimi sunar. Bu ferah ve aydınlık ortamda yer alan reklam alanlarımız, görsel olarak daha etkileyici ve dikkat çekici olur. Özellikle atrium bölgesinde asılı pankartlar ve dijital ekranlar, AVM'nin merkezinde konumlanarak maksimum görünürlük sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        İç alan reklam seçeneklerimiz arasında dijital ekranlar, billboard'lar, asansör içi reklam alanları, tuvalet girişi reklam panoları ve koridor reklamları bulunmaktadır. Dijital ekranlar, ana girişler, yürüyen merdivenler, yemek katı ve etkinlik alanları yakınında konumlandırılmış olup, dinamik içerikler paylaşmanıza olanak tanır. Video reklamlar, animasyonlar ve döngüsel görseller ile markanızı daha etkileyici bir şekilde sunabilirsiniz.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Dış alan reklam seçeneklerimiz, AVM'nin cephe billboard'ları, otopark girişi reklam panoları ve park alanı reklamlarını kapsar. M1 AVM'nin ana cadde üzerindeki konumu, dış cephe reklamlarının günlük binlerce araç ve yaya tarafından görülmesini sağlar. Özellikle akşam saatlerinde aydınlatmalı billboard'lar, uzaktan bile dikkat çeker ve markanızı şehrin simgesi haline getirir.\n    </p>\n    <p style=\"font-size: 16px;\">\n        M1 AVM, yemek katı ve kafe çeşitliliği ile de ünlüdür. Fast food restoranlarından lüks restoranlara, kafeternden kafelere kadar geniş bir yelpazede seçenek sunar. Yemek katı, özellikle öğle ve akşam saatlerinde yoğun ziyaretçi trafiği görür. Aileler, iş insanları, öğrenciler ve genç grupları yemek katında buluşur ve vakit geçirir. Bu bölgede yer alan reklam alanlarımız, yemek yiyen ve sosyalleşen kitlelere doğrudan ulaşmanızı sağlar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        M1 AVM, hafta sonu ve hafta içi sürekli ziyaretçi trafiği gören bir merkezdir. Özellikle Cumartesi ve Pazar günleri aileler, genç çiftler ve arkadaş grupları AVM'de alışveriş yapar, yemek yer, sinemaya gider ve etkinliklere katılır. Bu yoğun ziyaretçi trafiği, markanızın sürekli görünür olmasını ve geniş kitlelere ulaşmasını sağlar. Her sektörden marka için ideal bir reklam mecrası sunar.\n    </p>\n    <p style=\"font-size: 16px;\">\n        Geveze Ajans olarak, M1 AVM'de birden fazla reklam noktası sunuyoruz. Ana girişler, merkezi koridorlar, atrium bölgesi, yemek katı, otopark alanları, dış cephe ve asansörler gibi farklı noktalarda seçeneklerimiz bulunmaktadır. Her reklam noktasının ziyaretçi trafiği analizi, hedef kitle profili, görünürlük süresi ve etkileşim potansiyeli detaylı olarak raporlanır. Bütçenize ve kampanya hedeflerinize en uygun reklam noktasını seçmeniz için size rehberlik ediyoruz. M1 AVM'de yerinizi alın ve markanızı modern mimarinin ve geniş alanların buluştuğu noktada tanıtın!\n    </p>"
+      },
       "spot": {
         "tr": "Haftalık Hedef Kitle: 200-500 Bin Kişi"
       },
       "index": 3,
       "icon": "home",
-      "img": "i27mc.jpg",
-      "desc": {}
+      "desc": {},
+      "img": "i27mc.webp",
+      "update": "2025-09-18T06:28:36.554Z",
+      "date": "2025-09-18T06:28:33.353Z",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
     }
   ],
   "index": 2,

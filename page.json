@@ -12,7 +12,10 @@
       "id": "p0ebjrqjlp",
       "path": "bizi-taniyin",
       "spot": {
-        "tr": ""
+        "tr": "Gaziantep'in En Prestijli Noktalarında Markanızı Öne Çıkarıyoruz"
+      },
+      "description": {
+        "tr": "Gaziantep'in önde gelen reklam ajansı olarak, işletmenizin marka değerini artırmak için profesyonel reklam çözümleri sunuyoruz."
       },
       "index": 0,
       "desing": {
@@ -34,7 +37,10 @@
       "id": "i3yhizsx50",
       "path": "acikhava-plus",
       "spot": {
-        "tr": ""
+        "tr": "Billboard, Durak, Toplu Taşıma ve AVM Reklamlarında Kapsamlı Çözümler"
+      },
+      "description": {
+        "tr": "Açıkhava reklam çözümlerimizle işletmenizi en iyi şekilde tanıtıyoruz. Billboard, durak, toplu taşıma ve AVM reklamları ile markanızı öne çıkarıyoruz."
       },
       "index": 1,
       "icon": "home",
@@ -61,7 +67,10 @@
       "id": "tzbap06ji6",
       "path": "nerelerdeyiz",
       "spot": {
-        "tr": ""
+        "tr": "Gaziantep'in Stratejik Noktalarında Geniş Reklam Ağı"
+      },
+      "description": {
+        "tr": "Gaziantep'in stratejik noktalarında reklam alanlarımızı keşfedin. Billboard, durak, toplu taşıma ve AVM reklam noktalarımızla markanızı en iyi şekilde tanıtın."
       },
       "index": 2,
       "icon": "home",
@@ -83,7 +92,10 @@
       "id": "oczz1bxg73",
       "path": "geveze-etkisi",
       "spot": {
-        "tr": ""
+        "tr": "Marka Bilinirliğinizi %300 Artırın, Geveze Etkisi ile Fark Yaratın"
+      },
+      "description": {
+        "tr": "Geveze Ajans'ın başarılı reklam kampanyaları ve marka tanıtım hikayeleri. Reklam stratejilerimizle işletmenizin bilinirliğini artırıyoruz."
       },
       "index": 3,
       "icon": "home",
@@ -105,7 +117,10 @@
       "id": "ch1wtfk6ts",
       "path": "iletisim",
       "spot": {
-        "tr": ""
+        "tr": "Profesyonel Reklam Çözümleri İçin Bize Ulaşın"
+      },
+      "description": {
+        "tr": "Geveze Ajans ile iletişime geçin. Reklam hizmetlerimiz hakkında bilgi almak ve projeleriniz için teklif almak için bize ulaşın."
       },
       "index": 4,
       "icon": "home",

@@ -22,7 +22,12 @@
   "index": 1,
   "icon": "home",
   "desc": {},
-  "img": "zuvah.jpg",
+  "img": "zuvah.webp",
   "update": "2025-09-18T06:28:36.558Z",
-  "date": "2025-09-18T06:28:33.357Z"
+  "date": "2025-09-18T06:28:33.357Z",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  }
 }

@@ -22,7 +22,12 @@
   "index": 2,
   "icon": "home",
   "desc": {},
-  "img": "lymkl.jpg",
+  "img": "lymkl.webp",
   "update": "2025-09-18T06:28:36.559Z",
-  "date": "2025-09-18T06:28:33.359Z"
+  "date": "2025-09-18T06:28:33.359Z",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  }
 }

@@ -1,5 +1,5 @@
 
-  .wednl {
+  .e4qau {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .wednltitle {
+  .e4qautitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .wednltitlebody {
+  .e4qautitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .wednltitlebodytitle {
+  .e4qautitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .wednltitlebodylang {
+  .e4qautitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .wednltitlebodylang ul {
+  .e4qautitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .wednlbody {
+  .e4qaubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .wednlmenu {
+  .e4qaumenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .wednlmenulist {
+  .e4qaumenulist {
     width: calc(100% - 20px);
     background-color: #F9B200;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .wednlmenubody {
+  .e4qaumenubody {
     width: 100%;
     background-color: #F9B200;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .wednlmenulist ul {
+  .e4qaumenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .wednlmenulist ul a {
+  .e4qaumenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #000 !important;
@@ -93,26 +93,26 @@
     white-space: nowrap;
   }
 
-  .wednlmenulist ul a:hover {
+  .e4qaumenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .wednl-menu-list-active {
+  .e4qau-menu-list-active {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .wednlmenulistbody {
+  .e4qaumenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .wednlbodylogo {
+    .e4qaubodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -120,15 +120,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .wednlmenu {
+    .e4qaumenu {
       overflow-x: auto;
     }
 
-    .wednlmenulist ul {
+    .e4qaumenulist ul {
       flex-direction: row;
     }
 
-    .wednlbodylogo {
+    .e4qaubodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -136,24 +136,24 @@
   }
 
   @media screen and (max-width: 768px) {
-    .wednlmenulist ul a {
+    .e4qaumenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .rpqzh {
+  .i3mgx {
     width: 100%;
     margin: 15px 0;
   }
 
-  .rpqzhbody {
+  .i3mgxbody {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
   }
 
-  .rpqzhbodyitem {
+  .i3mgxbodyitem {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,7 +166,7 @@
     position: relative;
   }
 
-  .rpqzhbodyitemlink {
+  .i3mgxbodyitemlink {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,7 +174,7 @@
     width: 100%;
   }
 
-  .rpqzhbodyitemimg {
+  .i3mgxbodyitemimg {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,17 +185,17 @@
     transition: all 0.3s ease;
   }
 
-  .rpqzhbodyitemimg:hover {
+  .i3mgxbodyitemimg:hover {
     transform: translateY(-10px);
   }
 
-  .rpqzhbodyitemimg img {
+  .i3mgxbodyitemimg img {
     max-height: 200px;
     max-width: calc(200px * 2);
     border-radius: 10px;
   }
 
-  .rpqzhbodyitemtitle {
+  .i3mgxbodyitemtitle {
     padding: 5px;
     display: flex;
     align-items: center;
@@ -209,12 +209,12 @@
     transition: all 0.3s ease;
   }
 
-  .rpqzhbodyitemtitle:hover {
+  .i3mgxbodyitemtitle:hover {
     transform: translateY(-2px);
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
   }
 
-  .rpqzhbodybg {
+  .i3mgxbodybg {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -225,7 +225,7 @@
     opacity: 0.5;
   }
 
-  .rpqzhbodyitems {
+  .i3mgxbodyitems {
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -238,28 +238,28 @@
       transform 0.5s ease;
   }
 
-  .rpqzhbodyitems.left {
+  .i3mgxbodyitems.left {
     align-self: flex-start;
     border-radius: 0px 10px 10px 0px;
     transform: translateX(-100px);
   }
 
-  .rpqzhbodyitems.right {
+  .i3mgxbodyitems.right {
     align-self: flex-end;
     border-radius: 10px 0px 0px 10px;
     transform: translateX(100px);
   }
 
-  .rpqzhbodyitems.visible {
+  .i3mgxbodyitems.visible {
     opacity: 1;
     transform: translateX(0);
   }
 
-  .rpqzhbodyitem.lefts {
+  .i3mgxbodyitem.lefts {
     align-self: flex-end;
   }
 
-  .rpqzhbodyitem.rights {
+  .i3mgxbodyitem.rights {
     align-self: flex-start;
   }
 
@@ -287,11 +287,11 @@
     }
   }
 
-  .rpqzhbodyitems {
+  .i3mgxbodyitems {
     animation-delay: 0.3s;
   }
 
-  .rpqzhbodyitechile {
+  .i3mgxbodyitechile {
     display: flex;
     gap: 10px;
     margin-top: 5px;
@@ -302,7 +302,7 @@
     color: #000;
   }
 
-  .rpqzhbodyitechilesubpage {
+  .i3mgxbodyitechilesubpage {
     font-size: 16px;
     color: #fff !important;
     padding: 10px;
@@ -317,17 +317,17 @@
     z-index: 3;
   }
 
-  .rpqzhbodyitechilesubpage:hover {
+  .i3mgxbodyitechilesubpage:hover {
     opacity: 0.8;
     transform: translateY(-2px);
   }
 
   @media screen and (max-width: 1024px) {
-    .rpqzhbodyitem {
+    .i3mgxbodyitem {
       width: calc(100% - 30px);
     }
 
-    .rpqzhbody {
+    .i3mgxbody {
       display: flex;
       flex-direction: column;
       gap: 15px;
@@ -358,6 +358,17 @@
   }
 
 
+  .moduleimg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .moduleimg > img {
+    width: 100%;
+    max-width: 250px;
+  }
+
   .footer {
     position: relative;
     background: #F9B200 ;
@@ -386,7 +397,7 @@
 
   .social-icon__link {
     font-size: 2rem;
-    color: --color--;
+    color: #fff;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
@@ -398,7 +409,7 @@
 
   .menu__link {
     font-size: 1.2rem;
-    color: --color-- !important;
+    color: #fff !important;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
@@ -412,7 +423,7 @@
   }
 
   .footer p { 
-    color: --color--;
+    color: #fff;
     margin: 15px 0 10px 0;
     font-size: 1rem;
     font-weight: 300;

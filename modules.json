@@ -9,12 +9,11 @@
       "desing": {
         "bgcolor": "#F9B200",
         "page": "page",
-        "name": {
-          "tr": "Hemen Teklif Al"
-        },
         "color": "#000"
       },
-      "id": "ofbmyq"
+      "id": "ofbmyq",
+      "version": "1.0.0",
+      "icon": "menu"
     },
     {
       "index": 1,
@@ -22,6 +21,9 @@
       "path": "slider",
       "local": "header",
       "category": "slider",
+      "desing": {
+        "delay": 3000
+      },
       "data": [
         {
           "img": "06.jpg"
@@ -51,7 +53,9 @@
           "img": "05.jpg"
         }
       ],
-      "id": "abar6m"
+      "id": "abar6m",
+      "version": "1.0.0",
+      "icon": "view_carousel"
     },
     {
       "index": 2,
@@ -60,10 +64,15 @@
       "local": "footer",
       "category": "footer",
       "desing": {
-        "bgcolor": "#F9B200 "
+        "bgcolor": "#F9B200 ",
+        "color": "#fff",
+        "img": "",
+        "imgwidth": "250px"
       },
       "id": "getr5x",
-      "data": []
+      "data": [],
+      "version": "1.0.0",
+      "icon": "web_asset"
     },
     {
       "index": 3,
@@ -93,7 +102,9 @@
           "text": "Atatürk Mah. Süleyman Kamçı Cad. Erdem Apt. No:8/A Şehitkamil / Gaziantep"
         }
       ],
-      "id": "cu0c57"
+      "id": "cu0c57",
+      "version": "1.0.0",
+      "icon": "contact_mail"
     },
     {
       "name": "Maps",
@@ -109,7 +120,9 @@
         "externalUrl": ""
       },
       "id": "i87tyt",
-      "index": 4
+      "index": 4,
+      "version": "1.0.0",
+      "icon": "map"
     },
     {
       "index": 5,
@@ -122,10 +135,11 @@
         "opacity": "0.5",
         "font-size": "50",
         "backgroundcolor": "#000",
-        "category": "kurumsal",
         "menu-active": "#000"
       },
-      "id": "whxr63"
+      "id": "whxr63",
+      "version": "1.0.0",
+      "icon": "web"
     },
     {
       "name": "Whatsapp",
@@ -144,7 +158,9 @@
       },
       "id": "sr5qzp",
       "index": 6,
-      "data": []
+      "data": [],
+      "version": "1.0.0",
+      "icon": "chat"
     },
     {
       "index": 7,
@@ -160,7 +176,9 @@
         "bgcolor": "#222",
         "color": "#fff"
       },
-      "id": "fyyc8f"
+      "id": "fyyc8f",
+      "version": "1.0.0",
+      "icon": "grid_view"
     },
     {
       "index": 8,
@@ -176,7 +194,9 @@
         "bgcolor": "#222",
         "color": "#fff"
       },
-      "id": "kns0qc"
+      "id": "kns0qc",
+      "version": "1.0.0",
+      "icon": "grid_view"
     },
     {
       "index": 9,
@@ -192,7 +212,9 @@
         "aspect-ratio": "3 / 2"
       },
       "id": "knsasad",
-      "category": "page list"
+      "category": "page list",
+      "version": "1.0.0",
+      "icon": "grid_view"
     },
     {
       "index": 10,
@@ -211,7 +233,9 @@
         "font-size": "36px",
         "color": "#fff"
       },
-      "id": "psz7wf"
+      "id": "psz7wf",
+      "version": "1.0.0",
+      "icon": "format_quote"
     },
     {
       "index": 11,
@@ -230,7 +254,9 @@
         "font-size": "36px",
         "color": "#fff"
       },
-      "id": "psz7wf2"
+      "id": "psz7wf2",
+      "version": "1.0.0",
+      "icon": "format_quote"
     },
     {
       "index": 12,
@@ -249,7 +275,9 @@
         "font-size": "36px",
         "color": "#fff"
       },
-      "id": "psz7wf3"
+      "id": "psz7wf3",
+      "version": "1.0.0",
+      "icon": "format_quote"
     },
     {
       "index": 13,
@@ -388,7 +416,10 @@
       "local": "body",
       "category": "code",
       "id": "vuq107",
-      "index": 15
+      "index": 15,
+      "desing": {},
+      "version": "1.0.0",
+      "icon": "code"
     }
   ]
 }
