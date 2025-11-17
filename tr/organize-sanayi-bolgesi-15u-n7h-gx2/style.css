@@ -1,7 +1,7 @@
 
  
 
-  .tt9s3 {
+  .abb88 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,16 +9,21 @@
     justify-content: center;
   }
 
-  .tt9s3title {
+  .abb88title {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-     position: relative;
+    position: relative;
     z-index: 1;
   }
 
-  .tt9s3titlebody {
+  .abb88title:has(.abb88titlebodylang:empty),
+  .abb88title:has(.abb88titlebodylang ul:empty) {
+    display: none;
+  }
+
+  .abb88titlebody {
     color: #000;
     width: var(--max);
     display: flex;
@@ -26,24 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .tt9s3titlebodytitle {
+  .abb88titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .tt9s3titlebodylang {
+  .abb88titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .tt9s3titlebodylang ul {
+  .abb88titlebodylang:empty,
+  .abb88titlebodylang ul:empty {
+    display: none;
+  }
+
+  .abb88titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .tt9s3body {
+  .abb88body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -52,7 +62,7 @@
     position: relative;
   }
 
-  .tt9s3-mobile-toggle {
+  .abb88-mobile-toggle {
     display: none;
     background: #F9B200;
     color: #000;
@@ -66,18 +76,18 @@
     right: 0;
   }
 
-  .tt9s3-mobile-toggle span {
+  .abb88-mobile-toggle span {
     font-size: 24px;
   }
 
-  .tt9s3menu {
+  .abb88menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .tt9s3menulist {
+  .abb88menulist {
     width: calc(100% - 20px);
     background-color: #F9B200;
     padding: 10px;
@@ -86,7 +96,7 @@
     display: flex;
   }
 
-  .tt9s3menubody {
+  .abb88menubody {
     width: 100%;
     background-color: #F9B200;
     display: flex;
@@ -94,17 +104,16 @@
     justify-content: center;
   }
 
-  .tt9s3menulist ul {
+  .abb88menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
     gap: 10px;
     margin: 0;
     padding: 0;
-    overflow-x: auto;
   }
 
-  .tt9s3menulist ul a {
+  .abb88menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #000 !important;
@@ -116,18 +125,18 @@
     white-space: nowrap;
   }
 
-  .tt9s3menulist ul a:hover {
+  .abb88menulist ul a:hover {
     background-color: --activebgcolor--;
     border-radius: 5px;
     color: --activecolor-- !important;
     cursor: pointer;
   }
 
-  .tt9s3menulist ul a.tt9s3-menu-list-active {
+  .abb88menulist ul a.abb88-menu-list-active {
     color: --activecolor-- !important;
   }
 
-  .tt9s3-menu-list-active {
+  .abb88-menu-list-active {
     background-color: --activebgcolor--;
     border-radius: 5px;
     color: --activecolor-- !important;
@@ -135,18 +144,22 @@
     cursor: pointer;
   }
 
-  .tt9s3menulistbody {
+  .abb88menulistbody {
     width: 100%;
   }
 
-  .tt9s3languages-mobile {
+  .abb88languages-mobile {
     display: none;
-    margin-top: 15px;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .tt9s3languages-mobile ul {
+  .abb88languages-mobile:empty,
+  .abb88languages-mobile ul:empty {
+    display: none !important;
+  }
+
+  .abb88languages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -155,7 +168,7 @@
     justify-content: center;
   }
 
-  .tt9s3languages-mobile li {
+  .abb88languages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -170,106 +183,103 @@
     transition: all 0.3s ease;
   }
 
-  .tt9s3languages-mobile li a {
+  .abb88languages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .tt9s3languages-mobile li:hover {
+  .abb88languages-mobile li:hover {
     background-color: --activebgcolor--;
     border-color: --activecolor--;
   }
 
   @media screen and (min-width: 1024px) {
-    .tt9s3bodylogo {
+    .abb88bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .tt9s3title {
-    margin-bottom: -35px;
+    .abb88title {
+    margin-bottom: -30px;
   }
 
 
   }
 
   @media screen and (max-width: 1024px) {
-    .tt9s3body {
+    .abb88body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .tt9s3menu {
-      overflow-x: auto;
-    }
-
-    .tt9s3menulist ul {
+    .abb88menulist ul {
       flex-direction: row;
     }
 
-    .tt9s3bodylogo {
+    .abb88bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .tt9s3titlebody {
+    .abb88titlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
+      display: none;
     }
 
-    .tt9s3titlebodytitle {
+    .abb88titlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .tt9s3titlebodylang {
+    .abb88titlebodylang {
       display: none;
     }
 
-    .tt9s3body {
+    .abb88body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .tt9s3-mobile-toggle {
+    .abb88-mobile-toggle {
       display: inline-flex;
     }
 
-    .tt9s3bodylogo {
+    .abb88bodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .tt9s3menulist {
+    .abb88menulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .tt9s3menu.tt9s3menu-open .tt9s3menulist {
+    .abb88menu.abb88menu-open .abb88menulist {
       display: flex;
     }
 
-    .tt9s3menu.tt9s3menu-open .tt9s3languages-mobile {
+    .abb88menu.abb88menu-open .abb88languages-mobile {
       display: block;
     }
 
-    .tt9s3menulist ul {
+    .abb88menulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .tt9s3menulist ul a {
+    .abb88menulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -278,16 +288,16 @@
       border-radius: 0;
     }
 
-    .tt9s3menulist ul a:last-child {
+    .abb88menulist ul a:last-child {
       border-bottom: none;
     }
 
-    .tt9s3menulist ul a:hover {
+    .abb88menulist ul a:hover {
       background-color: --activebgcolor--;
       border-radius: 0;
     }
 
-    .tt9s3titlebodytitle {
+    .abb88titlebodytitle {
       font-size: 12px;
     }
   }
@@ -297,7 +307,7 @@
     justify-content: start;
   }
 
-  .f08et {
+  .tafs4 {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -306,11 +316,11 @@
     box-sizing: border-box;
   }
 
-  .f08et * {
+  .tafs4 * {
     box-sizing: border-box;
   }
 
-  .f08et-menu-btn {
+  .tafs4-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -322,11 +332,11 @@
     align-items: center;
   }
 
-  .f08et-menu-btn .f08et-icon {
+  .tafs4-menu-btn .tafs4-icon {
     font-size: 20px;
   }
 
-  .f08et-menu {
+  .tafs4-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -337,15 +347,15 @@
     float: left;
   }
 
-  .f08et-desc {
+  .tafs4-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .f08et-menu-link,
-  .f08et-top {
+  .tafs4-menu-link,
+  .tafs4-top {
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -359,47 +369,47 @@
     transition: background-color 0.2s ease, color 0.2s ease;
   }
 
-  .f08et-menu-link.active,
-  .f08et-menu-link:hover,
-  .f08et-top.active,
-  .f08et-top:hover {
+  .tafs4-menu-link.active,
+  .tafs4-menu-link:hover,
+  .tafs4-top.active,
+  .tafs4-top:hover {
     background-color: #000;
     color: #fff;
   }
 
-  .f08et-menu-group {
+  .tafs4-menu-group {
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
 
-  .f08et-top {
+  .tafs4-top {
     width: 100%;
     border: none;
     font-weight: 600;
   }
 
-  .f08et-top .f08et-icon {
+  .tafs4-top .tafs4-icon {
     font-size: 14px;
     transition: transform 0.2s ease;
   }
 
-  .f08et-menu-group.open .f08et-top .f08et-icon {
+  .tafs4-menu-group.open .tafs4-top .tafs4-icon {
     transform: rotate(180deg);
   }
 
-  .f08et-sub {
+  .tafs4-sub {
     display: none;
     flex-direction: column;
     gap: 5px;
     padding-left: 8px;
   }
 
-  .f08et-sub.show {
+  .tafs4-sub.show {
     display: flex;
   }
 
-  .f08et-sub-link {
+  .tafs4-sub-link {
     background-color: #fff;
     padding: 8px 10px;
     border-radius: 5px;
@@ -408,13 +418,13 @@
     transition: background-color 0.2s ease, color 0.2s ease;
   }
 
-  .f08et-sub-link.active,
-  .f08et-sub-link:hover {
+  .tafs4-sub-link.active,
+  .tafs4-sub-link:hover {
     background-color: rgba(39, 156, 144, 0.12);
     color: inherit;
   }
 
-  .f08et-desc-menu {
+  .tafs4-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -422,19 +432,19 @@
     border-radius: 5px;
   }
 
-  .f08et-desc-menu > div {
+  .tafs4-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .f08et-desc-body {
+  .tafs4-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .f08et-title {
+  .tafs4-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -447,7 +457,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .f08et-title::before {
+  .tafs4-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -462,27 +472,27 @@
     z-index: 1;
   }
 
-  .f08et-title span {
+  .tafs4-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .f08et-body {
+  .tafs4-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .f08et-img {
+  .tafs4-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .f08et-img img {
+  .tafs4-img img {
     width: 100%;
   }
 
@@ -491,31 +501,31 @@
   
 
   @media screen and (min-width: 1024px) {
-    .f08et-desc {
+    .tafs4-desc {
       width: calc(var(--max) - 240px);
     }
 
-    .f08et-menu {
+    .tafs4-menu {
     padding: 0px;
     }
 
-    .f08et-menu-link {
+    .tafs4-menu-link {
       padding: 10px 10px 10px 10px;
     }
 
-    .f08et-top {
+    .tafs4-top {
       padding: 10px 10px 10px 10px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .f08et-menu-btn {
+    .tafs4-menu-btn {
       display: flex;
       width: 100%;
       margin: 0;
     }
 
-    .f08et {
+    .tafs4 {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -524,17 +534,17 @@
       margin-top: 0px;
     }
 
-    .f08et-img {
+    .tafs4-img {
       width: 100%;
     }
 
-    .f08et-body {
+    .tafs4-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .f08et-menu {
+    .tafs4-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -543,11 +553,11 @@
       gap: 10px;
     }
 
-    .f08et-menu.active {
+    .tafs4-menu.active {
       display: flex;
     }
 
-    .f08et-desc {
+    .tafs4-desc {
       width: 100% !important;
       order: 2;
     }
