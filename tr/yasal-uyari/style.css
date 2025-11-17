@@ -1,5 +1,7 @@
 
-  .heir3 {
+ 
+
+  .jihnf {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +9,7 @@
     justify-content: center;
   }
 
-  .heir3title {
+  .jihnftitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,32 +17,32 @@
     justify-content: center;
   }
 
-  .heir3titlebody {
-    color: #fff;
+  .jihnftitlebody {
+    color: #000;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
 
-  .heir3titlebodytitle {
+  .jihnftitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .heir3titlebodylang {
+  .jihnftitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .heir3titlebodylang ul {
+  .jihnftitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .heir3body {
+  .jihnfbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +50,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .heir3menu {
+  .jihnfmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .heir3menulist {
+  .jihnfmenulist {
     width: calc(100% - 20px);
     background-color: #F9B200;
     padding: 10px;
@@ -63,7 +65,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .heir3menubody {
+  .jihnfmenubody {
     width: 100%;
     background-color: #F9B200;
     display: flex;
@@ -71,7 +73,7 @@
     justify-content: center;
   }
 
-  .heir3menulist ul {
+  .jihnfmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,11 +83,11 @@
     overflow-x: auto;
   }
 
-  .heir3menulist ul a {
+  .jihnfmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #000 !important;
-    border-bottom: 1px solid #000 !important;
+    border-bottom: 1px solid transparent;
     width: 100%;
     text-align: center;
     text-decoration: none;
@@ -93,26 +95,31 @@
     white-space: nowrap;
   }
 
-  .heir3menulist ul a:hover {
-    background-color: #e0e0e0;
+  .jihnfmenulist ul a:hover {
+    background-color: --activebgcolor--;
     border-radius: 5px;
-    color: #000;
+    color: --activecolor-- !important;
     cursor: pointer;
   }
 
-  .heir3-menu-list-active {
-    background-color: #e0e0e0;
+  .jihnfmenulist ul a.jihnf-menu-list-active {
+    color: --activecolor-- !important;
+  }
+
+  .jihnf-menu-list-active {
+    background-color: --activebgcolor--;
     border-radius: 5px;
-    color: #000 !important;
+    color: --activecolor-- !important;
+    border-bottom: 1px solid --activecolor-- !important;
     cursor: pointer;
   }
 
-  .heir3menulistbody {
+  .jihnfmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .heir3bodylogo {
+    .jihnfbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
@@ -120,15 +127,15 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .heir3menu {
+    .jihnfmenu {
       overflow-x: auto;
     }
 
-    .heir3menulist ul {
+    .jihnfmenulist ul {
       flex-direction: row;
     }
 
-    .heir3bodylogo {
+    .jihnfbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -136,7 +143,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .heir3menulist ul a {
+    .jihnfmenulist ul a {
       font-size: 14px;
     }
   }
@@ -146,15 +153,20 @@
     justify-content: start;
   }
 
-  .vx2st {
+  .yvuf6 {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
     float: left;
     position: relative;
+    box-sizing: border-box;
   }
 
-  .vx2st-menu-btn {
+  .yvuf6 * {
+    box-sizing: border-box;
+  }
+
+  .yvuf6-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -166,43 +178,99 @@
     align-items: center;
   }
 
-  .vx2st-menu-btn i {
+  .yvuf6-menu-btn .yvuf6-icon {
     font-size: 20px;
   }
 
-  .vx2st-menu {
+  .yvuf6-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
     float: left;
   }
 
-  .vx2st-desc {
+  .yvuf6-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .vx2st-menu > a {
+  .yvuf6-menu-link,
+  .yvuf6-top {
     background-color: #fff;
     padding: 10px;
-    float: left;
     border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    color: inherit;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
   }
 
-  .vx2st-menu > .active,
-  .vx2st-menu > a:hover {
+  .yvuf6-menu-link.active,
+  .yvuf6-menu-link:hover,
+  .yvuf6-top.active,
+  .yvuf6-top:hover {
     background-color: #000;
     color: #fff;
+  }
+
+  .yvuf6-menu-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .yvuf6-top {
+    width: 100%;
+    border: none;
+    font-weight: 600;
+  }
+
+  .yvuf6-top .yvuf6-icon {
+    font-size: 14px;
+    transition: transform 0.2s ease;
+  }
+
+  .yvuf6-menu-group.open .yvuf6-top .yvuf6-icon {
+    transform: rotate(180deg);
+  }
+
+  .yvuf6-sub {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 8px;
+  }
+
+  .yvuf6-sub.show {
     display: flex;
   }
 
-  .vx2st-desc-menu {
+  .yvuf6-sub-link {
+    background-color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .yvuf6-sub-link.active,
+  .yvuf6-sub-link:hover {
+    background-color: rgba(39, 156, 144, 0.12);
+    color: inherit;
+  }
+
+  .yvuf6-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -210,19 +278,19 @@
     border-radius: 5px;
   }
 
-  .vx2st-desc-menu > div {
+  .yvuf6-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .vx2st-desc-body {
+  .yvuf6-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .vx2st-title {
+  .yvuf6-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -235,7 +303,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .vx2st-title::before {
+  .yvuf6-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -250,44 +318,60 @@
     z-index: 1;
   }
 
-  .vx2st-title span {
+  .yvuf6-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .vx2st-body {
+  .yvuf6-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .vx2st-img {
+  .yvuf6-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .vx2st-img img {
+  .yvuf6-img img {
     width: 100%;
   }
 
+
+
+  
+
   @media screen and (min-width: 1024px) {
-    .vx2st-desc {
+    .yvuf6-desc {
       width: calc(var(--max) - 240px);
+    }
+
+    .yvuf6-menu {
+    padding: 0px;
+    }
+
+    .yvuf6-menu-link {
+      padding: 10px 10px 10px 10px;
+    }
+
+    .yvuf6-top {
+      padding: 10px 10px 10px 10px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .vx2st-menu-btn {
+    .yvuf6-menu-btn {
       display: flex;
-      width: calc(100% - 55px);
-      margin-left: 5px;
+      width: 100%;
+      margin: 0;
     }
 
-    .vx2st {
+    .yvuf6 {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -296,29 +380,30 @@
       margin-top: 0px;
     }
 
-    .vx2st-img {
+    .yvuf6-img {
       width: 100%;
     }
 
-    .vx2st-body {
+    .yvuf6-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .vx2st-menu {
+    .yvuf6-menu {
       width: 100%;
       float: none;
       flex-direction: column;
       order: 1;
       display: none;
+      gap: 10px;
     }
 
-    .vx2st-menu.active {
+    .yvuf6-menu.active {
       display: flex;
     }
 
-    .vx2st-desc {
+    .yvuf6-desc {
       width: 100% !important;
       order: 2;
     }
