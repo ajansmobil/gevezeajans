@@ -1,7 +1,7 @@
 
  
 
-  .jihnf {
+  .yoncv {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,63 +9,84 @@
     justify-content: center;
   }
 
-  .jihnftitle {
+  .yoncvtitle {
     width: 100%;
-    background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
+     position: relative;
+    z-index: 1;
   }
 
-  .jihnftitlebody {
+  .yoncvtitlebody {
     color: #000;
     width: var(--max);
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 10px 0px 10px 0px;
   }
 
-  .jihnftitlebodytitle {
+  .yoncvtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .jihnftitlebodylang {
+  .yoncvtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .jihnftitlebodylang ul {
+  .yoncvtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .jihnfbody {
+  .yoncvbody {
     width: var(--max);
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
+    position: relative;
   }
 
-  .jihnfmenu {
+  .yoncv-mobile-toggle {
+    display: none;
+    background: #F9B200;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 12px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+  }
+
+  .yoncv-mobile-toggle span {
+    font-size: 24px;
+  }
+
+  .yoncvmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .jihnfmenulist {
+  .yoncvmenulist {
     width: calc(100% - 20px);
     background-color: #F9B200;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
   }
 
-  .jihnfmenubody {
+  .yoncvmenubody {
     width: 100%;
     background-color: #F9B200;
     display: flex;
@@ -73,7 +94,7 @@
     justify-content: center;
   }
 
-  .jihnfmenulist ul {
+  .yoncvmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -83,7 +104,7 @@
     overflow-x: auto;
   }
 
-  .jihnfmenulist ul a {
+  .yoncvmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #000 !important;
@@ -95,18 +116,18 @@
     white-space: nowrap;
   }
 
-  .jihnfmenulist ul a:hover {
+  .yoncvmenulist ul a:hover {
     background-color: --activebgcolor--;
     border-radius: 5px;
     color: --activecolor-- !important;
     cursor: pointer;
   }
 
-  .jihnfmenulist ul a.jihnf-menu-list-active {
+  .yoncvmenulist ul a.yoncv-menu-list-active {
     color: --activecolor-- !important;
   }
 
-  .jihnf-menu-list-active {
+  .yoncv-menu-list-active {
     background-color: --activebgcolor--;
     border-radius: 5px;
     color: --activecolor-- !important;
@@ -114,37 +135,160 @@
     cursor: pointer;
   }
 
-  .jihnfmenulistbody {
+  .yoncvmenulistbody {
     width: 100%;
   }
 
+  .yoncvlanguages-mobile {
+    display: none;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .yoncvlanguages-mobile ul {
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+  }
+
+  .yoncvlanguages-mobile li {
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    aspect-ratio: 1/1;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+
+  .yoncvlanguages-mobile li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .yoncvlanguages-mobile li:hover {
+    background-color: --activebgcolor--;
+    border-color: --activecolor--;
+  }
+
   @media screen and (min-width: 1024px) {
-    .jihnfbodylogo {
+    .yoncvbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
+
+    .yoncvtitle {
+    margin-bottom: -35px;
+  }
+
+
   }
 
   @media screen and (max-width: 1024px) {
-    .jihnfmenu {
+    .yoncvbody {
+      width: calc(100% - 20px);
+      padding: 0 10px;
+      justify-content: center;
+    }
+
+    .yoncvmenu {
       overflow-x: auto;
     }
 
-    .jihnfmenulist ul {
+    .yoncvmenulist ul {
       flex-direction: row;
     }
 
-    .jihnfbodylogo {
+    .yoncvbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
+
+    .yoncvtitlebody {
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .yoncvtitlebodytitle {
+      text-align: center;
+      font-size: 14px;
+    }
   }
 
   @media screen and (max-width: 768px) {
-    .jihnfmenulist ul a {
+    .yoncvtitlebodylang {
+      display: none;
+    }
+
+    .yoncvbody {
+      width: calc(100% - 20px);
+      padding: 0 10px;
+      justify-content: space-between;
+    }
+
+    .yoncv-mobile-toggle {
+      display: inline-flex;
+    }
+
+    .yoncvbodylogo {
+      width: 40vw;
+      max-width: 40vw;
+      max-height: 80px;
+    }
+
+    .yoncvmenulist {
+      display: none;
+      flex-direction: column;
+      width: calc(100% - 24px);
+      padding: 12px;
+    }
+
+    .yoncvmenu.yoncvmenu-open .yoncvmenulist {
+      display: flex;
+    }
+
+    .yoncvmenu.yoncvmenu-open .yoncvlanguages-mobile {
+      display: block;
+    }
+
+    .yoncvmenulist ul {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .yoncvmenulist ul a {
       font-size: 14px;
+      width: 100%;
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 0;
+    }
+
+    .yoncvmenulist ul a:last-child {
+      border-bottom: none;
+    }
+
+    .yoncvmenulist ul a:hover {
+      background-color: --activebgcolor--;
+      border-radius: 0;
+    }
+
+    .yoncvtitlebodytitle {
+      font-size: 12px;
     }
   }
 
@@ -153,7 +297,7 @@
     justify-content: start;
   }
 
-  .yvuf6 {
+  .xi7du {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -162,11 +306,11 @@
     box-sizing: border-box;
   }
 
-  .yvuf6 * {
+  .xi7du * {
     box-sizing: border-box;
   }
 
-  .yvuf6-menu-btn {
+  .xi7du-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -178,11 +322,11 @@
     align-items: center;
   }
 
-  .yvuf6-menu-btn .yvuf6-icon {
+  .xi7du-menu-btn .xi7du-icon {
     font-size: 20px;
   }
 
-  .yvuf6-menu {
+  .xi7du-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -193,15 +337,15 @@
     float: left;
   }
 
-  .yvuf6-desc {
+  .xi7du-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .yvuf6-menu-link,
-  .yvuf6-top {
+  .xi7du-menu-link,
+  .xi7du-top {
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -215,47 +359,47 @@
     transition: background-color 0.2s ease, color 0.2s ease;
   }
 
-  .yvuf6-menu-link.active,
-  .yvuf6-menu-link:hover,
-  .yvuf6-top.active,
-  .yvuf6-top:hover {
+  .xi7du-menu-link.active,
+  .xi7du-menu-link:hover,
+  .xi7du-top.active,
+  .xi7du-top:hover {
     background-color: #000;
     color: #fff;
   }
 
-  .yvuf6-menu-group {
+  .xi7du-menu-group {
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
 
-  .yvuf6-top {
+  .xi7du-top {
     width: 100%;
     border: none;
     font-weight: 600;
   }
 
-  .yvuf6-top .yvuf6-icon {
+  .xi7du-top .xi7du-icon {
     font-size: 14px;
     transition: transform 0.2s ease;
   }
 
-  .yvuf6-menu-group.open .yvuf6-top .yvuf6-icon {
+  .xi7du-menu-group.open .xi7du-top .xi7du-icon {
     transform: rotate(180deg);
   }
 
-  .yvuf6-sub {
+  .xi7du-sub {
     display: none;
     flex-direction: column;
     gap: 5px;
     padding-left: 8px;
   }
 
-  .yvuf6-sub.show {
+  .xi7du-sub.show {
     display: flex;
   }
 
-  .yvuf6-sub-link {
+  .xi7du-sub-link {
     background-color: #fff;
     padding: 8px 10px;
     border-radius: 5px;
@@ -264,13 +408,13 @@
     transition: background-color 0.2s ease, color 0.2s ease;
   }
 
-  .yvuf6-sub-link.active,
-  .yvuf6-sub-link:hover {
+  .xi7du-sub-link.active,
+  .xi7du-sub-link:hover {
     background-color: rgba(39, 156, 144, 0.12);
     color: inherit;
   }
 
-  .yvuf6-desc-menu {
+  .xi7du-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -278,19 +422,19 @@
     border-radius: 5px;
   }
 
-  .yvuf6-desc-menu > div {
+  .xi7du-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .yvuf6-desc-body {
+  .xi7du-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .yvuf6-title {
+  .xi7du-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -303,7 +447,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .yvuf6-title::before {
+  .xi7du-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -318,27 +462,27 @@
     z-index: 1;
   }
 
-  .yvuf6-title span {
+  .xi7du-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .yvuf6-body {
+  .xi7du-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .yvuf6-img {
+  .xi7du-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .yvuf6-img img {
+  .xi7du-img img {
     width: 100%;
   }
 
@@ -347,31 +491,31 @@
   
 
   @media screen and (min-width: 1024px) {
-    .yvuf6-desc {
+    .xi7du-desc {
       width: calc(var(--max) - 240px);
     }
 
-    .yvuf6-menu {
+    .xi7du-menu {
     padding: 0px;
     }
 
-    .yvuf6-menu-link {
+    .xi7du-menu-link {
       padding: 10px 10px 10px 10px;
     }
 
-    .yvuf6-top {
+    .xi7du-top {
       padding: 10px 10px 10px 10px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .yvuf6-menu-btn {
+    .xi7du-menu-btn {
       display: flex;
       width: 100%;
       margin: 0;
     }
 
-    .yvuf6 {
+    .xi7du {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -380,17 +524,17 @@
       margin-top: 0px;
     }
 
-    .yvuf6-img {
+    .xi7du-img {
       width: 100%;
     }
 
-    .yvuf6-body {
+    .xi7du-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .yvuf6-menu {
+    .xi7du-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -399,11 +543,11 @@
       gap: 10px;
     }
 
-    .yvuf6-menu.active {
+    .xi7du-menu.active {
       display: flex;
     }
 
-    .yvuf6-desc {
+    .xi7du-desc {
       width: 100% !important;
       order: 2;
     }

@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=lr8dr" />
-  <link rel="shortcut icon" href="/img/icon.png?v=lr8dr" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=fcusn" />
+  <link rel="shortcut icon" href="/img/icon.png?v=fcusn" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,57 +29,77 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=lr8dr">
+<link rel="stylesheet" href="style.css?v=fcusn">
 </head>
 
 <body>
-  <div id="header"><div class="jihnf">
-  <div class="jihnftitle">
-    <div class="jihnftitlebody">
-      <div class="jihnftitlebodytitle">
-        Geveze Ajans - Açıkhava Reklamcılığı Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="jihnftitlebodylang">
+  <div id="header"><div class="yoncv">
+  <div class="yoncvtitle">
+    <div class="yoncvtitlebody">
+      <div class="yoncvtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="jihnfbody">
+  <div class="yoncvbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=lr8dr"
+        src="/img/logo.svg?v=fcusn"
         alt="Geveze Ajans - Açıkhava Reklamcılığı Logo"
-        class="jihnfbodylogo"
+        class="yoncvbodylogo"
     /></a>
+    <button type="button" class="yoncv-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="jihnfmenubody">
-    <div class="jihnfmenu">
-      <div class="jihnfmenulistbody">
-        <div class="jihnfmenulist">
+  <div class="yoncvmenubody">
+    <div class="yoncvmenu" id="menu-2-root">
+      <div class="yoncvmenulistbody">
+        <div class="yoncvmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Bizi Tanıyın</a><a href="/tr/acikhava-plus/">Açıkhava Plus</a><a href="/tr/nerelerdeyiz/">Nerelerdeyiz</a><a href="/tr/geveze-etkisi/">Geveze Etkisi</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="yoncvlanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("yoncvmenu-open")) {
+        root.classList.remove("yoncvmenu-open");
+      } else {
+        root.classList.add("yoncvmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="yvuf6-title f36">
+  <div id="content"><div class="xi7du-title f36">
   <span>Yasal Uyarı</span>
 </div>
-<div class="yvuf6">
-  <div class="yvuf6-menu-btn">
+<div class="xi7du">
+  <div class="xi7du-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined yvuf6-icon">menu</span>
+    <span class="material-symbols-outlined xi7du-icon">menu</span>
   </div>
-  <div class="yvuf6-menu"><a class="yvuf6-menu-link" href="/tr/hakkimizda">Hakkımızda</a><a class="yvuf6-menu-link" href="/tr/misyon">Misyon</a><a class="yvuf6-menu-link" href="/tr/vizyon">Vizyon</a><a class="yvuf6-menu-link" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="yvuf6-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="yvuf6-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="yvuf6-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="yvuf6-menu-link active" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="yvuf6-desc">
+  <div class="xi7du-menu"><a class="xi7du-menu-link" href="/tr/hakkimizda">Hakkımızda</a><a class="xi7du-menu-link" href="/tr/misyon">Misyon</a><a class="xi7du-menu-link" href="/tr/vizyon">Vizyon</a><a class="xi7du-menu-link" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="xi7du-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="xi7du-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="xi7du-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="xi7du-menu-link active" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
+  <div class="xi7du-desc">
     
-    <div class="yvuf6-body"><p><h2 style="font-size: 24px;">Yasal Uyarı</h2></p>
+    <div class="xi7du-body"><p><h2 style="font-size: 24px;">Yasal Uyarı</h2></p>
 <p>    <p style=" font-size: 16px;"></p>
 <p>        Sitemizde yer alan tüm içerik, 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile 5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenlenmesi ve Bu Yayınlar Yoluyla İşlenen Suçlarla Mücadele Edilmesi Hakkında Kanun'un hükümleri uyarınca korunmaktadır. Sitemizde yer alan hiçbir içeriğin kopyalanması, çoğaltılması, yayılması, satılması, dağıtılması, sergilenmesi, yayımlanması, herhangi bir şekilde ticari amaçla kullanılması veya başka platformlarda izinsiz olarak paylaşılması yasaktır.</p>
 <p>    </p></p>
@@ -90,27 +110,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".yvuf6-menu-btn");
+  const menuToggleBtn = document.querySelector(".xi7du-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".yvuf6-menu");
+      const menu = document.querySelector(".xi7du-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".yvuf6-icon");
+      const icon = this.querySelector(".xi7du-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".yvuf6-top").forEach(function (button) {
+  document.querySelectorAll(".xi7du-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".yvuf6-menu-group");
+      const group = this.closest(".xi7du-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".yvuf6-sub");
+      const sub = group.querySelector(".xi7du-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".yvuf6-icon");
+      const icon = this.querySelector(".xi7du-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -197,7 +217,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=lr8dr"></script>
-<script src="/src/cookie.js?v=lr8dr"></script>
+<script type="text/javascript" src="/src/js.js?v=fcusn"></script>
+<script src="/src/cookie.js?v=fcusn"></script>
 
 </html>

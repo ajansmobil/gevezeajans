@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=ro2jl" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ro2jl" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=g8a01" />
+  <link rel="shortcut icon" href="/img/icon.png?v=g8a01" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,60 +29,80 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=ro2jl">
+<link rel="stylesheet" href="style.css?v=g8a01">
 </head>
 
 <body>
-  <div id="header"><div class="iy9qr">
-  <div class="iy9qrtitle">
-    <div class="iy9qrtitlebody">
-      <div class="iy9qrtitlebodytitle">
-        Geveze Ajans - Açıkhava Reklamcılığı Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="iy9qrtitlebodylang">
+  <div id="header"><div class="z4hws">
+  <div class="z4hwstitle">
+    <div class="z4hwstitlebody">
+      <div class="z4hwstitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="iy9qrbody">
+  <div class="z4hwsbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=ro2jl"
+        src="/img/logo.svg?v=g8a01"
         alt="Geveze Ajans - Açıkhava Reklamcılığı Logo"
-        class="iy9qrbodylogo"
+        class="z4hwsbodylogo"
     /></a>
+    <button type="button" class="z4hws-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="iy9qrmenubody">
-    <div class="iy9qrmenu">
-      <div class="iy9qrmenulistbody">
-        <div class="iy9qrmenulist">
+  <div class="z4hwsmenubody">
+    <div class="z4hwsmenu" id="menu-2-root">
+      <div class="z4hwsmenulistbody">
+        <div class="z4hwsmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Bizi Tanıyın</a><a href="/tr/acikhava-plus/">Açıkhava Plus</a><a href="/tr/nerelerdeyiz/">Nerelerdeyiz</a><a href="/tr/geveze-etkisi/">Geveze Etkisi</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="z4hwslanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("z4hwsmenu-open")) {
+        root.classList.remove("z4hwsmenu-open");
+      } else {
+        root.classList.add("z4hwsmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="kywbw-title f36">
+  <div id="content"><div class="uclnu-title f36">
   <span>Havalimanı</span>
 </div>
-<div class="kywbw">
-  <div class="kywbw-menu-btn">
+<div class="uclnu">
+  <div class="uclnu-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined kywbw-icon">menu</span>
+    <span class="material-symbols-outlined uclnu-icon">menu</span>
   </div>
-  <div class="kywbw-menu"><a class="kywbw-menu-link" href="/tr/bina-asansorleri-3mn-pu4-uhw-f9g">Bina Asansörleri</a><a class="kywbw-menu-link" href="/tr/cadde-duvarlari-slu-hmz-fhe-xdc">Cadde Duvarları</a><a class="kywbw-menu-link" href="/tr/toplu-tasima">Toplu Taşıma</a><a class="kywbw-menu-link" href="/tr/organize-sanayi-bolgesi-15u-n7h-gx2">Organize Sanayi Bölgesi</a><a class="kywbw-menu-link active" href="/tr/havalimani-65p-tdx-v4e-roy">Havalimanı</a><a class="kywbw-menu-link" href="/tr/avm-reklamlari">AVM Reklamları</a><a class="kywbw-menu-link" href="/tr/iconova-cadde-nnu-jye-v99-j9t">Iconova Cadde</a><a class="kywbw-menu-link" href="/tr/sinema-reklamlari">Sinema Reklamları</a><a class="kywbw-menu-link" href="/tr/pano-reklamlari">Pano Reklamları</a><a class="kywbw-menu-link" href="/tr/ozel-uygulama-billboard">Özel Uygulama Billboard</a><a class="kywbw-menu-link" href="/tr/universite-reklamlari">Üniversite Reklamları</a></div>
-  <div class="kywbw-desc">
+  <div class="uclnu-menu"><a class="uclnu-menu-link" href="/tr/bina-asansorleri-3mn-pu4-uhw-f9g">Bina Asansörleri</a><a class="uclnu-menu-link" href="/tr/cadde-duvarlari-slu-hmz-fhe-xdc">Cadde Duvarları</a><a class="uclnu-menu-link" href="/tr/toplu-tasima">Toplu Taşıma</a><a class="uclnu-menu-link" href="/tr/organize-sanayi-bolgesi-15u-n7h-gx2">Organize Sanayi Bölgesi</a><a class="uclnu-menu-link active" href="/tr/havalimani-65p-tdx-v4e-roy">Havalimanı</a><a class="uclnu-menu-link" href="/tr/avm-reklamlari">AVM Reklamları</a><a class="uclnu-menu-link" href="/tr/iconova-cadde-nnu-jye-v99-j9t">Iconova Cadde</a><a class="uclnu-menu-link" href="/tr/sinema-reklamlari">Sinema Reklamları</a><a class="uclnu-menu-link" href="/tr/pano-reklamlari">Pano Reklamları</a><a class="uclnu-menu-link" href="/tr/ozel-uygulama-billboard">Özel Uygulama Billboard</a><a class="uclnu-menu-link" href="/tr/universite-reklamlari">Üniversite Reklamları</a></div>
+  <div class="uclnu-desc">
     
-    <div class="kywbw-desc-body">
-            <img src="/page/havalimani/mna2h.webp?v=ro2jl" width="100%" alt="{{title}}" />
+    <div class="uclnu-desc-body">
+            <img src="/page/havalimani/mna2h.webp?v=g8a01" width="100%" alt="{{title}}" />
     </div>
-    <div class="kywbw-body"><p><h2 style="font-size: 24px;">Gaziantep Havalimanı - Prestij ve Ulaşılabilirlik</h2></p>
+    <div class="uclnu-body"><p><h2 style="font-size: 24px;">Gaziantep Havalimanı - Prestij ve Ulaşılabilirlik</h2></p>
 <p>    <p style="font-size: 16px;"></p>
 <p>        Gaziantep Havalimanı, şehrin en önemli ulaşım merkezlerinden biridir ve yıllık milyonlarca yolcuya hizmet vermektedir. İç ve dış hat seferlerinin yoğun olduğu havalimanı, iş insanları, turistler ve şehir dışından gelen misafirler için kritik bir durak noktasıdır. Bu bölgede yer alan reklam alanlarımız, haftalık 50-100 bin kişilik hedef kitleye ulaşarak markanızı prestijli bir şekilde tanıtmanızı sağlar.</p>
 <p>    </p></p>
@@ -108,27 +128,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".kywbw-menu-btn");
+  const menuToggleBtn = document.querySelector(".uclnu-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".kywbw-menu");
+      const menu = document.querySelector(".uclnu-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".kywbw-icon");
+      const icon = this.querySelector(".uclnu-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".kywbw-top").forEach(function (button) {
+  document.querySelectorAll(".uclnu-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".kywbw-menu-group");
+      const group = this.closest(".uclnu-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".kywbw-sub");
+      const sub = group.querySelector(".uclnu-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".kywbw-icon");
+      const icon = this.querySelector(".uclnu-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -215,7 +235,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=ro2jl"></script>
-<script src="/src/cookie.js?v=ro2jl"></script>
+<script type="text/javascript" src="/src/js.js?v=g8a01"></script>
+<script src="/src/cookie.js?v=g8a01"></script>
 
 </html>

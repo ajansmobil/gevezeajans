@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=je1eo" />
-  <link rel="shortcut icon" href="/img/icon.png?v=je1eo" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=o9npw" />
+  <link rel="shortcut icon" href="/img/icon.png?v=o9npw" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,82 +29,102 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=je1eo">
+<link rel="stylesheet" href="style.css?v=o9npw">
 </head>
 
 <body>
-  <div id="header"><div class="cmkbj">
-  <div class="cmkbjtitle">
-    <div class="cmkbjtitlebody">
-      <div class="cmkbjtitlebodytitle">
-        Geveze Ajans - Açıkhava Reklamcılığı Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="cmkbjtitlebodylang">
+  <div id="header"><div class="rlmiw">
+  <div class="rlmiwtitle">
+    <div class="rlmiwtitlebody">
+      <div class="rlmiwtitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="cmkbjbody">
+  <div class="rlmiwbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=je1eo"
+        src="/img/logo.svg?v=o9npw"
         alt="Geveze Ajans - Açıkhava Reklamcılığı Logo"
-        class="cmkbjbodylogo"
+        class="rlmiwbodylogo"
     /></a>
+    <button type="button" class="rlmiw-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="cmkbjmenubody">
-    <div class="cmkbjmenu">
-      <div class="cmkbjmenulistbody">
-        <div class="cmkbjmenulist">
+  <div class="rlmiwmenubody">
+    <div class="rlmiwmenu" id="menu-2-root">
+      <div class="rlmiwmenulistbody">
+        <div class="rlmiwmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Bizi Tanıyın</a><a href="/tr/acikhava-plus/">Açıkhava Plus</a><a href="/tr/nerelerdeyiz/">Nerelerdeyiz</a><a href="/tr/geveze-etkisi/">Geveze Etkisi</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="rlmiwlanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("rlmiwmenu-open")) {
+        root.classList.remove("rlmiwmenu-open");
+      } else {
+        root.classList.add("rlmiwmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="azous-title f36">
+  <div id="content"><div class="hxqup-title f36">
   <span>Kalite Politikamız</span>
 </div>
-<div class="azous">
-  <div class="azous-menu-btn">
+<div class="hxqup">
+  <div class="hxqup-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined azous-icon">menu</span>
+    <span class="material-symbols-outlined hxqup-icon">menu</span>
   </div>
-  <div class="azous-menu"><a class="azous-menu-link" href="/tr/hakkimizda">Hakkımızda</a><a class="azous-menu-link" href="/tr/misyon">Misyon</a><a class="azous-menu-link" href="/tr/vizyon">Vizyon</a><a class="azous-menu-link active" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="azous-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="azous-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="azous-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="azous-menu-link" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="azous-desc">
+  <div class="hxqup-menu"><a class="hxqup-menu-link" href="/tr/hakkimizda">Hakkımızda</a><a class="hxqup-menu-link" href="/tr/misyon">Misyon</a><a class="hxqup-menu-link" href="/tr/vizyon">Vizyon</a><a class="hxqup-menu-link active" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="hxqup-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="hxqup-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="hxqup-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="hxqup-menu-link" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
+  <div class="hxqup-desc">
     
-    <div class="azous-body"><p><h2 style="font-size: 24px;">Kalite Politikamız</h2><p style=" font-size: 16px;">Kalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en iyi kalite standartlarını sağlamak için çalışıyor ve tüm süreçlerimizi bu doğrultuda sürekli gözden geçiriyoruz. Reklam şirketinizin büyüme ve markalaşma değerine ciddi katkılar yapar.</p></p></div>
+    <div class="hxqup-body"><p><h2 style="font-size: 24px;">Kalite Politikamız</h2><p style=" font-size: 16px;">Kalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en iyi kalite standartlarını sağlamak için çalışıyor ve tüm süreçlerimizi bu doğrultuda sürekli gözden geçiriyoruz. Reklam şirketinizin büyüme ve markalaşma değerine ciddi katkılar yapar.</p></p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".azous-menu-btn");
+  const menuToggleBtn = document.querySelector(".hxqup-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".azous-menu");
+      const menu = document.querySelector(".hxqup-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".azous-icon");
+      const icon = this.querySelector(".hxqup-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".azous-top").forEach(function (button) {
+  document.querySelectorAll(".hxqup-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".azous-menu-group");
+      const group = this.closest(".hxqup-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".azous-sub");
+      const sub = group.querySelector(".hxqup-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".azous-icon");
+      const icon = this.querySelector(".hxqup-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -191,7 +211,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=je1eo"></script>
-<script src="/src/cookie.js?v=je1eo"></script>
+<script type="text/javascript" src="/src/js.js?v=o9npw"></script>
+<script src="/src/cookie.js?v=o9npw"></script>
 
 </html>

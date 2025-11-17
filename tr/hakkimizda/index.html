@@ -20,8 +20,8 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=kht7f" />
-  <link rel="shortcut icon" href="/img/icon.png?v=kht7f" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=aic4a" />
+  <link rel="shortcut icon" href="/img/icon.png?v=aic4a" type="image/png" />
 
   <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
   <script src="/src/swiper-bundle.min.js"></script>
@@ -29,57 +29,77 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=kht7f">
+<link rel="stylesheet" href="style.css?v=aic4a">
 </head>
 
 <body>
-  <div id="header"><div class="go8gz">
-  <div class="go8gztitle">
-    <div class="go8gztitlebody">
-      <div class="go8gztitlebodytitle">
-        Geveze Ajans - Açıkhava Reklamcılığı Web Sitemize Hoşgeldiniz
-      </div>
-      <div class="go8gztitlebodylang">
+  <div id="header"><div class="j1v7f">
+  <div class="j1v7ftitle">
+    <div class="j1v7ftitlebody">
+      <div class="j1v7ftitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="go8gzbody">
+  <div class="j1v7fbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=kht7f"
+        src="/img/logo.svg?v=aic4a"
         alt="Geveze Ajans - Açıkhava Reklamcılığı Logo"
-        class="go8gzbodylogo"
+        class="j1v7fbodylogo"
     /></a>
+    <button type="button" class="j1v7f-mobile-toggle" onclick="menu2_toggle()">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
   </div>
-  <div class="go8gzmenubody">
-    <div class="go8gzmenu">
-      <div class="go8gzmenulistbody">
-        <div class="go8gzmenulist">
+  <div class="j1v7fmenubody">
+    <div class="j1v7fmenu" id="menu-2-root">
+      <div class="j1v7fmenulistbody">
+        <div class="j1v7fmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Bizi Tanıyın</a><a href="/tr/acikhava-plus/">Açıkhava Plus</a><a href="/tr/nerelerdeyiz/">Nerelerdeyiz</a><a href="/tr/geveze-etkisi/">Geveze Etkisi</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
+          <div class="j1v7flanguages-mobile">
+            <ul>
+              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script>
+  if (typeof menu2_toggle === "undefined") {
+    function menu2_toggle() {
+      var root = document.getElementById("menu-2-root");
+      if (!root) {
+        return;
+      }
+      if (root.classList.contains("j1v7fmenu-open")) {
+        root.classList.remove("j1v7fmenu-open");
+      } else {
+        root.classList.add("j1v7fmenu-open");
+      }
+    }
+  }
+</script>
 </div>
-  <div id="content"><div class="qvie3-title f36">
+  <div id="content"><div class="gj5m0-title f36">
   <span>Hakkımızda</span>
 </div>
-<div class="qvie3">
-  <div class="qvie3-menu-btn">
+<div class="gj5m0">
+  <div class="gj5m0-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined qvie3-icon">menu</span>
+    <span class="material-symbols-outlined gj5m0-icon">menu</span>
   </div>
-  <div class="qvie3-menu"><a class="qvie3-menu-link active" href="/tr/hakkimizda">Hakkımızda</a><a class="qvie3-menu-link" href="/tr/misyon">Misyon</a><a class="qvie3-menu-link" href="/tr/vizyon">Vizyon</a><a class="qvie3-menu-link" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="qvie3-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="qvie3-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="qvie3-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="qvie3-menu-link" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
-  <div class="qvie3-desc">
+  <div class="gj5m0-menu"><a class="gj5m0-menu-link active" href="/tr/hakkimizda">Hakkımızda</a><a class="gj5m0-menu-link" href="/tr/misyon">Misyon</a><a class="gj5m0-menu-link" href="/tr/vizyon">Vizyon</a><a class="gj5m0-menu-link" href="/tr/kalite-politikamiz">Kalite Politikamız</a><a class="gj5m0-menu-link" href="/tr/gizlilik-politikasi">Gizlilik Politikası</a><a class="gj5m0-menu-link" href="/tr/kisisel-veriler">Kişisel Veriler</a><a class="gj5m0-menu-link" href="/tr/kullanici-haklari">Kullanıcı Hakları</a><a class="gj5m0-menu-link" href="/tr/yasal-uyari">Yasal Uyarı</a></div>
+  <div class="gj5m0-desc">
     
-    <div class="qvie3-body"><p><h2 style="font-size: 24px;">Hakkımızda</h2></p>
+    <div class="gj5m0-body"><p><h2 style="font-size: 24px;">Hakkımızda</h2></p>
 <p>    <p style=" font-size: 16px;"></p>
 <p>        Geveze Ajans olarak, Gaziantep'in en prestijli reklam ajansı olarak hizmet veriyoruz. Açıkhava reklamcılığı, AVM reklamları, toplu taşıma reklamları ve daha fazlası için uzman kadromuzla yanınızdayız. Caddeye renk katıyoruz, boyamıyoruz dijital baskı ile yaratıcı kampanyalar ile gözleri dolduruyoruz.</p>
 <p>    </p></p>
@@ -93,27 +113,27 @@
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".qvie3-menu-btn");
+  const menuToggleBtn = document.querySelector(".gj5m0-menu-btn");
   if (menuToggleBtn) {
     menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".qvie3-menu");
+      const menu = document.querySelector(".gj5m0-menu");
       if (!menu) return;
       const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".qvie3-icon");
+      const icon = this.querySelector(".gj5m0-icon");
       if (icon) {
         icon.textContent = isOpen ? "close" : "menu";
       }
     });
   }
 
-  document.querySelectorAll(".qvie3-top").forEach(function (button) {
+  document.querySelectorAll(".gj5m0-top").forEach(function (button) {
     button.addEventListener("click", function () {
-      const group = this.closest(".qvie3-menu-group");
+      const group = this.closest(".gj5m0-menu-group");
       if (!group) return;
-      const sub = group.querySelector(".qvie3-sub");
+      const sub = group.querySelector(".gj5m0-sub");
       const isOpen = group.classList.toggle("open");
       this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".qvie3-icon");
+      const icon = this.querySelector(".gj5m0-icon");
       if (icon) {
         icon.textContent = isOpen ? "expand_less" : "expand_more";
       }
@@ -200,7 +220,7 @@
 
 
 
-<script type="text/javascript" src="/src/js.js?v=kht7f"></script>
-<script src="/src/cookie.js?v=kht7f"></script>
+<script type="text/javascript" src="/src/js.js?v=aic4a"></script>
+<script src="/src/cookie.js?v=aic4a"></script>
 
 </html>
