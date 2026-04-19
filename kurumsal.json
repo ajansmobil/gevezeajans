@@ -16,8 +16,8 @@
         "body": [],
         "footer": []
       },
-      "spot": {
-        "tr": "Caddeye Renk Katıyoruz, Boyamıyoruz Dijital Baskı ile!"
+      "description": {
+        "tr": "Geveze Ajans, Gaziantep'in en prestijli reklam ajansı olarak açıkhava reklamcılığı, AVM reklamları ve toplu taşıma reklamları alanında uzman kadrosuyla hizmetinizde."
       },
       "index": 0,
       "icon": "home",
@@ -36,8 +36,8 @@
         "body": [],
         "footer": []
       },
-      "spot": {
-        "tr": "Müşterilerimize En İyi Reklam Hizmetini Sunmak!"
+      "description": {
+        "tr": "Geveze Ajans'ın misyonu, müşterilerine en iyi reklam hizmetini sunmak ve markalarını değerli kılmaktır."
       },
       "index": 1,
       "icon": "home",
@@ -56,8 +56,8 @@
         "body": [],
         "footer": []
       },
-      "spot": {
-        "tr": "Gaziantep'in En Prestijli Reklam Ajansı Olmak!"
+      "description": {
+        "tr": "Geveze Ajans'ın vizyonu, Gaziantep'in en prestijli reklam ajansı olarak, müşterilerine en iyi hizmeti sunmak ve markalarını değerli kılmaktır."
       },
       "index": 2,
       "icon": "home",
@@ -76,8 +76,8 @@
         "body": [],
         "footer": []
       },
-      "spot": {
-        "tr": "Müşteri Memnuniyetini En Üst Seviyede Tutmak!"
+      "description": {
+        "tr": "Geveze Ajans'ın kalite politikası, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedeflemektedir."
       },
       "index": 3,
       "icon": "home",
@@ -96,8 +96,8 @@
         "body": [],
         "footer": []
       },
-      "spot": {
-        "tr": "Verilerinizin Güvenliği Bizim İçin Öncelikli!"
+      "description": {
+        "tr": "Geveze Ajans gizlilik politikası, kullanıcı verilerinin güvenliği ve gizliliği konusunda en üst düzey önlemleri almaktadır."
       },
       "index": 4,
       "icon": "home",
@@ -116,8 +116,8 @@
         "body": [],
         "footer": []
       },
-      "spot": {
-        "tr": "Kişisel Verilerinizin Korunması Bizim İçin Çok Önemli!"
+      "description": {
+        "tr": "Geveze Ajans, kişisel verilerin korunması konusunda KVKK ve ilgili mevzuat çerçevesinde gerekli tüm önlemleri almaktadır."
       },
       "index": 5,
       "icon": "home",
@@ -136,8 +136,8 @@
         "body": [],
         "footer": []
       },
-      "spot": {
-        "tr": "Kullanıcı Haklarınızı Koruyoruz!"
+      "description": {
+        "tr": "Geveze Ajans, kullanıcıların kişisel verilerinin korunması ve kullanıcı hakları konusunda KVKK ve ilgili mevzuat çerçevesinde hareket etmektedir."
       },
       "index": 6,
       "icon": "home",
@@ -156,8 +156,8 @@
         "body": [],
         "footer": []
       },
-      "spot": {
-        "tr": "Telif Haklarını Koruyoruz, Yasal Haklarımızı Saklı Tutuyoruz!"
+      "description": {
+        "tr": "Geveze Ajans yasal uyarı sayfası, site içeriğinin telif hakları ve kullanım koşulları hakkında bilgi vermektedir."
       },
       "index": 7,
       "icon": "home",
@@ -174,7 +174,7 @@
   },
   "modulestatus": {
     "detail": true,
-    "bgimg": true,
+    "bgimg": false,
     "img": false
   }
 }

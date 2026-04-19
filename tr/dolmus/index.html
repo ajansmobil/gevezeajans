@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="tr">
+<html lang="tr" dir="ltr">
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -18,50 +18,74 @@
   <meta property="og:description" content="Dolmuş araçları reklam noktası - Şehrin her noktasına ulaşan önemli reklam mecrası" />
   <meta property="og:image" content="https://gevezeajans.com/page/dolmus/lymkl.webp" />
   <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://gevezeajans.com/tr/dolmus/" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=ly22u" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ly22u" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=jka2z" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=jka2z" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=jka2z" type="image/png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Geveze Ajans - Açıkhava Reklamcılığı",
+  "description": "Gaziantep'in en prestijli reklam ajansı. Açıkhava reklamcılığı, AVM reklamları, toplu taşıma reklamları ve daha fazlası için Geveze Ajans.",
+  "url": "https://gevezeajans.com",
+  "logo": "https://gevezeajans.com/img/logo.svg",
+  "image": "https://gevezeajans.com/img/logo.svg"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Geveze Ajans - Açıkhava Reklamcılığı",
+  "url": "https://gevezeajans.com",
+  "logo": "https://gevezeajans.com/img/logo.svg"
+}
+</script>
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=ly22u">
+<link rel="stylesheet" href="style.css?v=jka2z">
 </head>
 
 <body>
-  <div id="header"><div class="zgx0w">
-  <div class="zgx0wtitle">
-    <div class="zgx0wtitlebody">
-      <div class="zgx0wtitlebodylang">
+  <div id="header"><div class="qvseo">
+  <div class="qvseotitle">
+    <div class="qvseotitlebody">
+      <div class="qvseotitlebodylang">
         <ul>
           
         </ul>
       </div>
     </div>
   </div>
-  <div class="zgx0wbody">
+  <div class="qvseobody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=ly22u"
+        src="/img/logo.svg?v=jka2z"
         alt="Geveze Ajans - Açıkhava Reklamcılığı Logo"
-        class="zgx0wbodylogo"
+        class="qvseobodylogo"
+        loading="lazy"
     /></a>
-    <button type="button" class="zgx0w-mobile-toggle" onclick="menu2_toggle()">
-      <span class="material-symbols-outlined">menu</span>
+    <button type="button" class="qvseo-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="zgx0wmenubody">
-    <div class="zgx0wmenu" id="menu-2-root">
-      <div class="zgx0wmenulistbody">
-        <div class="zgx0wmenulist">
+  <div class="qvseomenubody">
+    <div class="qvseomenu" id="menu-2-root">
+      <div class="qvseomenulistbody">
+        <div class="qvseomenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Bizi Tanıyın</a><a href="/tr/acikhava-plus/">Açıkhava Plus</a><a href="/tr/nerelerdeyiz/">Nerelerdeyiz</a><a href="/tr/geveze-etkisi/">Geveze Etkisi</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
-          <div class="zgx0wlanguages-mobile">
+          <div class="qvseolanguages-mobile">
             <ul>
               
             </ul>
@@ -79,63 +103,180 @@
       if (!root) {
         return;
       }
-      if (root.classList.contains("zgx0wmenu-open")) {
-        root.classList.remove("zgx0wmenu-open");
+      if (root.classList.contains("qvseomenu-open")) {
+        root.classList.remove("qvseomenu-open");
       } else {
-        root.classList.add("zgx0wmenu-open");
+        root.classList.add("qvseomenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="ltao6-title f36">
-  <span>Dolmuş</span>
+  <div id="content"><div class="ag3ce-title f36">
+  <h1>Dolmuş</h1>
 </div>
-<div class="ltao6">
-  <div class="ltao6-menu-btn">
+<div class="ag3ce">
+  <div class="ag3ce-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined ltao6-icon">menu</span>
+    <span class="material-symbols-outlined ag3ce-icon">menu</span>
   </div>
-  <div class="ltao6-menu"><a class="ltao6-menu-link" href="/tr/belediye-otobusu">Belediye Otobüsü</a><a class="ltao6-menu-link" href="/tr/halk-otobusu">Halk Otobüsü</a><a class="ltao6-menu-link active" href="/tr/dolmus">Dolmuş</a><a class="ltao6-menu-link" href="/tr/tramvay">Tramvay</a><a class="ltao6-menu-link" href="/tr/taksiler">Taksiler</a></div>
-  <div class="ltao6-desc">
+  <div class="ag3ce-menu-overlay" id="ag3ce-menu-overlay" aria-hidden="true"></div>
+  <div class="ag3ce-menu" id="ag3ce-menu">
+    <button class="ag3ce-menu-close" type="button" aria-label="Menüyü Kapat" aria-controls="ag3ce-menu">
+      <span class="material-symbols-outlined" aria-hidden="true">close</span>
+    </button>
+    <a class="ag3ce-menu-link" href="/tr/belediye-otobusu/">Belediye Otobüsü</a><a class="ag3ce-menu-link" href="/tr/halk-otobusu/">Halk Otobüsü</a><a class="ag3ce-menu-link active" href="/tr/dolmus/">Dolmuş</a><a class="ag3ce-menu-link" href="/tr/tramvay/">Tramvay</a><a class="ag3ce-menu-link" href="/tr/taksiler/">Taksiler</a>
+  </div>
+  <div class="ag3ce-desc">
     
-    <div class="ltao6-desc-body">
-            <img src="/page/dolmus/lymkl.webp?v=ly22u" width="100%" alt="{{title}}" />
+    <div class="ag3ce-desc-body">
+            <img src="/page/dolmus/lymkl.webp?v=jka2z" width="100%" alt="Dolmuş" loading="lazy" />
     </div>
-    <div class="ltao6-body"><p>Dolmuşlar, şehrin her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Araç giydirme ve iç alan reklamları ile geniş kitleye ulaşılır. Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar.</p></div>
+    <div class="ag3ce-body"><p>Dolmuşlar, şehrin her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Araç giydirme ve iç alan reklamları ile geniş kitleye ulaşılır. Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar.</p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".ltao6-menu-btn");
-  if (menuToggleBtn) {
-    menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".ltao6-menu");
-      if (!menu) return;
-      const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".ltao6-icon");
-      if (icon) {
-        icon.textContent = isOpen ? "close" : "menu";
+  setTimeout(function() {
+    var menuToggleBtn = document.querySelector(".ag3ce-menu-btn");
+    var menu = document.querySelector(".ag3ce-menu");
+    var overlay = document.querySelector(".ag3ce-menu-overlay");
+    var closeButton = document.querySelector(".ag3ce-menu-close");
+    
+    if (!menuToggleBtn || !menu) {
+      return;
+    }
+    
+    var mql = window.matchMedia("(max-width: 1024px)");
+    
+    // Menüyü aç fonksiyonu
+    function openMenu() {
+      if (menu) {
+        menu.classList.add("active");
+      }
+      if (overlay) {
+        overlay.classList.add("active");
+        overlay.setAttribute("aria-hidden", "false");
+      }
+      // Body scroll'u engelle
+      document.body.style.overflow = "hidden";
+    }
+    
+    // Menüyü kapat fonksiyonu
+    function closeMenu() {
+      if (menu) {
+        menu.classList.remove("active");
+      }
+      if (overlay) {
+        overlay.classList.remove("active");
+        overlay.setAttribute("aria-hidden", "true");
+      }
+      // Body scroll'u geri getir
+      document.body.style.overflow = "";
+      // Focus'u menü butonuna geri ver
+      if (menuToggleBtn) {
+        menuToggleBtn.focus();
+      }
+    }
+    
+    // Toggle butonu
+    menuToggleBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      if (menu.classList.contains("active")) {
+        closeMenu();
+      } else {
+        openMenu();
       }
     });
-  }
+    
+    // Kapatma butonu
+    if (closeButton) {
+      closeButton.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        closeMenu();
+      });
+    }
+    
+    // Overlay'e tıklanınca kapat
+    if (overlay) {
+      overlay.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        closeMenu();
+      });
+    }
+    
+    // Menü içindeki linklere tıklanınca kapat
+    menu.addEventListener("click", function (event) {
+      var link = event.target.closest("a");
+      var closeBtn = event.target.closest(".ag3ce-menu-close");
+      if (link && !closeBtn) {
+        closeMenu();
+      }
+    });
+    
+    // ESC tuşu ile kapat
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && menu && menu.classList.contains("active")) {
+        closeMenu();
+      }
+    });
+    
+    // Klavye navigasyonu (Enter ve Space)
+    menuToggleBtn.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        if (menu.classList.contains("active")) {
+          closeMenu();
+        } else {
+          openMenu();
+        }
+      }
+    });
+    
+    // Breakpoint değişikliği
+    function handleBreakpoint() {
+      if (!mql.matches) {
+        // Desktop'ta menüyü kapat
+        if (menu) {
+          menu.classList.remove("active");
+        }
+        if (overlay) {
+          overlay.classList.remove("active");
+          overlay.setAttribute("aria-hidden", "true");
+        }
+        document.body.style.overflow = "";
+      }
+    }
+    
+    if (typeof mql.addEventListener === "function") {
+      mql.addEventListener("change", handleBreakpoint);
+    } else if (typeof mql.addListener === "function") {
+      mql.addListener(handleBreakpoint);
+    }
+    handleBreakpoint();
 
-  document.querySelectorAll(".ltao6-top").forEach(function (button) {
-    button.addEventListener("click", function () {
-      const group = this.closest(".ltao6-menu-group");
-      if (!group) return;
-      const sub = group.querySelector(".ltao6-sub");
-      const isOpen = group.classList.toggle("open");
-      this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".ltao6-icon");
-      if (icon) {
-        icon.textContent = isOpen ? "expand_less" : "expand_more";
-      }
-      if (sub) {
-        sub.classList.toggle("show", isOpen);
-      }
+    // Alt menü toggle fonksiyonları
+    document.querySelectorAll(".ag3ce-top").forEach(function (button) {
+      button.addEventListener("click", function (e) {
+        e.stopPropagation();
+        var group = this.closest(".ag3ce-menu-group");
+        if (!group) return;
+        var sub = group.querySelector(".ag3ce-sub");
+        var isOpen = group.classList.toggle("open");
+        this.classList.toggle("active", isOpen);
+        var icon = this.querySelector(".ag3ce-icon");
+        if (icon) {
+          icon.textContent = isOpen ? "expand_less" : "expand_more";
+        }
+        if (sub) {
+          sub.classList.toggle("show", isOpen);
+        }
+      });
     });
-  });
+  }, 100);
 </script>
 
 </div>
@@ -208,13 +349,35 @@
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=jka2z"></script>
+<script defer src="/src/cookie.js?v=jka2z"></script>
 
-<script type="text/javascript" src="/src/js.js?v=ly22u"></script>
-<script src="/src/cookie.js?v=ly22u"></script>
+<script>
+  // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
+  setTimeout(function() {
+    var currentPath = window.location.pathname;
+    var rtlLanguages = ['ar', 'he', 'fa']; // RTL diller: Arapça, İbranice, Farsça
+    
+    // URL'den dil kodunu çıkar (/ar/, /he/, /fa/ gibi)
+    var langMatch = currentPath.match(/^\/([a-z]{2})\//);
+    var currentLang = langMatch ? langMatch[1] : '';
+    
+    // Eğer RTL dil ise dir="rtl" set et
+    if (rtlLanguages.indexOf(currentLang) !== -1) {
+      document.documentElement.setAttribute('dir', 'rtl');
+    } else {
+      document.documentElement.setAttribute('dir', 'ltr');
+    }
+  }, 100);
+</script>
 
 </html>

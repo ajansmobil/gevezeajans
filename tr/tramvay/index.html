@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="tr">
+<html lang="tr" dir="ltr">
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
@@ -18,50 +18,74 @@
   <meta property="og:description" content="Tramvay reklam noktası - Şehrin her noktasına ulaşan önemli reklam mecrası" />
   <meta property="og:image" content="https://gevezeajans.com/page/tramvay/yki9f.webp" />
   <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://gevezeajans.com/tr/tramvay/" />
 
-  <link rel="stylesheet" href="/src/rubik.css" />
-  <link rel="stylesheet" href="/src/css.css?v=pcsav" />
-  <link rel="shortcut icon" href="/img/icon.png?v=pcsav" type="image/png" />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=g0dpg" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=g0dpg" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=g0dpg" type="image/png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Geveze Ajans - Açıkhava Reklamcılığı",
+  "description": "Gaziantep'in en prestijli reklam ajansı. Açıkhava reklamcılığı, AVM reklamları, toplu taşıma reklamları ve daha fazlası için Geveze Ajans.",
+  "url": "https://gevezeajans.com",
+  "logo": "https://gevezeajans.com/img/logo.svg",
+  "image": "https://gevezeajans.com/img/logo.svg"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Geveze Ajans - Açıkhava Reklamcılığı",
+  "url": "https://gevezeajans.com",
+  "logo": "https://gevezeajans.com/img/logo.svg"
+}
+</script>
   
   
   
-  
-<link rel="stylesheet" href="style.css?v=pcsav">
+<link rel="stylesheet" href="style.css?v=g0dpg">
 </head>
 
 <body>
-  <div id="header"><div class="nkbcz">
-  <div class="nkbcztitle">
-    <div class="nkbcztitlebody">
-      <div class="nkbcztitlebodylang">
+  <div id="header"><div class="kpg7m">
+  <div class="kpg7mtitle">
+    <div class="kpg7mtitlebody">
+      <div class="kpg7mtitlebodylang">
         <ul>
           
         </ul>
       </div>
     </div>
   </div>
-  <div class="nkbczbody">
+  <div class="kpg7mbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.svg?v=pcsav"
+        src="/img/logo.svg?v=g0dpg"
         alt="Geveze Ajans - Açıkhava Reklamcılığı Logo"
-        class="nkbczbodylogo"
+        class="kpg7mbodylogo"
+        loading="lazy"
     /></a>
-    <button type="button" class="nkbcz-mobile-toggle" onclick="menu2_toggle()">
-      <span class="material-symbols-outlined">menu</span>
+    <button type="button" class="kpg7m-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="nkbczmenubody">
-    <div class="nkbczmenu" id="menu-2-root">
-      <div class="nkbczmenulistbody">
-        <div class="nkbczmenulist">
+  <div class="kpg7mmenubody">
+    <div class="kpg7mmenu" id="menu-2-root">
+      <div class="kpg7mmenulistbody">
+        <div class="kpg7mmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Bizi Tanıyın</a><a href="/tr/acikhava-plus/">Açıkhava Plus</a><a href="/tr/nerelerdeyiz/">Nerelerdeyiz</a><a href="/tr/geveze-etkisi/">Geveze Etkisi</a><a href="/tr/iletisim/">İletişim</a>
           </ul>
-          <div class="nkbczlanguages-mobile">
+          <div class="kpg7mlanguages-mobile">
             <ul>
               
             </ul>
@@ -79,63 +103,180 @@
       if (!root) {
         return;
       }
-      if (root.classList.contains("nkbczmenu-open")) {
-        root.classList.remove("nkbczmenu-open");
+      if (root.classList.contains("kpg7mmenu-open")) {
+        root.classList.remove("kpg7mmenu-open");
       } else {
-        root.classList.add("nkbczmenu-open");
+        root.classList.add("kpg7mmenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="u6jee-title f36">
-  <span>Tramvay</span>
+  <div id="content"><div class="lc0g9-title f36">
+  <h1>Tramvay</h1>
 </div>
-<div class="u6jee">
-  <div class="u6jee-menu-btn">
+<div class="lc0g9">
+  <div class="lc0g9-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined u6jee-icon">menu</span>
+    <span class="material-symbols-outlined lc0g9-icon">menu</span>
   </div>
-  <div class="u6jee-menu"><a class="u6jee-menu-link" href="/tr/belediye-otobusu">Belediye Otobüsü</a><a class="u6jee-menu-link" href="/tr/halk-otobusu">Halk Otobüsü</a><a class="u6jee-menu-link" href="/tr/dolmus">Dolmuş</a><a class="u6jee-menu-link active" href="/tr/tramvay">Tramvay</a><a class="u6jee-menu-link" href="/tr/taksiler">Taksiler</a></div>
-  <div class="u6jee-desc">
+  <div class="lc0g9-menu-overlay" id="lc0g9-menu-overlay" aria-hidden="true"></div>
+  <div class="lc0g9-menu" id="lc0g9-menu">
+    <button class="lc0g9-menu-close" type="button" aria-label="Menüyü Kapat" aria-controls="lc0g9-menu">
+      <span class="material-symbols-outlined" aria-hidden="true">close</span>
+    </button>
+    <a class="lc0g9-menu-link" href="/tr/belediye-otobusu/">Belediye Otobüsü</a><a class="lc0g9-menu-link" href="/tr/halk-otobusu/">Halk Otobüsü</a><a class="lc0g9-menu-link" href="/tr/dolmus/">Dolmuş</a><a class="lc0g9-menu-link active" href="/tr/tramvay/">Tramvay</a><a class="lc0g9-menu-link" href="/tr/taksiler/">Taksiler</a>
+  </div>
+  <div class="lc0g9-desc">
     
-    <div class="u6jee-desc-body">
-            <img src="/page/tramvay/yki9f.webp?v=pcsav" width="100%" alt="{{title}}" />
+    <div class="lc0g9-desc-body">
+            <img src="/page/tramvay/yki9f.webp?v=g0dpg" width="100%" alt="Tramvay" loading="lazy" />
     </div>
-    <div class="u6jee-body"><p>Tramvaylar, şehrin her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Araç giydirme ve iç alan reklamları ile geniş kitleye ulaşılır. Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar.</p></div>
+    <div class="lc0g9-body"><p>Tramvaylar, şehrin her noktasına ulaşan ve günlük olarak binlerce kişiyi taşıyan önemli reklam mecralarıdır. Araç giydirme ve iç alan reklamları ile geniş kitleye ulaşılır. Reklamınız olduğu yerde kalmaz, en kalabalık noktalardan en sakin noktalara kadar şehri turlar.</p></div>
   </div>
 </div>
 
 <script>
-  const menuToggleBtn = document.querySelector(".u6jee-menu-btn");
-  if (menuToggleBtn) {
-    menuToggleBtn.addEventListener("click", function () {
-      const menu = document.querySelector(".u6jee-menu");
-      if (!menu) return;
-      const isOpen = menu.classList.toggle("active");
-      const icon = this.querySelector(".u6jee-icon");
-      if (icon) {
-        icon.textContent = isOpen ? "close" : "menu";
+  setTimeout(function() {
+    var menuToggleBtn = document.querySelector(".lc0g9-menu-btn");
+    var menu = document.querySelector(".lc0g9-menu");
+    var overlay = document.querySelector(".lc0g9-menu-overlay");
+    var closeButton = document.querySelector(".lc0g9-menu-close");
+    
+    if (!menuToggleBtn || !menu) {
+      return;
+    }
+    
+    var mql = window.matchMedia("(max-width: 1024px)");
+    
+    // Menüyü aç fonksiyonu
+    function openMenu() {
+      if (menu) {
+        menu.classList.add("active");
+      }
+      if (overlay) {
+        overlay.classList.add("active");
+        overlay.setAttribute("aria-hidden", "false");
+      }
+      // Body scroll'u engelle
+      document.body.style.overflow = "hidden";
+    }
+    
+    // Menüyü kapat fonksiyonu
+    function closeMenu() {
+      if (menu) {
+        menu.classList.remove("active");
+      }
+      if (overlay) {
+        overlay.classList.remove("active");
+        overlay.setAttribute("aria-hidden", "true");
+      }
+      // Body scroll'u geri getir
+      document.body.style.overflow = "";
+      // Focus'u menü butonuna geri ver
+      if (menuToggleBtn) {
+        menuToggleBtn.focus();
+      }
+    }
+    
+    // Toggle butonu
+    menuToggleBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      if (menu.classList.contains("active")) {
+        closeMenu();
+      } else {
+        openMenu();
       }
     });
-  }
+    
+    // Kapatma butonu
+    if (closeButton) {
+      closeButton.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        closeMenu();
+      });
+    }
+    
+    // Overlay'e tıklanınca kapat
+    if (overlay) {
+      overlay.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        closeMenu();
+      });
+    }
+    
+    // Menü içindeki linklere tıklanınca kapat
+    menu.addEventListener("click", function (event) {
+      var link = event.target.closest("a");
+      var closeBtn = event.target.closest(".lc0g9-menu-close");
+      if (link && !closeBtn) {
+        closeMenu();
+      }
+    });
+    
+    // ESC tuşu ile kapat
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && menu && menu.classList.contains("active")) {
+        closeMenu();
+      }
+    });
+    
+    // Klavye navigasyonu (Enter ve Space)
+    menuToggleBtn.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        if (menu.classList.contains("active")) {
+          closeMenu();
+        } else {
+          openMenu();
+        }
+      }
+    });
+    
+    // Breakpoint değişikliği
+    function handleBreakpoint() {
+      if (!mql.matches) {
+        // Desktop'ta menüyü kapat
+        if (menu) {
+          menu.classList.remove("active");
+        }
+        if (overlay) {
+          overlay.classList.remove("active");
+          overlay.setAttribute("aria-hidden", "true");
+        }
+        document.body.style.overflow = "";
+      }
+    }
+    
+    if (typeof mql.addEventListener === "function") {
+      mql.addEventListener("change", handleBreakpoint);
+    } else if (typeof mql.addListener === "function") {
+      mql.addListener(handleBreakpoint);
+    }
+    handleBreakpoint();
 
-  document.querySelectorAll(".u6jee-top").forEach(function (button) {
-    button.addEventListener("click", function () {
-      const group = this.closest(".u6jee-menu-group");
-      if (!group) return;
-      const sub = group.querySelector(".u6jee-sub");
-      const isOpen = group.classList.toggle("open");
-      this.classList.toggle("active", isOpen);
-      const icon = this.querySelector(".u6jee-icon");
-      if (icon) {
-        icon.textContent = isOpen ? "expand_less" : "expand_more";
-      }
-      if (sub) {
-        sub.classList.toggle("show", isOpen);
-      }
+    // Alt menü toggle fonksiyonları
+    document.querySelectorAll(".lc0g9-top").forEach(function (button) {
+      button.addEventListener("click", function (e) {
+        e.stopPropagation();
+        var group = this.closest(".lc0g9-menu-group");
+        if (!group) return;
+        var sub = group.querySelector(".lc0g9-sub");
+        var isOpen = group.classList.toggle("open");
+        this.classList.toggle("active", isOpen);
+        var icon = this.querySelector(".lc0g9-icon");
+        if (icon) {
+          icon.textContent = isOpen ? "expand_less" : "expand_more";
+        }
+        if (sub) {
+          sub.classList.toggle("show", isOpen);
+        }
+      });
     });
-  });
+  }, 100);
 </script>
 
 </div>
@@ -208,13 +349,35 @@
 
 </div>
 </body>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+  as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=g0dpg"></script>
+<script defer src="/src/cookie.js?v=g0dpg"></script>
 
-<script type="text/javascript" src="/src/js.js?v=pcsav"></script>
-<script src="/src/cookie.js?v=pcsav"></script>
+<script>
+  // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
+  setTimeout(function() {
+    var currentPath = window.location.pathname;
+    var rtlLanguages = ['ar', 'he', 'fa']; // RTL diller: Arapça, İbranice, Farsça
+    
+    // URL'den dil kodunu çıkar (/ar/, /he/, /fa/ gibi)
+    var langMatch = currentPath.match(/^\/([a-z]{2})\//);
+    var currentLang = langMatch ? langMatch[1] : '';
+    
+    // Eğer RTL dil ise dir="rtl" set et
+    if (rtlLanguages.indexOf(currentLang) !== -1) {
+      document.documentElement.setAttribute('dir', 'rtl');
+    } else {
+      document.documentElement.setAttribute('dir', 'ltr');
+    }
+  }, 100);
+</script>
 
 </html>

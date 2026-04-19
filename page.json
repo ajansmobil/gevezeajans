@@ -11,11 +11,8 @@
       "category": "",
       "id": "p0ebjrqjlp",
       "path": "bizi-taniyin",
-      "spot": {
-        "tr": "Gaziantep'in En Prestijli Noktalarında Markanızı Öne Çıkarıyoruz"
-      },
       "description": {
-        "tr": "Gaziantep'in önde gelen reklam ajansı olarak, işletmenizin marka değerini artırmak için profesyonel reklam çözümleri sunuyoruz."
+        "tr": "Gaziantep'in önde gelen reklam ajansı olarak, işletmenizin marka değerini artırmak için profesyonel reklam çözümleri sunuyoruz. Billboard, durak, toplu taşıma ve AVM reklamları ile işletmenizi öne çıkarıyoruz."
       },
       "index": 0,
       "desing": {
@@ -36,9 +33,6 @@
       "category": "",
       "id": "i3yhizsx50",
       "path": "acikhava-plus",
-      "spot": {
-        "tr": "Billboard, Durak, Toplu Taşıma ve AVM Reklamlarında Kapsamlı Çözümler"
-      },
       "description": {
         "tr": "Açıkhava reklam çözümlerimizle işletmenizi en iyi şekilde tanıtıyoruz. Billboard, durak, toplu taşıma ve AVM reklamları ile markanızı öne çıkarıyoruz."
       },
@@ -66,9 +60,6 @@
       "category": "",
       "id": "tzbap06ji6",
       "path": "nerelerdeyiz",
-      "spot": {
-        "tr": "Gaziantep'in Stratejik Noktalarında Geniş Reklam Ağı"
-      },
       "description": {
         "tr": "Gaziantep'in stratejik noktalarında reklam alanlarımızı keşfedin. Billboard, durak, toplu taşıma ve AVM reklam noktalarımızla markanızı en iyi şekilde tanıtın."
       },
@@ -91,9 +82,6 @@
       "category": "",
       "id": "oczz1bxg73",
       "path": "geveze-etkisi",
-      "spot": {
-        "tr": "Marka Bilinirliğinizi %300 Artırın, Geveze Etkisi ile Fark Yaratın"
-      },
       "description": {
         "tr": "Geveze Ajans'ın başarılı reklam kampanyaları ve marka tanıtım hikayeleri. Reklam stratejilerimizle işletmenizin bilinirliğini artırıyoruz."
       },
@@ -101,11 +89,10 @@
       "icon": "home",
       "desing": {
         "header": [],
-        "body": [
-          "piw8zb"
-        ],
+        "body": [],
         "footer": []
       },
+      "pathnext": "",
       "desc": {}
     },
     {
@@ -116,9 +103,6 @@
       "category": "",
       "id": "ch1wtfk6ts",
       "path": "iletisim",
-      "spot": {
-        "tr": "Profesyonel Reklam Çözümleri İçin Bize Ulaşın"
-      },
       "description": {
         "tr": "Geveze Ajans ile iletişime geçin. Reklam hizmetlerimiz hakkında bilgi almak ve projeleriniz için teklif almak için bize ulaşın."
       },

@@ -25,5 +25,6 @@
     "ko": false,
     "pt": false
   },
-  "logo": "logo.svg"
+  "logo": "logo.svg",
+  "firebaseCollection": ""
 }

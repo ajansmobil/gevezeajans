@@ -8,8 +8,9 @@
       "category": "menu",
       "desing": {
         "bgcolor": "#F9B200",
-        "page": "page",
-        "color": "#000"
+        "color": "#000",
+        "activebgcolor": "#ffffff",
+        "activecolor": "#000000"
       },
       "id": "ofbmyq",
       "version": "1.0.0",
@@ -22,7 +23,8 @@
       "local": "header",
       "category": "slider",
       "desing": {
-        "delay": 3000
+        "delay": 3000,
+        "margin": "0px 0 0 0"
       },
       "data": [
         {
@@ -65,7 +67,7 @@
       "category": "footer",
       "desing": {
         "bgcolor": "#F9B200 ",
-        "color": "#fff",
+        "color": "#000",
         "img": "",
         "imgwidth": "250px"
       },
@@ -114,7 +116,7 @@
       "desing": {
         "height": "200",
         "opacity": "0.5",
-        "backgroundcolor": "#000",
+        "backgroundcolor": "#fff",
         "color": "#1e3046",
         "img": "map.png",
         "externalUrl": ""
@@ -135,7 +137,8 @@
         "opacity": "0.5",
         "font-size": "50",
         "backgroundcolor": "#000",
-        "menu-active": "#000"
+        "menu-active": "#000",
+        "textcolor": "#fff"
       },
       "id": "whxr63",
       "version": "1.0.0",

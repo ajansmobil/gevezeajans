@@ -91,7 +91,7 @@
       },
       "modulestatus": {
         "detail": true,
-        "bgimg": true,
+        "bgimg": false,
         "img": false
       }
     },
@@ -110,7 +110,7 @@
       },
       "modulestatus": {
         "img": true,
-        "bgimg": true,
+        "bgimg": false,
         "detail": true
       }
     }
