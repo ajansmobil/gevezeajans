@@ -170,7 +170,7 @@
       "name": "toplutasima",
       "path": "page-list-2",
       "local": "body",
-      "category": "page list",
+      "category": "page-list",
       "desing": {
         "page": "toplutasima",
         "size": 3,
@@ -188,7 +188,7 @@
       "name": "avm",
       "path": "page-list-2",
       "local": "body",
-      "category": "page list",
+      "category": "page-list",
       "desing": {
         "page": "avm",
         "size": 2,
@@ -215,7 +215,7 @@
         "aspect-ratio": "3 / 2"
       },
       "id": "knsasad",
-      "category": "page list",
+      "category": "page-list",
       "version": "1.0.0",
       "icon": "grid_view"
     },
@@ -287,7 +287,7 @@
       "name": "Nerelerdeyiz",
       "path": "module-list-3",
       "local": "body",
-      "category": "Module list",
+      "category": "Module-list",
       "desing": {
         "size": 4
       },
@@ -399,7 +399,7 @@
       "name": "Gevezeetkisi Listesi Column",
       "path": "page-column-text",
       "local": "body",
-      "category": "page list",
+      "category": "page-list",
       "desing": {
         "page": "gevezeetkisi",
         "bgcolor": "#F9B200",
