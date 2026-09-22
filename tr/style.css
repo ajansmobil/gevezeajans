@@ -105,6 +105,11 @@
     object-position: left center;
   }
 
+  .h0000bodylogo[src*=".svg"] {
+    height: 60px;
+    width: auto;
+  }
+
   
   .h0000-mobile-toggle {
     display: none;
@@ -393,6 +398,10 @@
       max-width: 100%;
     }
 
+    .h0000bodylogo[src*=".svg"] {
+      height: 80px;
+    }
+
     .h0000title {
       margin-bottom: -30px;
     }
@@ -423,6 +432,10 @@
     .h0000bodylogo {
       max-width: min(40vw, 180px);
       max-height: 70px;
+    }
+
+    .h0000bodylogo[src*=".svg"] {
+      height: 60px;
     }
 
     
