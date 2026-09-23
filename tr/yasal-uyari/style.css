@@ -91,8 +91,8 @@
     display: inline-flex;
     align-items: center;
     max-width: min(90vw, 320px);
-    min-width: 0;
-    flex-shrink: 1;
+    min-width: min(120px, 90vw);
+    flex-shrink: 0;
     overflow: hidden;
   }
 
